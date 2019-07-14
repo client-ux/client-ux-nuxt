@@ -2,10 +2,102 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc74aa9-0292-4729-a1b9-4e3440c1d47c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/pages/landing/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/audio/audio.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/audio/iron.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/audio/link.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/awards01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/awards02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/awards03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/awards04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/awards05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/client01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/client02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/client03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon-gotop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon-map-marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon01.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon02.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon03.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon04.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon05.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon06.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon07.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/icon08.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo-symbol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo04 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo05 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo06 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo07 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo08 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/logo16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/office01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/slide01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/slide02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/slide03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/works01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/works02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/works03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/images/works04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/fancybox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.typewriter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/odometer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/js/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/assets/videos/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/plugins/after-each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/jquery.typewriter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/animate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/styles/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/client-ux-nuxt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client-ux-nuxt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/landing/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/landing/index.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,73 +109,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/landing/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/speakers/_slug.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/speakers/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-              <folding>
-                <element signature="e#545#568#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/pages/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
-              <folding>
-                <element signature="e#271#278#0" expanded="true" />
-                <element signature="e#860#901#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/sessions/index.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pages/sessions/_id.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/layouts/default.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="268">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -91,25 +122,64 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/package.json">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="292">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+              <folding>
+                <element signature="e#132#173#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/store/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <entry file="file://$PROJECT_DIR$/node_modules/webextension-polyfill/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="200">
+                <caret line="45" column="64" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="64" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="15" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/styles/scss/main.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>s.map</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/web/assets</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,27 +188,34 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/pages/landing/landing.vue" />
-        <option value="$PROJECT_DIR$/web/pages/landing/index.vue" />
+        <option value="$PROJECT_DIR$/web/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/web/pages/index.vue" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss" />
+        <option value="$PROJECT_DIR$/web/plugins/clientux.js" />
+        <option value="$PROJECT_DIR$/web/plugins/after-each.js" />
+        <option value="$PROJECT_DIR$/web/pages/landing/index.vue" />
+        <option value="$PROJECT_DIR$/web/styles/scss/main.scss" />
+        <option value="$PROJECT_DIR$/node_modules/webextension-polyfill/dist/browser-polyfill.js" />
+        <option value="$PROJECT_DIR$/web/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/web/components/SanityImage.vue" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/client-ux-nuxt.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      </list>
-    </option>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3933" />
-    <option name="y" value="93" />
+    <option name="x" value="3360" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1057" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -165,13 +242,7 @@
               <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -180,21 +251,34 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/js" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/styles" />
       <recent name="$PROJECT_DIR$/web/pages/landing" />
       <recent name="$PROJECT_DIR$/web/pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/static/js" />
+      <recent name="$PROJECT_DIR$/web/assets" />
+      <recent name="$PROJECT_DIR$/web/styles/scss/client-ux/theme" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,6 +293,18 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Run Dev" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -219,33 +315,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563115437752</updated>
-      <workItem from="1563115439049" duration="4044000" />
+      <workItem from="1563115439049" duration="7444000" />
+      <workItem from="1563125963795" duration="9187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4044000" />
+    <option name="totallyTimeSpent" value="16631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3360" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="3360" y="23" width="1920" height="1013" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="GraphQL" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32953367" />
+      <window_info anchor="bottom" id="GraphQL" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.41774893" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2931596" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32790446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,16 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/landing/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="53" column="7" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-          <folding>
-            <element signature="e#860#901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/layouts/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -304,20 +391,6 @@
             <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/layouts/default.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -338,22 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/sessions/_id.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,10 +421,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/landing/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+    <entry file="file://$PROJECT_DIR$/web/assets/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -384,13 +442,228 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/animate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#32712#32946#2" expanded="true" />
+            <element signature="e#33827#33980#1" expanded="true" />
+            <element signature="e#34021#34255#1" expanded="true" />
+            <element signature="e#37586#37862#2" expanded="true" />
+            <element signature="e#38771#38924#1" expanded="true" />
+            <element signature="e#38965#39241#1" expanded="true" />
+            <element signature="e#72886#73073#2" expanded="true" />
+            <element signature="e#73326#73462#2" expanded="true" />
+            <element signature="e#73909#74042#2" expanded="true" />
+            <element signature="e#75708#75861#1" expanded="true" />
+            <element signature="e#90191#90421#2" expanded="true" />
+            <element signature="e#91414#91650#2" expanded="true" />
+            <element signature="e#126703#126880#2" expanded="true" />
+            <element signature="e#126934#127111#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#7549#7856#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/wow.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/clientux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/eventInformation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/layouts/default.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          <folding>
+            <element signature="e#205#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/after-each.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="44" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/landing/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+        <state relative-caret-position="159">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="50" />
           <folding>
             <element signature="e#271#278#0" expanded="true" />
-            <element signature="e#860#901#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/swiper.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/TweenMax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webextension-polyfill/dist/browser-polyfill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="1186" lean-forward="true" selection-start-line="1186" selection-end-line="1186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/webextension-polyfill/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="200">
+            <caret line="45" column="64" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="64" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.typewriter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1151" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/jquery.typewriter.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding>
+            <element signature="e#132#173#0" expanded="true" />
           </folding>
         </state>
       </provider>

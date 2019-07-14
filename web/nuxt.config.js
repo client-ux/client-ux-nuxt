@@ -1,5 +1,6 @@
 import pkg from './package'
 import sanityClient from './sanityClient'
+const webpack = require('webpack')
 
 const routesQuery = `
   {
@@ -18,10 +19,65 @@ export default {
     title: pkg.name,
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+      },
       { hid: 'description', name: 'description', content: pkg.description }
-    ]
+    ],
     //link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    script: [
+      {
+        src: 'https://code.jquery.com/jquery-1.12.4.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src: '/js/jquery.typewriter.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js',
+        type: 'text/javascript',
+        body: true
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js',
+        type: 'text/javascript',
+        body: true
+      }
+    ]
   },
 
   /*
@@ -37,7 +93,10 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/eventInformation'],
+  plugins: [
+    { src: '~/plugins/eventInformation' },
+    { src: '~/plugins/after-each', mode: 'client' }
+  ],
 
   /*
    ** Nuxt.js modules
@@ -88,11 +147,18 @@ export default {
         }
       }
     },
-
+    vendor: ['jquery', 'bootstrap'],
+    plugins: [
+      new webpack.ProvidePlugin({
+        '$': 'jquery'
+        // ...etc.
+      })
+    ],
     /*
      ** You can extend webpack config here
      */
     extend(config, ctx) {
+      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({

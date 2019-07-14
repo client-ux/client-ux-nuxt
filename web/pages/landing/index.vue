@@ -5,6 +5,10 @@
 </template>
 
 <script>
+// TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, Directional RotationPlugin
+
+// eslint-disable-next-line no-unused-vars
+import { TweenMax } from 'gsap'
 export default {
   components: {},
   data() {
@@ -17,7 +21,8 @@ export default {
       }
     }
   },
-  async asyncData() {}
+  async asyncData() {},
+  methods: {}
 }
 </script>
 
