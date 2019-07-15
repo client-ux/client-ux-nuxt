@@ -1,6 +1,5 @@
 import pkg from './package'
 import sanityClient from './sanityClient'
-const webpack = require('webpack')
 
 const routesQuery = `
   {
@@ -26,64 +25,14 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     //link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-    script: [
-      {
-        src: 'https://code.jquery.com/jquery-1.12.4.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src: 'https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src: '/js/jquery.typewriter.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js',
-        type: 'text/javascript',
-        body: true
-      },
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js',
-        type: 'text/javascript',
-        body: true
-      }
-    ]
+    script: []
   },
 
   /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
+  // loading: false,
 
   /*
    ** Global CSS
@@ -93,10 +42,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    { src: '~/plugins/eventInformation' },
-    { src: '~/plugins/after-each', mode: 'client' }
-  ],
+  plugins: [{ src: '~/plugins/eventInformation' }],
 
   /*
    ** Nuxt.js modules
@@ -147,13 +93,6 @@ export default {
         }
       }
     },
-    vendor: ['jquery', 'bootstrap'],
-    plugins: [
-      new webpack.ProvidePlugin({
-        '$': 'jquery'
-        // ...etc.
-      })
-    ],
     /*
      ** You can extend webpack config here
      */

@@ -18,8 +18,12 @@ export default {
       type: String,
       default: 'Missing alternative text'
     },
-    width: Number,
-    height: Number,
+    width: {
+      type: Number
+    },
+    height: {
+      type: Number
+    },
     auto: {
       default: 'format',
       type: String

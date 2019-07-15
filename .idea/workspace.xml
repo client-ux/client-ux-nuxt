@@ -2,102 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc74aa9-0292-4729-a1b9-4e3440c1d47c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/audio/audio.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/audio/iron.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/audio/link.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/awards01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/awards02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/awards03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/awards04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/awards05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/client01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/client02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/client03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon-gotop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon-map-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon01.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon02.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon03.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon04.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon05.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon06.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon07.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/icon08.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo-symbol.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo04 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo05 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo06 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo07 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo08 (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/logo16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/office01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/slide01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/slide02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/slide03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/works01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/works02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/works03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/images/works04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/fancybox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/isotope.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/jquery.typewriter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/odometer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/swiper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/js/wow.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/assets/videos/video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/plugins/after-each.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/js/jquery.typewriter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/animate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/styles/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/client-ux-nuxt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client-ux-nuxt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/audio/audio.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/audio/iron.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/audio/link.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/awards01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/awards02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/awards03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/awards04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/awards05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/client01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/client02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/client03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon-gotop.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon-map-marker.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon01.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon02.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon03.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon04.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon05.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon06.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon07.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/icon08.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo-symbol.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo04 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo05 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo06 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo07 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo08 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/logo16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/office01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slide01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slide02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/slide03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/works01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/works02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/works03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/works04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/TweenMax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/fancybox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/isotope.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.typewriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/odometer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/videos/video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Navbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/components/SanityImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/SanityImage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pages/landing/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/landing/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/plugins/after-each.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/animate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -111,10 +105,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/components/SessionItem.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-322" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/components/SessionList.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-193" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/components/TimeCalc.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="15">
+              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -122,46 +135,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/components/Navbar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding>
-                <element signature="e#132#173#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/webextension-polyfill/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="200">
-                <caret line="45" column="64" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="64" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js">
+        <entry file="file://$PROJECT_DIR$/web/.eslintrc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -171,12 +158,46 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="e#132#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>s.map</find>
+      <find>../fonts/</find>
+      <find>quote-bg.svg</find>
+      <find>preloa</find>
     </findStrings>
+    <replaceStrings>
+      <replace>../../../../assets/fonts/</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/web/assets</dir>
     </dirStrings>
@@ -198,9 +219,16 @@
         <option value="$PROJECT_DIR$/web/plugins/clientux.js" />
         <option value="$PROJECT_DIR$/web/plugins/after-each.js" />
         <option value="$PROJECT_DIR$/web/pages/landing/index.vue" />
-        <option value="$PROJECT_DIR$/web/styles/scss/main.scss" />
         <option value="$PROJECT_DIR$/node_modules/webextension-polyfill/dist/browser-polyfill.js" />
+        <option value="$PROJECT_DIR$/web/components/preloader.vue" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/_style.scss" />
+        <option value="$PROJECT_DIR$/web/components/Preloader.vue" />
+        <option value="$PROJECT_DIR$/web/components/AnimatedOverlay.vue" />
+        <option value="$PROJECT_DIR$/web/styles/scss/main.scss" />
         <option value="$PROJECT_DIR$/web/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/web/components/Navbar.vue" />
+        <option value="$PROJECT_DIR$/web/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/web/components/SanityImage.vue" />
       </list>
     </option>
@@ -211,9 +239,9 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="3360" />
-    <option name="y" value="23" />
+    <option name="y" value="36" />
     <option name="width" value="1920" />
     <option name="height" value="1013" />
   </component>
@@ -242,7 +270,62 @@
               <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="client-ux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="client-ux" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -254,7 +337,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -276,6 +359,7 @@
       <recent name="$PROJECT_DIR$/web/pages" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/components" />
       <recent name="$PROJECT_DIR$/web/static/js" />
       <recent name="$PROJECT_DIR$/web/assets" />
       <recent name="$PROJECT_DIR$/web/styles/scss/client-ux/theme" />
@@ -316,18 +400,18 @@
       <option name="presentableId" value="Default" />
       <updated>1563115437752</updated>
       <workItem from="1563115439049" duration="7444000" />
-      <workItem from="1563125963795" duration="9187000" />
+      <workItem from="1563125963795" duration="17524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16631000" />
+    <option name="totallyTimeSpent" value="24968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3360" y="23" width="1920" height="1013" extended-state="6" />
+    <frame x="3360" y="36" width="1920" height="1013" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15850447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -348,22 +432,22 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24960506" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" />
-      <window_info anchor="bottom" id="GraphQL" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32953367" />
+      <window_info anchor="bottom" id="GraphQL" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.41774893" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.2931596" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32790446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -375,14 +459,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/web/sanityClient.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/layouts/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -401,13 +477,6 @@
           <folding>
             <element signature="e#194#235#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/blockContent/EventBlock.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -442,67 +511,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/animate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#32712#32946#2" expanded="true" />
-            <element signature="e#33827#33980#1" expanded="true" />
-            <element signature="e#34021#34255#1" expanded="true" />
-            <element signature="e#37586#37862#2" expanded="true" />
-            <element signature="e#38771#38924#1" expanded="true" />
-            <element signature="e#38965#39241#1" expanded="true" />
-            <element signature="e#72886#73073#2" expanded="true" />
-            <element signature="e#73326#73462#2" expanded="true" />
-            <element signature="e#73909#74042#2" expanded="true" />
-            <element signature="e#75708#75861#1" expanded="true" />
-            <element signature="e#90191#90421#2" expanded="true" />
-            <element signature="e#91414#91650#2" expanded="true" />
-            <element signature="e#126703#126880#2" expanded="true" />
-            <element signature="e#126934#127111#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#7549#7856#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss">
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_swiper.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/wow.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -551,13 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/plugins/after-each.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -613,9 +616,6 @@
     <entry file="file://$PROJECT_DIR$/web/assets/js/swiper.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/js/TweenMax.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -648,20 +648,160 @@
     <entry file="file://$PROJECT_DIR$/web/static/js/jquery.typewriter.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_animate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#32712#32946#2" expanded="true" />
+            <element signature="e#33827#33980#1" expanded="true" />
+            <element signature="e#34021#34255#1" expanded="true" />
+            <element signature="e#37586#37862#2" expanded="true" />
+            <element signature="e#38771#38924#1" expanded="true" />
+            <element signature="e#38965#39241#1" expanded="true" />
+            <element signature="e#72886#73073#2" expanded="true" />
+            <element signature="e#73326#73462#2" expanded="true" />
+            <element signature="e#73909#74042#2" expanded="true" />
+            <element signature="e#75708#75861#1" expanded="true" />
+            <element signature="e#90191#90421#2" expanded="true" />
+            <element signature="e#91414#91650#2" expanded="true" />
+            <element signature="e#126703#126880#2" expanded="true" />
+            <element signature="e#126934#127111#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_fancybox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_odometer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/blockContent/EventBlock.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/Logo.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/Footer.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/PersonsList.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/SessionItem.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/SessionList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/TimeCalc.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="463" column="1" lean-forward="true" selection-start-line="361" selection-end-line="463" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/Preloader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/AnimatedOverlay.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1214">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/after-each.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        <state relative-caret-position="15">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
           <folding>
             <element signature="e#132#173#0" expanded="true" />
           </folding>
