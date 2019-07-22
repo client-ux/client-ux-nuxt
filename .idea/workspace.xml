@@ -2,96 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbc74aa9-0292-4729-a1b9-4e3440c1d47c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/audio/audio.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/audio/iron.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/audio/link.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Heavy.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/fonts/Mont-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/awards01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/awards02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/awards03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/awards04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/awards05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/client01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/client02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/client03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon-gotop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon-map-marker.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon01.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon02.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon03.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon04.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon05.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon06.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon07.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/icon08.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo-light.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo-symbol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo04 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo05 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo06 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo07 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo08 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/logo16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/office01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/slide01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/slide02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/slide03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/works01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/works02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/works03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/images/works04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/fancybox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/isotope.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/jquery.typewriter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/odometer.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/assets/videos/video.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/SanityImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/SanityImage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/web/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/web/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/plugins/after-each.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/animate.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pages/landing/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/pages/landing/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/jquery.typewriter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/styles/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles/scss/main.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -103,43 +26,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/components/SessionItem.vue">
+        <entry file="file://$PROJECT_DIR$/web/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/components/SessionList.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/components/TimeCalc.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/components/Navbar.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="470">
+              <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -147,8 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/.eslintrc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -159,21 +60,73 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/web/plugins/vue-recognizer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/plugins/vue-photoswipe.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/plugins/vue-isotope.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/plugins/fontawesome.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/plugins/VueFlickity.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
+        <entry file="file://$PROJECT_DIR$/web/pages/index.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="423">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
               <folding>
-                <element signature="e#132#173#0" expanded="true" />
+                <element signature="e#271#278#0" expanded="true" />
+                <element signature="e#860#897#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,6 +156,8 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -210,7 +165,6 @@
       <list>
         <option value="$PROJECT_DIR$/web/pages/landing/landing.vue" />
         <option value="$PROJECT_DIR$/web/assets/scss/main.scss" />
-        <option value="$PROJECT_DIR$/web/pages/index.vue" />
         <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/bootstrap.scss" />
         <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/fancybox.scss" />
         <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/odometer.scss" />
@@ -218,18 +172,37 @@
         <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/swiper.scss" />
         <option value="$PROJECT_DIR$/web/plugins/clientux.js" />
         <option value="$PROJECT_DIR$/web/plugins/after-each.js" />
-        <option value="$PROJECT_DIR$/web/pages/landing/index.vue" />
         <option value="$PROJECT_DIR$/node_modules/webextension-polyfill/dist/browser-polyfill.js" />
         <option value="$PROJECT_DIR$/web/components/preloader.vue" />
         <option value="$PROJECT_DIR$/web/styles/scss/client-ux/theme/_style.scss" />
         <option value="$PROJECT_DIR$/web/components/Preloader.vue" />
         <option value="$PROJECT_DIR$/web/components/AnimatedOverlay.vue" />
-        <option value="$PROJECT_DIR$/web/styles/scss/main.scss" />
-        <option value="$PROJECT_DIR$/web/nuxt.config.js" />
         <option value="$PROJECT_DIR$/web/components/Navbar.vue" />
-        <option value="$PROJECT_DIR$/web/.eslintrc.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/web/components/SanityImage.vue" />
+        <option value="$PROJECT_DIR$/web/assets/skylith/package.json" />
+        <option value="$PROJECT_DIR$/web/static/js/external.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.eslintrc" />
+        <option value="$PROJECT_DIR$/web/.editorconfig" />
+        <option value="$PROJECT_DIR$/web/layouts/default.vue" />
+        <option value="$PROJECT_DIR$/web/pages/landing/index.vue" />
+        <option value="$PROJECT_DIR$/web/styles/scss/client-ux/vendor/pe-icon-7-stroke/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/web/plugins/vendor/jarallax/dist/jarallax.min.js" />
+        <option value="$PROJECT_DIR$/web/nuxt.config.js" />
+        <option value="$PROJECT_DIR$/web/plugins/vuebar.js" />
+        <option value="$PROJECT_DIR$/.eslintignore" />
+        <option value="$PROJECT_DIR$/web/.gitignore" />
+        <option value="$PROJECT_DIR$/web/package.json" />
+        <option value="$PROJECT_DIR$/web/.prettierrc" />
+        <option value="$PROJECT_DIR$/web/.eslintrc.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/styles/scss/main.scss" />
+        <option value="$PROJECT_DIR$/web/plugins/vue-recognizer.js" />
+        <option value="$PROJECT_DIR$/web/plugins/vue-photoswipe.js" />
+        <option value="$PROJECT_DIR$/web/plugins/vue-isotope.js" />
+        <option value="$PROJECT_DIR$/web/plugins/fontawesome.js" />
+        <option value="$PROJECT_DIR$/web/plugins/VueFlickity.js" />
+        <option value="$PROJECT_DIR$/web/pages/index.vue" />
       </list>
     </option>
   </component>
@@ -239,9 +212,12 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="3360" />
-    <option name="y" value="36" />
+    <option name="y" value="57" />
     <option name="width" value="1920" />
     <option name="height" value="1013" />
   </component>
@@ -253,7 +229,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,7 +251,7 @@
               <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
@@ -288,19 +263,6 @@
               <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,52 +279,51 @@
               <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="client-ux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="client-ux-nuxt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client-ux-nuxt" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="client-ux" type="462c0819:PsiDirectoryNode" />
-              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/styles" />
-      <recent name="$PROJECT_DIR$/web/pages/landing" />
-      <recent name="$PROJECT_DIR$/web/pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/components" />
-      <recent name="$PROJECT_DIR$/web/static/js" />
+      <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/web/assets" />
-      <recent name="$PROJECT_DIR$/web/styles/scss/client-ux/theme" />
+      <recent name="$PROJECT_DIR$/web/styles/scss/client-ux/vendor" />
+      <recent name="$PROJECT_DIR$/web/styles/scss/client-ux" />
+      <recent name="$PROJECT_DIR$/web/static/js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tmp" />
+      <recent name="$PROJECT_DIR$/web/assets" />
+      <recent name="$PROJECT_DIR$/web/plugins" />
+      <recent name="$PROJECT_DIR$/web/static/js" />
+      <recent name="$PROJECT_DIR$/web/static/js/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -377,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.Run Dev">
     <configuration name="Run Dev" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -388,6 +349,33 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.Run Dev" />
+      <item itemvalue="npm.lint" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -400,39 +388,46 @@
       <option name="presentableId" value="Default" />
       <updated>1563115437752</updated>
       <workItem from="1563115439049" duration="7444000" />
-      <workItem from="1563125963795" duration="17524000" />
+      <workItem from="1563125963795" duration="18859000" />
+      <workItem from="1563565423306" duration="1088000" />
+      <workItem from="1563726845883" duration="1033000" />
+      <workItem from="1563728089921" duration="14732000" />
+      <workItem from="1563749753646" duration="4563000" />
+      <workItem from="1563756813493" duration="1104000" />
+      <workItem from="1563761366228" duration="1938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24968000" />
+    <option name="totallyTimeSpent" value="50761000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3360" y="36" width="1920" height="1013" extended-state="0" />
+    <frame x="3360" y="57" width="1920" height="1013" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15850447" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.4997367" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="bottom" id="Version Control" order="1" weight="0.32953367" />
       <window_info anchor="bottom" id="GraphQL" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5007899" side_tool="true" visible="true" weight="0.2931596" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.41774893" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4169381" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.2931596" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32790446" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49921012" visible="true" weight="0.2931596" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4997367" weight="0.32790446" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25013164" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -456,39 +451,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="testing" />
+    <MESSAGE value="latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/sanityClient.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/layouts/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="58" lean-forward="true" selection-start-line="6" selection-start-column="58" selection-end-line="6" selection-end-column="58" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/code-of-conduct.vue">
+    <entry file="file://$PROJECT_DIR$/web/.nuxt/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        <state relative-caret-position="-1223">
           <folding>
-            <element signature="e#194#235#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/sessions/_id.vue">
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/.eslintrc">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/sessions/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -498,23 +479,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/speakers/_slug.vue">
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/.babelrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/speakers/index.vue">
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/README.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="e#545#568#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="424">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_swiper.scss">
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/.stylelintrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/wow.min.js">
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/gulpfile.babel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="254" column="16" selection-start-line="254" selection-start-column="16" selection-end-line="254" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/src/css/skylith.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/parts/_base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/src/js/skylith-init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/external.js" />
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/dist/assets/vendor/gsap/src/minified/TweenMax.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -523,287 +525,283 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/plugins/clientux.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/plugins/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/plugins/eventInformation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="330">
+          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/.nuxt/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.nuxt/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/dist/assets/vendor/isotope-layout/dist/isotope.pkgd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sanityClient.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/skylith.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/vendor/jquery/dist/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/layouts/default.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="165">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
             <element signature="e#205#249#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/package.json">
+    <entry file="file://$PROJECT_DIR$/tmp/vendor/gsap/src/minified/plugins/ScrollToPlugin.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="11" column="3057" selection-start-line="11" selection-start-column="3057" selection-end-line="11" selection-end-column="3057" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pages/landing/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="78">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/store/index.js">
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/_pe-icon-7-stroke.scss" />
+    <entry file="file://$PROJECT_DIR$/tmp/pe-icon-7-stroke/svg/id.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/pe-icon-7-stroke/scss/_pe-icon-7-stroke.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/pe-icon-7-stroke/scss/_path.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/pe-icon-7-stroke/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/vendor/jarallax/dist/jarallax.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/skylith/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="73" selection-start-line="84" selection-start-column="61" selection-end-line="84" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/vue-bar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pages/index.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="50" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#271#278#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/imagesloaded.pkgd.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/TweenMax.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webextension-polyfill/dist/browser-polyfill.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="1186" lean-forward="true" selection-start-line="1186" selection-end-line="1186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/webextension-polyfill/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="200">
-            <caret line="45" column="64" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="64" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/jquery.typewriter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1151" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/jquery.typewriter.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_animate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#32712#32946#2" expanded="true" />
-            <element signature="e#33827#33980#1" expanded="true" />
-            <element signature="e#34021#34255#1" expanded="true" />
-            <element signature="e#37586#37862#2" expanded="true" />
-            <element signature="e#38771#38924#1" expanded="true" />
-            <element signature="e#38965#39241#1" expanded="true" />
-            <element signature="e#72886#73073#2" expanded="true" />
-            <element signature="e#73326#73462#2" expanded="true" />
-            <element signature="e#73909#74042#2" expanded="true" />
-            <element signature="e#75708#75861#1" expanded="true" />
-            <element signature="e#90191#90421#2" expanded="true" />
-            <element signature="e#91414#91650#2" expanded="true" />
-            <element signature="e#126703#126880#2" expanded="true" />
-            <element signature="e#126934#127111#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_fancybox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_odometer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/blockContent/EventBlock.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/Logo.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/Footer.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/PersonsList.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/SessionItem.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/SessionList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/TimeCalc.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/client-ux/theme/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="463" column="1" lean-forward="true" selection-start-line="361" selection-end-line="463" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/Preloader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/AnimatedOverlay.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="37" column="37" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1214">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/plugins/after-each.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/nuxt.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="372">
+          <caret line="71" column="51" selection-start-line="71" selection-start-column="51" selection-end-line="71" selection-end-column="51" />
           <folding>
             <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles/scss/main.scss">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.prettierrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="10" selection-start-line="2" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/.eslintignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.stylelintrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/Navbar.vue">
+    <entry file="file://$PROJECT_DIR$/web/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="470">
+          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/components/SanityImage.vue">
+    <entry file="file://$PROJECT_DIR$/web/styles/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/vue-recognizer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#132#173#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/vue-photoswipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/vue-isotope.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/fontawesome.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/plugins/VueFlickity.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pages/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#271#278#0" expanded="true" />
+            <element signature="e#860#897#0" expanded="true" />
           </folding>
         </state>
       </provider>

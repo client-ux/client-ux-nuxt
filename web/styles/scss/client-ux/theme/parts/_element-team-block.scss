@@ -1,0 +1,169 @@
+.nk-team-block {
+    position: relative;
+    background-color: darken($color_gray_4, 9%);
+    z-index: 0;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 100%;
+        clear: both;
+    }
+
+    .nk-team-member-photo {
+        display: none;
+    }
+
+    // backgrounds (generated in JS)
+    .nk-team-block-backgrounds > div {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        visibility: hidden;
+        background-position: 50% 50%;
+        background-size: cover;
+        opacity: 0;
+        transition: .2s;
+        z-index: -1;
+
+        &.active {
+            visibility: inherit;
+            opacity: 1;
+        }
+    }
+
+    // each member block
+    .nk-team-member {
+        position: relative;
+        float: left;
+        width: 340px;
+        height: 340px;
+        padding: 49px;
+        padding-top: 221px;
+        margin-bottom: -1px;
+        margin-left: -1px;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1px solid #ededed;
+        border-top: none;
+        transition: .2s;
+
+        .nk-team-member-letter {
+            position: absolute;
+            top: 51px;
+            left: 38px;
+            font-size: 10.7rem;
+            font-weight: 600;
+            line-height: 1;
+            color: #e6e6e6;
+            transition: .2s;
+        }
+
+        .nk-team-member-post {
+            position: relative;
+            padding-bottom: 19px;
+            margin-top: 4px;
+            margin-bottom: 19px;
+            font-size: .97rem;
+            color: $color_titles;
+            text-transform: uppercase;
+            transition: .2s;
+
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                bottom: 0;
+                left: 0;
+                width: 30px;
+                border-bottom: 1px solid;
+                opacity: 0;
+                transition: .2s;
+            }
+        }
+
+        .nk-team-member-name {
+            font-family: $font_headings;
+            font-size: 1.69rem;
+            color: $color_titles;
+        }
+
+        .nk-team-member-bio {
+            opacity: 0;
+            transition: .2s;
+        }
+
+        .nk-team-member-social {
+            padding: 0;
+            margin: 0;
+            margin-top: 18px;
+            margin-left: -6px;
+            list-style: none;
+            opacity: 0;
+            transition: .2s;
+
+            > li {
+                float: left;
+
+                a {
+                    padding: 7px;
+                    font-size: 1.13rem;
+                    color: #999;
+                    transition: .2s;
+                }
+                a:hover,
+                a.hover {
+                    color: $color_titles;
+                }
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                width: 100%;
+                clear: both;
+            }
+        }
+
+        // active member
+        &:hover {
+            background-color: darken(#ededed, 5%);
+        }
+        &.active {
+            padding-top: 90px;
+            background-color: #ededed;
+
+            .nk-team-member-letter {
+                opacity: 0;
+            }
+            .nk-team-member-bio,
+            .nk-team-member-social,
+            .nk-team-member-post::after {
+                opacity: 1;
+            }
+        }
+    }
+    .nk-team-member:nth-child(2n + 3) {
+        clear: left;
+    }
+
+    // mobile
+    @media #{$media_smaller_md} {
+        .nk-team-block-backgrounds {
+            position: relative;
+            width: 100%;
+            padding-top: 56%;
+        }
+
+        .nk-team-member {
+            width: 50%;
+        }
+    }
+    @media #{$media_smaller_sm} {
+        .nk-team-member {
+            width: 100%;
+        }
+    }
+}

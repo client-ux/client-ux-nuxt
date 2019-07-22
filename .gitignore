@@ -4,6 +4,11 @@
 # Dependency directories
 /node_modules
 
+# Dependency directories
+/tmp
+.idea
+.idea/
+
 # lerna files
 /lerna-debug.log
 

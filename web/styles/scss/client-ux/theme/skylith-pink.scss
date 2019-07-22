@@ -1,0 +1,8 @@
+// stylelint-disable scss/dollar-variable-default
+
+@import "variables";
+
+$colors: replace($colors, $color_main, #cc1139, true);
+$color_main: #cc1139;
+
+@import "include";

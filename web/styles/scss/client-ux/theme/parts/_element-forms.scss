@@ -1,0 +1,230 @@
+/* Placeholders */
+::placeholder,
+.form-control::placeholder {
+    color: #858585;
+    opacity: 1;
+}
+
+/* Ratings */
+.nk-rating {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: .85rem;
+    color: $color_gray_mid;
+    z-index: 1;
+
+    > span {
+        display: block;
+        order: 20;
+        margin-right: 20px;
+        line-height: 1;
+    }
+
+    input {
+        display: none;
+
+        &:checked ~ label {
+            color: $color_dark_main;
+        }
+    }
+    label {
+        position: relative;
+        display: block;
+        padding-right: 2px;
+        padding-left: 2px;
+        margin: 0;
+        line-height: 1;
+        color: $color_gray_7;
+        cursor: pointer;
+
+        &::after,
+        &::before {
+            content: none;
+            display: none;
+        }
+
+        &:hover,
+        &:hover ~ label {
+            color: $color_dark_main;
+        }
+    }
+}
+
+.form-control {
+    padding: 16px 22px;
+    font-size: .95rem;
+    font-weight: 400;
+    line-height: 1.2;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+
+    &:focus {
+        color: inherit;
+        background-color: #fff;
+        border-color: rgba($color_main, .4);
+        box-shadow: none;
+    }
+}
+select.form-control {
+    padding: 6px 20px;
+    background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#aaa' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) 50%;
+    -webkit-border-radius: 0; // stylelint-disable-line
+    -webkit-appearance: none; // stylelint-disable-line
+}
+select.form-control:not([size]):not([multiple]) {
+    height: calc(3.267rem + 2px);
+}
+
+/* From Style 1 */
+.nk-form-style-1 {
+    .form-control {
+        border-color: $color_gray_6;
+
+        &:focus {
+            border-color: rgba($color_main, .4);
+        }
+    }
+}
+
+/* From Style 2 */
+.nk-form-style-2 {
+    .form-control {
+        color: currentColor;
+        background-color: transparent;
+        border-color: currentColor;
+
+        &:focus {
+            border-color: currentColor;
+        }
+
+        &::placeholder {
+            color: inherit;
+        }
+    }
+}
+
+/* From Style 3 */
+.nk-form-style-3 {
+    .form-control {
+        color: #fff;
+        background-color: rgba(255, 255, 255, .2);
+        border-color: transparent;
+
+        &:focus {
+            background-color: rgba(255, 255, 255, .3);
+        }
+
+        &::placeholder {
+            color: inherit;
+        }
+    }
+    .form-control option {
+        color: #000;
+    }
+}
+
+
+/* Input Number */
+.nk-form-control-number {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid $color_gray_6;
+
+    > * {
+        display: inline-block;
+        order: 2;
+        width: auto;
+        vertical-align: middle;
+    }
+
+    .nk-form-control-number-down,
+    .nk-form-control-number-up {
+        width: 35px;
+        padding: 17px 0;
+        margin-top: -4px;
+        font-size: 20px;
+        line-height: 1;
+        text-align: center;
+        cursor: pointer;
+        user-select: none;
+        transition: .2s;
+
+        &:hover {
+            color: $color_main;
+        }
+    }
+    .nk-form-control-number-down {
+        order: 1;
+        &::after {
+            content: "-";
+            vertical-align: middle;
+        }
+    }
+    .nk-form-control-number-up {
+        order: 3;
+        &::after {
+            content: "+";
+            vertical-align: middle;
+        }
+    }
+
+    input {
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: -1px;
+        margin-bottom: -1px;
+        font-size: 1.2rem;
+        text-align: center;
+        border-top: 1px solid $color_gray_6;
+        border-bottom: 1px solid $color_gray_6;
+        -moz-appearance: textfield; // stylelint-disable-line
+
+        &:focus,
+        &.focus,
+        &:active {
+            border-color: #fff;
+            border-top: 1px solid $color_gray_6;
+            border-bottom: 1px solid $color_gray_6;
+        }
+    }
+
+    input::-webkit-inner-spin-button,
+    input::-webkit-outer-spin-button {
+        margin: 0;
+        -webkit-appearance: none; // stylelint-disable-line
+    }
+}
+
+/* Validation */
+div.nk-error {
+    padding: 0;
+    margin: 5px 0;
+    font-weight: 400;
+    color: #cc3341;
+    z-index: 1;
+}
+.form-control.nk-error,
+.nk-form-style-1 .form-control.nk-error {
+    border-color: rgba(#cc3341, .4);
+}
+
+.nk-form-response-success {
+    display: none;
+    margin-bottom: 10px;
+    color: #2ccc57;
+}
+.nk-form-response-error {
+    display: none;
+    margin-bottom: 10px;
+    color: #cc3341;
+}

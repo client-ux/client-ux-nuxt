@@ -1,0 +1,19 @@
+.nk-navbar-drop-effect-2.nk-navbar {
+    .nk-nav .dropdown {
+        position: relative;
+        overflow: hidden;
+    }
+    .nk-nav .nk-drop-item > .dropdown {
+        display: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .nk-nav .nk-drop-item > .dropdown > li > a,
+    .nk-nav .nk-drop-item .nk-drop-item > .dropdown > li > a {
+        display: block;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: .85rem;
+        font-weight: 400;
+    }
+}

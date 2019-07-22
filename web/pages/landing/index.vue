@@ -8,7 +8,8 @@
 // TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, Directional RotationPlugin
 
 // eslint-disable-next-line no-unused-vars
-import { TweenMax } from 'gsap'
+// import { TweenMax } from 'gsap'
+//import { TweenMax, ScrollToPlugin } from 'gsap'
 export default {
   components: {},
   data() {
@@ -22,6 +23,9 @@ export default {
     }
   },
   async asyncData() {},
+  mounted() {
+    //const tweenMax = new TweenMax()
+  },
   methods: {}
 }
 </script>

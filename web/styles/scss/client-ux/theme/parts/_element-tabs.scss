@@ -1,0 +1,118 @@
+.nk-tabs {
+    .nav-tabs {
+        display: block;
+        margin-top: -10px;
+        margin-bottom: 27px;
+        border-bottom: none;
+
+        .nav-item {
+            display: inline-block;
+            float: none;
+            color: $color_titles;
+        }
+
+        .nav-link,
+        .nav-item.open .nav-link,
+        .nav-link.active {
+            &,
+            &:focus,
+            &:hover {
+                color: inherit;
+                background-color: transparent;
+            }
+        }
+
+        .nav-link {
+            position: relative;
+            padding: 10px 16px;
+            font-size: .955rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            border: none;
+            border-bottom: 2px solid transparent;
+            opacity: .6;
+            transition: .2s;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                right: 10px;
+                bottom: 6px;
+                left: 10px;
+                border-bottom: 1px solid transparent;
+                transition: .2s;
+            }
+        }
+        .nav-link.active {
+            opacity: 1;
+            &,
+            &:focus,
+            &:hover {
+                &::after {
+                    border-bottom-color: currentColor;
+                }
+            }
+        }
+    }
+
+    .nav-tabs-styled {
+        background-color: #fff;
+        box-shadow: 0 0 20px 0 rgba(#000, .05);
+
+        li {
+            position: relative;
+        }
+
+        li + li {
+            padding-left: 40px;
+
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                top: 50%;
+                left: 18px;
+                width: 5px;
+                height: 5px;
+                margin-top: -4px;
+                background-color: currentColor;
+                border-radius: 50%;
+            }
+        }
+
+        .nav-link {
+            padding: 29px 10px;
+            font-weight: 600;
+            border: none;
+            opacity: 1;
+
+            &:hover {
+                color: $color_main;
+            }
+
+            &::after {
+                right: 0;
+                bottom: 0;
+                left: 0;
+                border-bottom: 3px solid transparent;
+            }
+        }
+        .nav-link.active {
+            opacity: 1;
+            &,
+            &:focus,
+            &:hover {
+                color: $color_main;
+
+                &::after {
+                    border-bottom-color: $color_main;
+                }
+            }
+        }
+    }
+}

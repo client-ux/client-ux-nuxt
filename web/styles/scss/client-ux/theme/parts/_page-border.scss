@@ -1,0 +1,41 @@
+
+@mixin set-page-border($size: 20px) {
+    padding: $size;
+    background-image: linear-gradient(to bottom, #00e8bf, #795eff);
+
+    .nk-header {
+        top: $size;
+        right: $size;
+        left: $size;
+    }
+    .nk-header.nk-header-opaque {
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+    .nk-navbar.nk-navbar-fixed {
+        right: $size;
+        left: $size;
+    }
+    .nk-navbar-full {
+        padding-top: $size;
+    }
+
+    .nk-side-image {
+        width: calc(39% - #{$size});
+    }
+
+    .nk-fullpage {
+        height: calc(100vh - #{$size * 2});
+    }
+}
+
+body.nk-page-border {
+    @include set-page-border(20px);
+}
+
+@media #{$media_smaller_xs} {
+    body.nk-page-border {
+        @include set-page-border(10px);
+    }
+}

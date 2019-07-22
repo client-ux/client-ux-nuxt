@@ -1,0 +1,17 @@
+// stylelint-disable scss/dollar-variable-default
+
+@import "variables";
+
+$colors: replace($colors, $color_main, #d50d16, true);
+$color_main: #d50d16;
+
+$colors: replace($colors, $color_dark_main, #0f1d56, true);
+$color_dark_main: #0f1d56;
+
+$colors: replace($colors, $color_dark_05, lighten($color_dark_main, 3%), true);
+$color_dark_05: lighten($color_dark_main, 3%);
+
+$colors: replace($colors, $color_dark_1, lighten($color_dark_main, 8.4%), true);
+$color_dark_1: lighten($color_dark_main, 8.4%);
+
+@import "include";

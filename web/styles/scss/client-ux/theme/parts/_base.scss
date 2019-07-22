@@ -1,0 +1,373 @@
+html {
+    overflow-x: hidden;
+    // fix for isotope small gap on some pages on page load on windows
+    overflow-y: scroll;
+}
+body {
+    color: $color_text;
+    word-wrap: break-word;
+    background-color: $color_bg;
+}
+.nk-main {
+    position: relative;
+    background-color: $color_bg;
+    z-index: 1;
+}
+
+// bg gradient
+body.nk-bg-gradient .nk-main {
+    background: linear-gradient(to bottom, #fff, $color_bg);
+}
+
+// boxed
+body.nk-page-boxed {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+// Links
+a {
+    color: $color_main;
+}
+a:focus,
+a:hover {
+    color: darken($color_main, 10%);
+}
+
+// selection color
+::selection {
+    color: #fff;
+    background-color: $color_main;
+}
+
+
+// block for any content (most case of use - parallax and image backgrounds)
+.nk-block {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+
+    &::after,
+    &::before {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+// bg image
+.bg-image,
+.bg-video {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: -1;
+
+    > div {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "object-fit: cover;"; // stylelint-disable-line
+        z-index: -1;
+        object-fit: cover;
+    }
+}
+.bg-image-full,
+.bg-video-full {
+    position: relative;
+    height: 100vh;
+}
+.bg-video {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.bg-image-row,
+.bg-video-row,
+.bg-map-row {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    > div {
+        height: 100%;
+        overflow: hidden;
+    }
+
+    @media #{$media_smaller_sm} {
+        position: relative;
+        > div {
+            padding-top: 56.25%;
+            > div {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+        }
+    }
+}
+.bg-map-row {
+    z-index: auto;
+    .nk-gmaps {
+        height: 100%;
+        z-index: 1;
+    }
+    @media #{$media_smaller_sm} {
+        position: relative;
+        > div {
+            padding-top: 0;
+            > div {
+                position: relative;
+            }
+        }
+        .nk-gmaps {
+            height: 300px;
+        }
+        .nk-gmaps-sm {
+            height: 250px;
+        }
+        .nk-gmaps-md {
+            height: 450px;
+        }
+        .nk-gmaps-lg {
+            height: 550px;
+        }
+        .nk-gmaps-full {
+            height: 100vh;
+            min-height: 700px;
+        }
+    }
+}
+
+// background color box
+.bg-color {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $color_dark_1;
+    z-index: -1;
+}
+
+// gaps
+.nk-gap,
+.nk-gap-1,
+.nk-gap-2,
+.nk-gap-3,
+.nk-gap-4,
+.nk-gap-5,
+.nk-gap-6 {
+    display: block;
+    height: 20px;
+    &::after,
+    &::before {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+.nk-gap-1 {
+    height: 30px;
+}
+.nk-gap-2 {
+    height: 40px;
+}
+.nk-gap-3 {
+    height: 60px;
+}
+.nk-gap-4 {
+    height: 80px;
+}
+.nk-gap-5 {
+    height: 100px;
+}
+.nk-gap-6 {
+    height: 120px;
+}
+
+// body scrollbar checker
+.nk-body-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll;
+}
+
+// gmaps
+.nk-gmaps {
+    min-width: 100%;
+    height: 300px;
+}
+.nk-gmaps-sm {
+    height: 250px;
+}
+.nk-gmaps-md {
+    height: 450px;
+}
+.nk-gmaps-lg {
+    height: 570px;
+}
+.nk-gmaps-full {
+    height: 100vh;
+    min-height: 700px;
+}
+
+// badges
+.nk-badge {
+    display: inline-block;
+    min-width: 17px;
+    height: 17px;
+    padding: 0 4px;
+    font-size: 9px;
+    line-height: 17px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: .1em;
+    background-color: $color_dark_1;
+    border: 1px solid #fff;
+    transition: .2s;
+
+    .nk-navbar li > & {
+        position: absolute;
+        right: 5px;
+        bottom: 0;
+    }
+}
+
+.nk-scroll-top {
+    cursor: pointer;
+}
+
+// code
+pre {
+    position: relative;
+    max-height: 500px;
+    padding: 25px;
+    line-height: 1.3;
+    color: #fff;
+    background-color: $color_dark_3;
+
+    .tag {
+        display: inline-block;
+        padding: 0;
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-align: inherit;
+        white-space: inherit;
+        vertical-align: inherit;
+        border-radius: 0;
+    }
+}
+pre[class*="language-"] {
+    margin: 0;
+}
+
+// Side image
+.nk-side-image {
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 39%;
+    height: 100vh;
+
+    @media screen and #{$media_larger_sm} {
+        display: block;
+
+        ~ .nk-main,
+        ~ .nk-footer {
+            width: 61%;
+            margin-left: auto;
+
+            .container,
+            .container-fluid {
+                padding-right: 45px;
+                padding-left: 45px;
+            }
+        }
+    }
+}
+
+// Scroll up button
+.nk-scroll-up {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 40px;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    transform: translateY(10px);
+    z-index: 10;
+    will-change: auto;
+
+    &.nk-scroll-up-show {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    a {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-left: auto;
+        font-size: 2rem;
+        line-height: 55px;
+        color: #fff;
+        text-align: center;
+        pointer-events: auto;
+        background-color: $color_dark_2;
+        border-radius: 50%;
+        transition: .2s;
+        will-change: auto;
+
+        &:hover {
+            color: #fff;
+            background-color: $color_main;
+            box-shadow: 0 5px 20px 2px rgba(0, 0, 0, .15);
+            transform: translateY(-1px);
+        }
+    }
+}
+
+// Image on the text
+.nk-image-text {
+    @supports (-webkit-background-clip: text) {
+        background-position: 50% 50%;
+        -webkit-background-clip: text;  // stylelint-disable-line
+        background-size: cover;
+        -webkit-text-fill-color: transparent;
+    }
+    @supports not (-webkit-background-clip: text) {
+        background: none !important;  // stylelint-disable-line
+    }
+}

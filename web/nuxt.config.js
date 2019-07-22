@@ -1,16 +1,21 @@
 import pkg from './package'
 import sanityClient from './sanityClient'
+import webpack from 'webpack'
+import $ from 'jquery'
+import jQuery from 'jquery'
+import { TweenMax } from 'gsap'
+import objectFitImages from 'object-fit-images'
+// import imagesLoaded from 'vue-images-loaded'
 
 const routesQuery = `
   {
     "sessions": *[_type == "session"],
     "speakers": *[_type == "person" && defined(slug.current)]
   }
-`
+`;
 
 export default {
   mode: 'spa',
-
   /*
    ** Headers of the page
    */
@@ -25,7 +30,20 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     //link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
-    script: []
+    script: [
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js'
+      },
+      {
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js'
+      },
+      {
+        src: 'https://unpkg.com/jarallax@1.10/dist/jarallax.js'
+      },
+      { src: 'https://unpkg.com/jarallax@1.10/dist/jarallax-video.min.js' },
+      { src: 'https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js' }
+    ]
   },
 
   /*
@@ -37,18 +55,27 @@ export default {
   /*
    ** Global CSS
    */
-  css: [{ src: 'normalize.css' }],
+  css: [
+    { src: 'normalize.css' },
+    { src: '@fortawesome/fontawesome-svg-core/styles.css' }
+  ],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [{ src: '~/plugins/eventInformation' }],
+  plugins: [
+    { src: '~/plugins/eventInformation' },
+    { src: '~/plugins/fontawesome' },
+    { src: '~/plugins/VueFlickity', ssr: false },
+    { src: '~/plugins/vue-isotope', ssr: false },
+    { src: '~/plugins/vue-photoswipe', ssr: false },
+    { src: '~/plugins/vue-recognizer', ssr: false }
+  ],
 
   /*
    ** Nuxt.js modules
    */
   modules: ['@nuxtjs/pwa'],
-
   /*
    ** Set global info from sanity document
    */
@@ -70,18 +97,61 @@ export default {
       })
     }
   },
-
   /*
    ** Build configuration
    */
   build: {
+    extend(config, ctx) {
+      // adding the new loader as the first in the list
+      config.module.rules.unshift({
+        test: /\.(png|jpe?g|gif)$/,
+        use: {
+          loader: 'responsive-loader',
+          options: {
+            // disable: isDev,
+            placeholder: true,
+            quality: 85,
+            placeholderSize: 30,
+            name: 'img/[name].[hash:hex:7].[width].[ext]',
+            adapter: require('responsive-loader/sharp')
+          }
+        }
+      }),
+        config.module.rules.forEach(value => {
+          if (String(value.test) === String(/\.(png|jpe?g|gif|svg|webp)$/)) {
+            // reduce to svg and webp, as other images are handled above
+            value.test = /\.(svg|webp)$/
+          }
+        });
+      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map';
+      // Run ESLint on save
+      if (ctx.isDev && ctx.isClient) {
+        config.module.rules.push({
+          enforce: 'pre',
+          test: /\.(js|vue)$/,
+          loader: 'eslint-loader',
+          exclude: /(node_modules)/
+        })
+      }
+    },
+    // vendor: ['jquery', 'bootstrap', 'TweenMax', 'ScrollToPlugin'],
+    plugins: [
+      // set shortcuts as global for bootstrap
+      new webpack.ProvidePlugin({
+        $: 'jquery',
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
+      })
+    ],
     postcss: {
       plugins: {
         'postcss-import': {},
         'postcss-preset-env': {
           stage: 3,
           features: {
-            'color-mod-function': { unresolved: 'warn' },
+            'color-mod-function': {
+              unresolved: 'warn'
+            },
             'nesting-rules': true,
             'custom-media-queries': {
               preserve: false
@@ -93,20 +163,9 @@ export default {
         }
       }
     },
+    transpile: ['TweenMax', 'ScrollToPlugin']
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
-      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/
-        })
-      }
-    }
   }
 }
