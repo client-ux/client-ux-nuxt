@@ -1,0 +1,351 @@
+{% set page_title = 'Shop Single Product' %}
+{% extends 'layouts/layout-shop.html' %}
+
+{% block content %}
+
+    <div class="bg-white">
+        <div class="container">
+            <!-- START: Shop Header -->
+            <div class="nk-shop-header">
+                <a href="shop.html" class="nk-shop-header-back"><span class="nk-icon-arrow-left"></span> Back to Shop</a>
+                <span class="nk-shop-header-share">
+                    Share This
+                    <span class="nk-shop-header-share-items nk-post-share-2">
+                        <a href="#" title="Share page on Facebook" data-share="facebook"><span class="fa fa-facebook-official"></span></a>
+                        <a href="#" title="Share page on Google+" data-share="google-plus"><span class="fa fa-google"></span></a>
+                        <a href="#" title="Share page on Twitter" data-share="twitter"><span class="fa fa-twitter"></span></a>
+                        <a href="#" title="Share page on Pinterest" data-share="pinterest"><span class="fa fa-pinterest"></span></a>
+                        <!--
+                        <a href="#" title="Share page on LinkedIn" data-share="linkedin"><span class="fa fa-linkedin"></span></a>
+                        <a href="#" title="Share page on Vkontakte" data-share="vk"><span class="fa fa-vk"></span></a>
+                        -->
+                    </span>
+                </span>
+                <a href="#" class="nk-shop-cart-toggle">
+                    <span class="pe-7s-shopbag"></span>
+                    <span class="nk-badge">2</span>
+                </a>
+            </div>
+            <!-- END: Shop Header -->
+
+            <!-- START: Product Details -->
+            {% set photos = [
+                {
+                    sm: 'assets/images/product-single-1-sm.jpg',
+                    md: 'assets/images/product-single-1.jpg',
+                    full: 'assets/images/product-single-1-full.jpg',
+                    size: ''
+                }, {
+                    sm: 'assets/images/product-single-2-sm.jpg',
+                    md: 'assets/images/product-single-2.jpg',
+                    full: 'assets/images/product-single-2-full.jpg'
+                }, {
+                    sm: 'assets/images/product-single-3-sm.jpg',
+                    md: 'assets/images/product-single-3.jpg',
+                    full: 'assets/images/product-single-3-full.jpg'
+                }, {
+                    sm: 'assets/images/product-single-4-sm.jpg',
+                    md: 'assets/images/product-single-4.jpg',
+                    full: 'assets/images/product-single-4-full.jpg'
+                }
+            ] %}
+            <div class="row vertical-gap align-items-center">
+                <div class="col-md-6">
+
+                    <!-- START: Product Photos Carousel -->
+                    <div class="nk-product-carousel">
+                        <div class="nk-product-carousel-video-thumb">
+                            <a href="https://www.youtube.com/watch?v=Q5M-75sbDKE" class="nk-video-fullscreen-toggle">
+                                Video
+                            </a>
+                        </div>
+                        <div class="nk-product-carousel-thumbs">
+                            <div>
+                                {% for photo in photos %}
+                                    <div{{ ' class="active"' | safe if loop.index == 1 }}><img src="{{ photo.sm }}" alt=""></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                        <div class="nk-carousel-3" data-size="1" data-autoplay="0" data-loop="false" data-dots="false" data-arrows="false" data-cell-align="center" data-parallax="true">
+                            <div class="nk-carousel-inner nk-popup-gallery">
+                                {% for photo in photos %}
+                                    <div><div>
+                                        <a href="{{ photo.full }}" class="nk-gallery-item" data-size="700x800"><img src="{{ photo.md }}" alt="" class="nk-carousel-parallax-img"></a>
+                                    </div></div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END: Product Photos Carousel -->
+
+                </div>
+                <div class="col-md-5 ml-auto">
+
+                    <!-- START: Title + Rating -->
+                    <h1 class="nk-product-title h3">Bag with Split Suede Flap</h1>
+                    <a class="nk-product-rating" href="#tab-reviews">
+                        <span style="width: 80%;"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                        <span><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                    </a> <small>(2 Reviews)</small>
+                    <!-- END: Title + Rating -->
+
+                    <div class="nk-product-description">
+                        <p>Process of visual communication and problem-solving through the use of typography, photography and illustration. The field is considered a subset of visual communication and communication design.</p>
+                    </div>
+
+                    <div class="nk-product-price">$594.00 <del>$989.00</del></div>
+
+                    <!-- START: Add to Cart -->
+                    <form action="#" class="nk-product-addtocart">
+                        <div class="input-group">
+                            <div class="nk-form-control-number">
+                                <input type="number" min="1" max="21" name="quantity" value="1" class="form-control">
+                            </div>
+                            <button class="nk-btn nk-btn-color-dark">Add to Cart</button>
+                        </div>
+                    </form>
+                    <!-- END: Add to Cart -->
+                </div>
+            </div>
+            <!-- END: Product Details -->
+
+        </div>
+
+        <div class="nk-gap-3"></div>
+        <div class="nk-divider nk-divider-color-gray-6"></div>
+        <div class="nk-gap-3"></div>
+
+        <div class="container">
+            <!-- START: Tabs -->
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="nk-tabs">
+                        <ul class="nav nav-tabs text-center" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#tab-description" role="tab" data-toggle="tab">Description</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tab-info" role="tab" data-toggle="tab">Additional Information</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#tab-reviews" role="tab" data-toggle="tab">Reviews <small>(3)</small></a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content">
+
+                            <!-- START: Tab Description -->
+                            <div role="tabpanel" class="tab-pane fade show active" id="tab-description">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque rhoncus orci a purus lacinia consectetur. Vestibulum rutrum ex in odio placerat dictum. Morbi sit amet tortor mollis, tincidunt magna a, iaculis nisl. Cras varius odio a arcu rutrum, nec posuere lacus imperdiet. Proin iaculis, nibh eleifend elementum pulvinar, erat nisl consequat quam, ac ornare est sem nec libero. Fusce ac sagittis quam. Phasellus mattis, nunc a venenatis laoreet, est ipsum consectetur turpis, in ullam corper urna tortor eu purus. </p>
+                            </div>
+                            <!-- END: Tab Description -->
+
+                            <!-- START: Tab Parameters -->
+                            <div role="tabpanel" class="tab-pane fade" id="tab-info">
+                                <div class="row">
+                                    <div class="col-md-10 offset-md-1">
+                                        <table class="table nk-shop-table-info">
+                                            <tr>
+                                                <td><span class="text-black">Dimensions:</span></td>
+                                                <td>H20cm x W28cm x D10cm</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Materials:</span></td>
+                                                <td>100% Genuine Leather</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Size:</span></td>
+                                                <td>One Size</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Country:</span></td>
+                                                <td>Made in Brescia, Italy</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Color:</span></td>
+                                                <td>Red, Black</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Weight:</span></td>
+                                                <td>1.12 kg</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Style:</span></td>
+                                                <td>Cross-body Bag</td>
+                                            </tr>
+                                            <tr>
+                                                <td><span class="text-black">Year:</span></td>
+                                                <td>2017</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: Tab Parameters -->
+
+                            <!-- START: Tab Reviews -->
+                            <div role="tabpanel" class="tab-pane fade" id="tab-reviews">
+                                <div class="nk-gap mnt-10"></div>
+                                <div class="nk-reviews">
+                                    <!-- START: Review -->
+                                    <div class="nk-review">
+                                        <div class="nk-review-avatar">
+                                            <a href="{{ users[0].url }}"><img src="{{ users[0].avatar }}" alt=""></a>
+                                        </div>
+                                        <div class="nk-review-cont">
+                                            <div class="nk-review-meta">
+                                                <div class="nk-review-name"><a href="{{ users[0].url }}">{{ users[0].name }}</a></div>
+                                                <div class="nk-review-date">20 September, 2017</div>
+                                                <span class="nk-review-rating">
+                                                    <span style="width: 80%;"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                    <span><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-review-text">
+                                                <p>Nullam ac dui et purus malesuada gravida id fermentum orci. In eu ipsum quis urna
+                                                    hendrerit condimentum vitae a mauris. In congue turpis purus, vitae tempus ante
+                                                    id. Donec orci arcu, sagittis ut finibus vitae.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END: Review -->
+
+                                    <!-- START: Review -->
+                                    <div class="nk-review">
+                                        <div class="nk-review-avatar">
+                                            <a href="{{ users[1].url }}"><img src="{{ users[1].avatar }}" alt=""></a>
+                                        </div>
+                                        <div class="nk-review-cont">
+                                            <div class="nk-review-meta">
+                                                <div class="nk-review-name"><a href="{{ users[1].url }}">{{ users[1].name }}</a></div>
+                                                <div class="nk-review-date">20 September, 2017</div>
+                                                <span class="nk-review-rating">
+                                                    <span style="width: 60%;"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                    <span><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-review-text">
+                                                <p>Aenean eget varius augue, nec gravida lectus. Pellentesque in imperdiet
+                                                    us, ac efficitur risus. Etiam laoreet dapibus lorem vitae aliquam. Sed
+                                                    elementum ligula, molestie consectetur massa rhoncus at.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END: Review -->
+
+                                    <!-- START: Review -->
+                                    <div class="nk-review">
+                                        <div class="nk-review-avatar">
+                                            <a href="{{ users[2].url }}"><img src="{{ users[2].avatar }}" alt=""></a>
+                                        </div>
+                                        <div class="nk-review-cont">
+                                            <div class="nk-review-meta">
+                                                <div class="nk-review-name"><a href="{{ users[2].url }}">{{ users[2].name }}</a></div>
+                                                <div class="nk-review-date">21 September, 2017</div>
+                                                <span class="nk-review-rating">
+                                                    <span style="width: 100%;"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                    <span><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                </span>
+                                            </div>
+                                            <div class="nk-review-text">
+                                                <p>To set. Lights likeness after, stars void in doesn't subdue.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- END: Review -->
+
+                                    <div class="nk-gap-1"></div>
+                                    <h3 class="h5 text-center">Add a Review</h3>
+                                    <div class="nk-gap-1 mnt-7"></div>
+
+                                    <form action="#" class="nk-form nk-form-style-1">
+                                        <div class="nk-rating">
+                                            <span>Your Rating</span>
+
+                                            <input type="radio" id="review-rate-5" name="review-rate" value="5">
+                                            <label for="review-rate-5">
+                                                <span><i class="fa fa-star"></i></span>
+                                            </label>
+
+                                            <input type="radio" id="review-rate-4" name="review-rate" value="4">
+                                            <label for="review-rate-4">
+                                                <span><i class="fa fa-star"></i></span>
+                                            </label>
+
+                                            <input type="radio" id="review-rate-3" name="review-rate" value="3">
+                                            <label for="review-rate-3">
+                                                <span><i class="fa fa-star"></i></span>
+                                            </label>
+
+                                            <input type="radio" id="review-rate-2" name="review-rate" value="2">
+                                            <label for="review-rate-2">
+                                                <span><i class="fa fa-star"></i></span>
+                                            </label>
+
+                                            <input type="radio" id="review-rate-1" name="review-rate" value="1">
+                                            <label for="review-rate-1">
+                                                <span><i class="fa fa-star"></i></span>
+                                            </label>
+                                        </div>
+                                        <div class="nk-gap mt-10"></div>
+                                        <div class="row vertical-gap">
+                                            <div class="col-sm-6">
+                                                <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                                            </div>
+                                        </div>
+                                        <div class="nk-gap-1"></div>
+                                        <textarea class="form-control required" name="message" rows="5" placeholder="Your Comment" aria-required="true"></textarea>
+                                        <div class="nk-gap-1"></div>
+                                        <div class="text-center">
+                                            <button class="nk-btn nk-btn-color-dark-1">Add a Review</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- END: Tab Reviews -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Tabs -->
+        </div>
+
+        <div class="nk-gap-3"></div>
+        <div class="nk-divider nk-divider-color-gray-6"></div>
+        <div class="nk-gap-3"></div>
+
+        <div class="container">
+            <!-- START: Related Products -->
+            <h3 class="h5 text-center">Related Products</h3>
+            <div class="nk-carousel-2 nk-carousel-x3 nk-carousel-no-margin nk-carousel-all-visible" data-autoplay="0" data-loop="true" data-dots="false" data-arrows="false" data-cell-align="left" data-parallax="false">
+                <div class="nk-carousel-inner mnl-15 mnr-15">
+                    {% for product in products %}
+                        <div>
+                            <div class="nk-shop-product">
+                                <div class="nk-shop-product-thumb">
+                                    <a href="shop-single-product.html"><img src="{{ product.thumb }}" alt="{{ product.title }}"></a>
+                                    {% if product.sale_badge %}<span class="nk-shop-product-sale">{{ product.sale_badge }}</span>{% endif %}
+                                </div>
+                                <h2 class="nk-shop-product-title"><a href="shop-single-product.html">{{ product.title }}</a></h2>
+                                <div class="nk-shop-product-btn">
+                                    <div class="nk-shop-product-price">
+                                        {% if product.sale_price %}<del>{{ product.sale_price }}</del>{% endif %}
+                                        {{ product.price }}
+                                    </div>
+                                    <a href="shop-single-product.html" class="nk-shop-product-add-to-cart">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- END: Related Products -->
+        </div>
+
+        <div class="nk-gap-1"></div>
+    </div>
+
+{% endblock %}

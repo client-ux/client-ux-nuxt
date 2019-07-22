@@ -1,0 +1,52 @@
+{% set page_title = 'Dark Photographer Slider' %}
+{% set header_show = false %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% set nav_in_container = false %}
+{% extends 'layouts/layout-dark-photographer-slider.html' %}
+
+{% block content %}
+
+    <!-- START: Slider -->
+    <div class="nk-slider nk-slider-arrows-2 bg-dark" data-container="false" data-show-nav="false" data-show-bullets="true" data-show-arrows="true" data-autoplay="10000" data-content-centering="center" data-height="100vh">
+        <div class="nk-slider-item">
+            <img src="assets/images/demo-dark-photographer-slider-1.jpg" alt="" class="nk-slider-image">
+            <div class="nk-slider-content">
+                <div class="text-center">
+                    <h2 class="text-white display-3">Beautiful Moment</h2>
+                    <a class="nk-btn-2 nk-btn-2-center text-white mt-5" href="#">Project Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-slider-item">
+            <img src="assets/images/demo-dark-photographer-slider-2.jpg" alt="" class="nk-slider-image">
+            <div class="nk-slider-content">
+                <div class="text-center">
+                    <h2 class="text-white display-3">Dreaming Woman</h2>
+                    <a class="nk-btn-2 nk-btn-2-center text-white mt-5" href="#">Project Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-slider-item">
+            <img src="assets/images/demo-dark-photographer-slider-3.jpg" alt="" class="nk-slider-image">
+            <div class="nk-slider-content">
+                <div class="text-center">
+                    <h2 class="text-white display-3">Minimalistic Interior</h2>
+                    <a class="nk-btn-2 nk-btn-2-center text-white mt-5" href="#">Project Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-slider-item">
+            <img src="assets/images/demo-dark-photographer-slider-4.jpg" alt="" class="nk-slider-image">
+            <div class="nk-slider-content">
+                <div class="text-center">
+                    <h2 class="text-white display-3">Winter Composition</h2>
+                    <a class="nk-btn-2 nk-btn-2-center text-white mt-5" href="#">Project Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Slider -->
+
+{% endblock %}

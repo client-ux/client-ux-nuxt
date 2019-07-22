@@ -1,0 +1,34 @@
+{% set nav_items_collapsed = true %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_transparent_always = true %}
+{% set nav_autohide = false %}
+{% set footer = 3 %}
+{% set footer_scroll_top_btn = 2 %}
+{% set footer_bg_color = '#0b0b0b' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set navigation = {
+    'demo-minimal-fullscreen.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-fullscreen-about.html': {
+        'name': 'About'
+    },
+    'demo-minimal-fullscreen-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-minimal-fullscreen-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-minimal-fullscreen-blog-single.html': {
+                'name': 'Single Post'
+            }
+        }
+    },
+    'demo-minimal-fullscreen-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

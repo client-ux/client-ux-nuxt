@@ -1,0 +1,71 @@
+{% include "layouts/_head.html" %}
+
+{% set body_class = '' %}
+{% if content_gradient %}
+    {% set body_class = body_class + ' nk-bg-gradient' %}
+{% endif %}
+{% if page_border %}
+    {% set body_class = body_class + ' nk-page-border' %}
+{% endif %}
+
+
+<!--
+    Additional Classes:
+        .nk-bg-gradient
+-->
+<body{{ (' class="' + body_class + '"') | safe if body_class }}>
+    {% include "shared/page-nav.html" %}
+    {% if nav_full == 2 %}
+        {% include "shared/page-nav-fullscreen-2.html" %}
+    {% elif nav_full %}
+        {% include "shared/page-nav-fullscreen.html" %}
+    {% endif %}
+    {% if nav_side %}
+        {% include "shared/page-nav-side.html" %}
+    {% endif %}
+    {% if nav_mobile and nav %}
+        {% include "shared/page-nav-mobile.html" %}
+    {% endif %}
+
+    {% if page_side_image %}
+        <div class="nk-side-image">
+            <div class="bg-image">
+                <img src="{{ page_side_image }}" alt="">
+            </div>
+        </div>
+    {% endif %}
+
+    <!--
+        START: Main Content
+
+        Additional Classes:
+            .nk-main-dark
+    -->
+    <div class="nk-main{{ ' ' + 'nk-main-dark' if page_dark }}">
+        {% include "shared/page-header-title.html" %}
+
+        {% block content %}{% endblock %}
+    </div>
+    <!-- END: Main Content -->
+
+    {% if footer == 1 %}
+        {% include "shared/page-footer.html" %}
+    {% elif footer != false %}
+        {% include "shared/page-footer-" + footer + ".html" %}
+    {% endif %}
+
+    {% block after_content %}{% endblock %}
+
+    {% if shop_cart %}
+        {% include "shared/page-cart.html" %}
+    {% endif %}
+
+    {% if page_scroll_up %}
+        {% include "shared/page-scroll-up.html" %}
+    {% endif %}
+
+    {% include "layouts/_foot.html" %}
+
+    {% block javascript %}{% endblock %}
+</body>
+</html>

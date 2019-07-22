@@ -1,0 +1,69 @@
+{% set page_title = 'Minimal Agency' %}
+{% set header_show = false %}
+{% extends 'layouts/layout-minimal-agency.html' %}
+
+{% block content %}
+
+    <div class="bg-white">
+        <div class="container">
+            <div class="nk-gap-3"></div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="nk-subtitle-2 text-main">New Branding Agency</div>
+                    <h1 class="fs-30 fw-400 lh-40 mt-15">We create everything digital, printable, minimal, visual and analytical.</h1>
+                </div>
+            </div>
+
+            <div class="nk-gap-4"></div>
+
+            <!-- START: Works -->
+            <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols nk-isotope-gap">
+                {% set work_url = cycler('demo-minimal-agency-work-single-1.html', 'demo-minimal-agency-work-single-2.html') %}
+                {% for i in [1, 2, 3, 4] %}
+                    {% set item = portfolio[i] %}
+                    <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                        <div class="nk-portfolio-item nk-portfolio-item-info-style-7">
+                            <a href="{{ work_url.next() }}" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb_sm }}');"></div></div>
+                            <div class="nk-portfolio-item-info">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                    <div class="nk-portfolio-item-text">{{ item.excerpt }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <!-- END: Works -->
+
+            <div class="nk-gap-4"></div>
+            <div class="nk-divider nk-divider-color-gray-6"></div>
+
+            <!-- START: We Are -->
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="nk-gap-4"></div>
+                    <p class="lead nk-heading-font text-black text-center">We are a new Branding Agency. Over 10 years of combined experience, and know a thing or two about designing websites and mobile apps. Clever use of technology and lean processes enable us to work faster and smarter.</p>
+                    <div class="text-center">
+                        <a href="demo-minimal-agency-about.html" class="text-dark"><span class="nk-icon-arrow-right"></span></a>
+                    </div>
+                    <div class="nk-gap-4"></div>
+                </div>
+            </div>
+            <!-- END: We Are -->
+        </div>
+    </div>
+
+    <!-- START: Mail -->
+    <div class="container text-center">
+        <div class="nk-gap-6"></div>
+        <a class="nk-btn-3" href="mailto:hello@skylith.com">hello@skylith.com</a>
+        <div class="nk-gap mb-5"></div>
+        <p>Currently accepting enquiries for small <br> and medium sized projects.</p>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Mail -->
+
+{% endblock %}

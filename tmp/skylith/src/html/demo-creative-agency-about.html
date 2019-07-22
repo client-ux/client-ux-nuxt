@@ -1,0 +1,327 @@
+{% set page_title = 'Creative Agency - About' %}
+{% set header_title = 'about us.' %}
+{% set header_show = true %}
+{% set header_image = 'assets/images/header-about-us.jpg' %}
+{% set header_image_overlay = 'rgba(204, 17, 57, 0.9)' %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% extends 'layouts/layout-creative-agency.html' %}
+
+{% block content %}
+
+    <!-- START: Who We Are -->
+    <div class="bg-white">
+        <div class="container">
+            <div class="nk-gap-4"></div>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="text-gray nk-heading-font fw-700">Who we are</div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="h4 lh-35 fw-500">We are a new Branding Agency. Over 20 years of combined <span class="text-main">experience</span>, and know a thing or two about designing websites and mobile apps. Clever use of technology and lean processes enable us to work faster and smarter.
+                    </h2>
+                </div>
+            </div>
+            <div class="nk-gap-4"></div>
+        </div>
+    </div>
+    <!-- END: Who We Are -->
+
+    <!-- START: Features -->
+    <div class="nk-box bg-dark text-white">
+        <div class="nk-gap-5 mnt-6"></div>
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-portfolio"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">548</div>
+                            <div class="nk-ibox-text">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-clock"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">1465</div>
+                            <div class="nk-ibox-text">Working Hours</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-star"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">612</div>
+                            <div class="nk-ibox-text">Positive Feedbacks</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-like"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">735</div>
+                            <div class="nk-ibox-text">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5 mnt-6"></div>
+    </div>
+    <!-- END: Features -->
+
+    <!-- START: Our Services -->
+    <div class="bg-white">
+        <div class="container">
+            <div class="nk-gap-4"></div>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="text-gray nk-heading-font fw-700">Our Services</div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="h4">Web Design</h2>
+                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web, graphic design, interface design, authoring, including standardised code.</p>
+
+                    <div class="nk-gap"></div>
+                    <h2 class="h4">Web Development</h2>
+                    <p>Web development can range from developing the simplest static single page of plain text to the most complex web-based internet applications, electronic businesses, and social network services.</p>
+
+                    <div class="nk-gap"></div>
+                    <h2 class="h4">Mobile Development</h2>
+                    <p>Mobile application development is a term used to denote the act or process by which application software is developed for mobile devices.</p>
+
+                    <div class="nk-gap"></div>
+                    <h2 class="h4">Marketing &amp; SEO</h2>
+                    <p>As an Internet marketing strategy, SEO considers how search engines work, what people search for, the actual search terms or keywords typed into search engines and which search engines are preferred by their targeted audience.</p>
+                </div>
+            </div>
+
+            <div class="nk-gap-1"></div>
+            <div class="nk-justified-gallery nk-portfolio-list nk-popup-gallery">
+                {% set items = [
+                    {
+                        img: 'assets/images/demo-creative-agency-photo-1.jpg',
+                        img_sm: 'assets/images/demo-creative-agency-photo-1-sm.jpg',
+                        img_size: '1523x1102'
+                    },
+                    {
+                        img: 'assets/images/demo-creative-agency-photo-2.jpg',
+                        img_sm: 'assets/images/demo-creative-agency-photo-2-sm.jpg',
+                        img_size: '1280x1610'
+                    },
+                    {
+                        img: 'assets/images/demo-creative-agency-photo-3.jpg',
+                        img_sm: 'assets/images/demo-creative-agency-photo-3-sm.jpg',
+                        img_size: '1282x1178'
+                    },
+                    {
+                        img: 'assets/images/demo-creative-agency-photo-4.jpg',
+                        img_sm: 'assets/images/demo-creative-agency-photo-4-sm.jpg',
+                        img_size: '1280x650'
+                    },
+                    {
+                        img: 'assets/images/demo-creative-agency-photo-5.jpg',
+                        img_sm: 'assets/images/demo-creative-agency-photo-5-sm.jpg',
+                        img_size: '1200x868'
+                    }
+                ] %}
+                {% for item in items %}
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-1">
+                        <a href="{{ item.img }}" class="nk-portfolio-item-link nk-gallery-item" data-size="{{ item.img_size }}"></a>
+                        <img class="nk-portfolio-item-image" src="{{ item.img_sm }}" alt="">
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center" style="background-color: rgba(204, 17, 57, 0.9);">
+                            <div>
+                                <div class="nk-portfolio-item-icon"><span class="pe-7s-expand1"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="nk-gap-4"></div>
+        </div>
+    </div>
+    <!-- END: Our Services -->
+
+    <div class="bg-dark">
+        <div class="container">
+            <div class="nk-carousel-2 nk-carousel-x4 nk-carousel-no-margin nk-carousel-all-visible" data-autoplay="0" data-loop="true" data-dots="false" data-arrows="false" data-cell-align="left" data-parallax="false">
+                <div class="nk-carousel-inner mnl-15 mnr-15">
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-1-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-2-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-3-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-4-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-5-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-6-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-7-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-8-light.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- START: In Short -->
+    <div class="bg-white">
+        <div class="container">
+            <div class="nk-gap-4"></div>
+            <div class="row">
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="text-gray nk-heading-font fw-700">In Short</div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="h4">Our History</h2>
+                    <p>An award-winning design and development team that is proud of our work and love the web. We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p>
+
+                    <div class="nk-gap"></div>
+                    <h2 class="h4">Our Mission</h2>
+                    <p>Technology enables great experiences. We like and use technology but we have tried hard to not fall in love with it. Clever use of technology and lean processes enable us to work faster and smarter.</p>
+
+                    <div class="nk-gap"></div>
+                    <h2 class="h4">Our Principles</h2>
+                    <p>As an independent insurance agency, we can always give our clients options. We are not tied to any one carrier or company, we do not serve the interests of any corporate entity.</p>
+                </div>
+            </div>
+            <div class="nk-gap-3"></div>
+        </div>
+    </div>
+    <!-- END: In Short -->
+
+    <!-- START: Our Team -->
+    <div class="bg-white">
+        <div class="container">
+
+            <!-- START: Carousel -->
+            <div class="nk-carousel-2 nk-carousel-x2 nk-carousel-all-visible nk-portfolio-list" data-autoplay="0" data-loop="true" data-dots="true" data-arrows="false" data-cell-align="center" data-parallax="false">
+                <div class="nk-carousel-inner">
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-1.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Richard Cennedy</h2>
+                                    <div>Creative Director</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-2.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Donna Flowers</h2>
+                                    <div>Designer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-3.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Edwin Charles</h2>
+                                    <div>Developer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-4.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Richard Cennedy</h2>
+                                    <div>Creative Director</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Carousel -->
+
+            <div class="nk-gap-5"></div>
+        </div>
+    </div>
+    <!-- END: Our Team -->
+
+    <!-- START: Let's Work Together -->
+    <div class="nk-box bg-dark-1 text-center">
+        <div class="nk-gap-5"></div>
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/demo-creative-agency-contact-bg.jpg" alt="" class="jarallax-img">
+            <div class="bg-image-overlay" style="background-color: rgba(204, 17, 57, 0.9);"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="text-white">Let`s work together</h2>
+                    <div class="nk-gap-1 mnt-20"></div>
+                    <p class="text-white">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+                    <div class="nk-gap mnt-9"></div>
+                    <a href="#" class="nk-btn nk-btn-outline nk-btn-color-white">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Let's Work Together -->
+
+{% endblock %}

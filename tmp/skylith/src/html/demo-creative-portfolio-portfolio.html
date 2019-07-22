@@ -1,0 +1,90 @@
+{% set page_title = 'Creative Portfolio - Portfolio' %}
+{% extends 'layouts/layout-creative-portfolio.html' %}
+
+{% block content %}
+    <!-- START: Filter -->
+    <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+        <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+    </div>
+    <ul class="nk-isotope-filter">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter="Branding">Branding</li>
+        <li data-filter="Print">Print</li>
+        <li data-filter="Photography">Photography</li>
+        <li data-filter="Design">Design</li>
+        <li data-filter="Mockup">Mockup</li>
+    </ul>
+    <!-- END: Filter -->
+
+    <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
+        {% set items = [
+            {
+                thumb: 'assets/images/demo-creative-agency-work-1.jpg',
+                title: 'Various Illustrations',
+                filter: 'Branding',
+                color: '#69b88b'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-2.jpg',
+                title: 'Creative Shapes',
+                filter: 'Branding',
+                color: '#962444'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                title: 'Raympnd Coller',
+                filter: 'Print',
+                color: '#fa7f21'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                title: 'Allen Carter',
+                filter: 'Photography',
+                color: '2a54e0'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-5.jpg',
+                title: 'Album Cover',
+                filter: 'Design',
+                color: '#251a5d'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                title: 'Creative Portrait',
+                filter: 'Print',
+                color: '#e47d87'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-7.jpg',
+                title: 'In the Night',
+                filter: 'Design',
+                color: '#882fa8'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-8.jpg',
+                title: 'Paper Mockup',
+                filter: 'Design',
+                color: '#cc325e'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-9.jpg',
+                title: 'Shapes Illustration',
+                filter: 'Mockup',
+                color: '#291eff'
+            }
+        ] %}
+        {% for item in items %}
+            <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                    <a href="demo-creative-portfolio-work-single.html" class="nk-portfolio-item-link"></a>
+                    <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center" style="background-color: {{ item.color }}">
+                        <div>
+                            <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                            <div class="nk-portfolio-item-letter display-extra-big">{{ item.title[0] }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-white">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

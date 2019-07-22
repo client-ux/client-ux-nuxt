@@ -1,0 +1,80 @@
+{% set header_title = 'Work 2' %}
+{% set header_show = false %}
+{% extends 'layouts/layout-minimal-freelancer-portfolio.html' %}
+
+{% block content %}
+
+<!-- START: Carousel -->
+<div class="nk-carousel-3 nk-carousel-no-margin nk-carousel-all-visible" data-size="1" data-autoplay="18000" data-loop="true" data-dots="false" data-arrows="true" data-cell-align="center" data-parallax="true">
+    <div class="nk-carousel-inner">
+        <div><div>
+            <img src="assets/images/portfolio-2-slider-1.jpg" alt="" class="nk-img-stretch nk-carousel-parallax-img">
+        </div></div>
+        <div><div>
+            <img src="assets/images/portfolio-2-slider-2.jpg" alt="" class="nk-img-stretch nk-carousel-parallax-img">
+        </div></div>
+        <div><div>
+            <img src="assets/images/portfolio-2-slider-3.jpg" alt="" class="nk-img-stretch nk-carousel-parallax-img">
+        </div></div>
+        <div><div>
+            <img src="assets/images/portfolio-2-slider-4.jpg" alt="" class="nk-img-stretch nk-carousel-parallax-img">
+        </div></div>
+    </div>
+</div>
+<!-- END: Carousel -->
+
+<div class="container">
+    <div class="nk-portfolio-single">
+
+        <div class="nk-gap-4 mb-2"></div>
+        <h1 class="nk-portfolio-title display-4">Business Card</h1>
+        <div class="row vertical-gap">
+            <div class="col-lg-8">
+                <div class="nk-portfolio-info">
+                    <div class="nk-portfolio-text">
+                        <p>Nullam lobortis neque turpis, nec tempus sem pharetra at. Donec et lobortis quam, in ullamcorper velit. maximus ullamcorper ligula, at placerat dui hendrerit sed. Sed metus urna, bibendum id tortor ac, feugiat ipsum. Aliquam vehicula neque sit amet dolor malesuada pretium.</p>
+                        <p>Curabitur tristique, felis ut mattis auctor, elit ante laoreet libero, ac scelerisque lorem quam vitae. Suspen disse aliquet eget risus quis vehicula.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <table class="nk-portfolio-details">
+                    <tr>
+                        <td><strong>Client:</strong></td>
+                        <td>Anna Doe</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Date:</strong></td>
+                        <td>06.20.2017</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Share:</strong></td>
+                        <td class="nk-post-share">
+                            <a href="#" title="Share page on Facebook" data-share="facebook">Facebook</a>,
+                            <a href="#" title="Share page on Twitter" data-share="twitter">Twitter</a>,
+                            <a href="#" title="Share page on Pinterest" data-share="pinterest">Pinterest</a>
+                            <!--
+                            <a href="#" title="Share page on Google Plus" data-share="google-plus">Google Plus</a>,
+                            <a href="#" title="Share page on LinkedIn" data-share="linkedin">LinkedIn</a>,
+                            <a href="#" title="Share page on Vkontakte" data-share="vk">Vkontakte</a>
+                            -->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="nk-gap-4 mnb-10"></div>
+
+    </div>
+</div>
+
+<!-- START: Pagination -->
+<div class="nk-pagination nk-pagination-center">
+    <div class="container">
+        <a class="nk-pagination-prev" href="demo-minimal-freelancer-portfolio-work-single-1.html"><span class="pe-7s-angle-left"></span> Previous Work</a>
+        <a class="nk-pagination-center" href="work-3-style-1.html"><span class="nk-icon-squares"></span></a>
+        <a class="nk-pagination-next" href="#">Next Work <span class="pe-7s-angle-right"></span> </a>
+    </div>
+</div>
+<!-- END: Pagination -->
+{% endblock %}

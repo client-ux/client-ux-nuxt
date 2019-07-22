@@ -1,0 +1,60 @@
+{% set header_text_color = 'text-white' %}
+{% set nav_full = 1 %}
+{% set nav_full_dark = false %}
+{% set nav_full_bg = 'assets/images/bg-menu-full-light.jpg' %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_full = {
+    'demo-minimal-freelancer-portfolio.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-split-portfolio.html': {
+        'name': 'Portfolio',
+        'sub': {
+            'demo-minimal-freelancer-portfolio-work-style-1.html': {
+                'name': 'Style 1'
+            },
+            'demo-minimal-freelancer-portfolio-work-style-2.html': {
+                'name': 'Style 2'
+            },
+            'demo-minimal-freelancer-portfolio-work-style-3.html': {
+                'name': 'Style 3'
+            },
+            'demo-minimal-freelancer-portfolio-work-style-4.html': {
+                'name': 'Style 4'
+            },
+            'demo-minimal-freelancer-portfolio-work-style-5.html': {
+                'name': 'Style 5'
+            },
+            'demo-minimal-freelancer-portfolio-work-wide.html': {
+                'name': 'Wide'
+            },
+            'demo-minimal-freelancer-portfolio-work-metro-1.html': {
+                'name': 'Metro 1'
+            },
+            'demo-minimal-freelancer-portfolio-work-metro-2.html': {
+                'name': 'Metro 2'
+            }
+        }
+    },
+    'demo-minimal-freelancer-portfolio-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-minimal-freelancer-portfolio-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-minimal-freelancer-portfolio-blog-single.html': {
+                'name': 'Single Post'
+            }
+        }
+    },
+    'demo-minimal-freelancer-portfolio-about-me.html': {
+        'name': 'About'
+    },
+    'demo-minimal-freelancer-portfolio-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+{% set footer = 1 %}
+
+{% extends "layouts/layout-1.html" %}

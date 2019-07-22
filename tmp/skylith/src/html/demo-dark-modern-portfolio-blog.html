@@ -1,0 +1,39 @@
+{% set page_title = 'Dark Modern Portfolio - Blog' %}
+{% set header_show = false %}
+{% extends 'layouts/layout-dark-modern-portfolio.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <!-- START: Posts List -->
+        <div class="nk-blog-isotope-4 nk-isotope nk-isotope-3-cols">
+
+            {% for post in posts %}
+                <!-- START: Post -->
+                <div class="nk-isotope-item">
+                    <div class="nk-blog-post">
+                        <div class="nk-post-thumb">
+                            <div class="bg-image">
+                                <img src="{{ post.thumb_lg }}" alt="">
+                                <div class="bg-image-overlay" style="background-color: rgba(18, 25, 186, 0.8);"></div>
+                            </div>
+                        </div>
+
+                        <div class="nk-post-content">
+                            <div class="nk-post-date">{{ post.date }} / {{ post.cat_text }}</div>
+
+                            <h2 class="nk-post-title fw-400"><a href="demo-dark-modern-portfolio-blog-single.html">{{ post.title }}</a></h2>
+
+                            <a class="nk-post-more" href="demo-dark-modern-portfolio-blog-single.html">Read More <span class="pe-7s-angle-right"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Post -->
+            {% endfor %}
+
+        </div>
+        <!-- END: Posts List -->
+    </div>
+    <div class="nk-gap-5"></div>
+
+{% endblock %}

@@ -1,0 +1,86 @@
+{% set header_title = 'Minimal Video Gallery - Works' %}
+{% extends 'layouts/layout-minimal-video.html' %}
+
+{% block content %}
+    <div class="bg-white">
+        <div class="container">
+            <div class="nk-gap-3"></div>
+
+            <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols nk-isotope-gap nk-popup-gallery">
+                {% set items = [
+                    {
+                        url: 'https://vimeo.com/90621027',
+                        thumb: 'assets/images/demo-minimal-video-work-1.jpg',
+                        title: 'Brand New Day'
+                    },
+                    {
+                        url: 'https://vimeo.com/224362926',
+                        thumb: 'assets/images/demo-minimal-video-work-2.jpg',
+                        title: 'Snow Shelter'
+                    },
+                    {
+                        url: 'https://vimeo.com/206191617',
+                        thumb: 'assets/images/demo-minimal-video-work-3.jpg',
+                        title: 'Paris Louvre'
+                    },
+                    {
+                        url: 'https://www.youtube.com/watch?v=CW5oGRx9CLM',
+                        thumb: 'assets/images/demo-minimal-video-work-4.jpg',
+                        title: 'Miokios Shore'
+                    },
+                    {
+                        url: 'https://www.youtube.com/watch?v=TqnCbqUg-tc',
+                        thumb: 'assets/images/demo-minimal-video-work-5.jpg',
+                        title: 'Feel Free'
+                    },
+                    {
+                        url: 'https://www.youtube.com/watch?v=6V0hlyv6sss',
+                        thumb: 'assets/images/demo-minimal-video-work-6.jpg',
+                        title: 'Successful Landing'
+                    },
+                    {
+                        url: 'https://vimeo.com/184928737',
+                        thumb: 'assets/images/demo-minimal-video-work-7.jpg',
+                        title: 'Beacon of Evidence'
+                    },
+                    {
+                        url: 'https://vimeo.com/35228007',
+                        thumb: 'assets/images/demo-minimal-video-work-8.jpg',
+                        title: 'Thinking Out Loud'
+                    },
+                    {
+                        url: 'https://vimeo.com/10829255',
+                        thumb: 'assets/images/demo-minimal-video-work-9.jpg',
+                        title: 'Minimalistic Interior'
+                    }
+                ] %}
+                {% for item in items %}
+                    <div class="nk-isotope-item">
+                        <div class="nk-portfolio-item nk-portfolio-item-md nk-portfolio-item-info-style-6">
+                            <a href="{{ item.url }}" data-video="{{ item.url }}" class="nk-portfolio-item-link nk-gallery-item"></a>
+                            <div class="nk-portfolio-item-image">
+                                <div style="background-image: url('{{ item.thumb }}')"></div>
+                                <span class="nk-gallery-item-icon">
+                                    <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                                </span>
+                            </div>
+                            <div class="nk-portfolio-item-info">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title h5 mt-5 mb-0">{{ item.title }}</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="nk-gap-4"></div>
+        </div>
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-gray-7">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+{% endblock %}

@@ -1,0 +1,74 @@
+{% macro submenu(nav) -%}
+    {% for file, item in nav %}
+        <li{% if isActiveMenuItem(file, item, filename) or item.sub %} class="{{ 'active' if isActiveMenuItem(file, item, filename) }}{{ ' nk-drop-item' if item.sub }}"{% endif %}>
+            <a href="{{file | safe}}"{{ ' target="' + item.target + '"' if item.target }}>
+                {{item.name | safe}}
+                {% if item.description -%}
+                    <span class="nk-item-descr">{{item.description | safe}}</span>
+                {%- endif %}
+            </a>
+            {%- if item.sub -%}
+                <ul class="dropdown">
+                    {{ submenu(item.sub) }}
+                </ul>
+            {%- endif %}
+        </li>
+    {%- endfor %}
+{%- endmacro %}
+
+<!--
+    START: Right Navbar
+
+    Additional Classes:
+        .nk-navbar-right-side
+        .nk-navbar-left-side
+        .nk-navbar-lg
+        .nk-navbar-align-center
+        .nk-navbar-align-right
+        .nk-navbar-overlay-content
+        .nk-navbar-items-effect-1
+        .nk-navbar-drop-effect-1
+        .nk-navbar-drop-effect-2
+        .nk-navbar-dark
+-->
+{% if navigation_side == 'from navigation' %}
+    {% set navigation_side = navigation %}
+{% endif %}
+<nav class="nk-navbar nk-navbar-side nk-navbar-right-side nk-navbar-lg nk-navbar-align-left nk-navbar-overlay-content{{ ' nk-navbar-dark' if nav_side_dark }}{{ ' nk-navbar-items-effect-1' if nav_items_effect == 1 }} nk-navbar-drop-effect-{{ nav_side_drop_effect }}" id="nk-side">
+    {% if nav_side_bg %}
+    <div class="nk-navbar-bg">
+        <div class="bg-image">
+            <img src="{{ nav_side_bg }}" alt="" class="jarallax-img">
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Close Icon -->
+    <span class="nk-navbar-side-close" data-nav-toggle="#nk-side">
+        <span class="nk-icon-close"></span>
+    </span>
+
+    <div class="nano">
+        <div class="nano-content">
+            <div class="nk-nav-table">
+                <div class="nk-nav-row nk-nav-row-full nk-nav-row-center">
+                    <ul class="nk-nav">
+                        {{ submenu(navigation_side) }}
+                    </ul>
+                </div>
+                <div class="nk-nav-row">
+                    <div class="nk-social nk-social-left">
+                        <ul>
+                            <li><a class="nk-social-twitter" href="https://twitter.com/"><span><span class="nk-social-front fa fa-twitter"></span><span class="nk-social-back fa fa-twitter"></span></span></a></li>
+                            <li><a class="nk-social-facebook" href="https://www.facebook.com/"><span><span class="nk-social-front fa fa-facebook"></span><span class="nk-social-back fa fa-facebook"></span></span></a></li>
+                            <li><a class="nk-social-dribbble" href="https://dribbble.com/"><span><span class="nk-social-front fa fa-dribbble"></span><span class="nk-social-back fa fa-dribbble"></span></span></a></li>
+                            <li><a class="nk-social-instagram" href="https://www.instagram.com/"><span><span class="nk-social-front fa fa-instagram"></span><span class="nk-social-back fa fa-instagram"></span></span></a></li>
+                            <li><a class="nk-social-behance" href="https://behance.com/"><span><span class="nk-social-front fa fa-behance"></span><span class="nk-social-back fa fa-behance"></span></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- END: Right Navbar -->

@@ -1,0 +1,92 @@
+{% if header_show and (header_title or header_subtitle or header_text or header_video) %}
+<!-- START: Header Title -->
+<!--
+    Additional Classes:
+        .nk-header-title-sm
+        .nk-header-title-md
+        .nk-header-title-lg
+        .nk-header-title-xl
+        .nk-header-title-full
+        .nk-header-title-parallax
+        .nk-header-title-parallax-content
+        .nk-header-content-center-center
+        .nk-header-content-center-left
+        .nk-header-content-center-right
+        .nk-header-content-top-center
+        .nk-header-content-top-left
+        .nk-header-content-top-right
+        .nk-header-content-bottom-center
+        .nk-header-content-bottom-left
+        .nk-header-content-bottom-right
+-->
+<div class="nk-header-title{{ ' nk-header-title-' if header_size }}{{ header_size if header_size }}{{ ' nk-header-title-parallax-content' if header_parallax_content }}{{ ' nk-header-content-' + header_align if header_align }}{{ ' ' + header_class if header_class }}">
+    {% if header_image %}
+    <div class="bg-image{{ ' bg-image-parallax' if header_parallax }}">
+        <img src="{{ header_image }}" alt=""{{ ' class="jarallax-img"' | safe if header_parallax }}>
+        {% if header_image_overlay %}<div class="bg-image-overlay" style="background-color: {{ header_image_overlay }};"></div>{% endif %}
+    </div>
+    {% endif %}
+    {% if header_bg_video %}
+    <div class="bg-video{{ ' bg-video-parallax' if header_parallax }}" data-video="{{ header_bg_video }}">
+        {% if header_bg_video_overlay %}<div class="bg-video-overlay" style="background-color: {{ header_bg_video_overlay }};"></div>{% endif %}
+    </div>
+    {% endif %}
+    <div class="nk-header-content">
+        <div class="nk-header-content-inner">
+            <div class="container">
+                {% if header_subtitle %}
+                    <h2 class="nk-subtitle{{ ' ' + header_text_color if header_text_color }}">{{ header_subtitle | safe }}</h2>
+                {% endif %}
+                {% if header_title and header_title_show %}
+                    <h1 class="nk-title {{ header_title_class }}{{ ' ' + header_text_color if header_text_color }}">{{ header_title | safe }}</h1>
+                {% endif %}
+                {% if header_text %}
+                    {% if header_title or header_sub_title %}<div class="nk-gap"></div>{% endif %}
+                    <div class="nk-header-text{{ ' ' + header_text_color if header_text_color }}">
+                        {{ header_text | safe }}
+                    </div>
+                {% endif %}
+                {% if header_video %}
+                    {% if header_title or header_sub_title or header_text %}<div class="nk-gap-3"></div>{% endif %}
+                    {% if header_video_type == 'full' %}
+                        <a class="nk-video-fullscreen-toggle" href="{{ header_video }}">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </a>
+                    {% endif %}
+                    {% if header_video_type == 'plain' %}
+                        <div class="row">
+                            <div class="col-md-8 offset-md-2">
+                                <div class="nk-plain-video" data-video="{{ header_video }}"></div>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    {% if header_scroll_down_icon == 2 %}
+        <div>
+            <a class="nk-header-title-scroll-down-2 nk-anchor{{ ' ' + header_text_color if header_text_color }}" href="#nk-header-title-scroll-down"></a>
+        </div>
+    {% elif header_scroll_down_icon %}
+        <div>
+            <a class="nk-header-title-scroll-down nk-anchor{{ ' ' + header_text_color if header_text_color }}" href="#nk-header-title-scroll-down"><span class="pe-7s-angle-down"></span></a>
+        </div>
+    {% endif %}
+    {% if header_social_icons %}
+        <div>
+            <div class="nk-social{{ ' ' + header_text_color if header_text_color }}">
+                <ul>
+                    <li><a class="nk-social-twitter" href="https://twitter.com/"><span><span class="nk-social-front fa fa-twitter"></span><span class="nk-social-back fa fa-twitter"></span></span></a></li>
+                    <li><a class="nk-social-facebook" href="https://www.facebook.com/"><span><span class="nk-social-front fa fa-facebook"></span><span class="nk-social-back fa fa-facebook"></span></span></a></li>
+                    <li><a class="nk-social-instagram" href="https://www.instagram.com/"><span><span class="nk-social-front fa fa-instagram"></span><span class="nk-social-back fa fa-instagram"></span></span></a></li>
+                </ul>
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% if header_scroll_down_icon %}
+<div id="nk-header-title-scroll-down"></div>
+{% endif %}
+<!-- END: Header Title -->
+{% endif %}

@@ -1,0 +1,572 @@
+{% set header_title = 'Skylith - Multipurpose HTML Creative Template' %}
+{% set header_show = false %}
+
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% set nav_sticky = true %}
+{% set footer = false %}
+
+{% set main_style_file = 'skylith-green-2' %}
+{% set custom_css = 'assets/css/custom-promo.css' %}
+{% extends 'layouts/layout-1.html' %}
+
+{% block content %}
+
+    <!-- START: Skylith -->
+    <div class="nk-box bg-dark">
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/promo-bg-1.jpg" alt="" class="jarallax-img">
+        </div>
+
+        <img src="assets/images/promo-header.png" alt="" class="promo-header-triangle">
+
+        <img src="assets/images/promo-header-demos.png" alt="" class="promo-header-demos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-4 d-none d-lg-block"></div>
+
+                    <h1 class="display-3 text-white lh-65">Create your Beautiful <br> Website <em>with Skylith</em></h1>
+
+                    <div class="lead-sm text-white">30+ Unique Demos</div>
+
+                    <div class="nk-gap-2"></div>
+                    <a href="https://themeforest.net/item/skylith-viral-creative-multipurpose-html-template/21214857?ref=_nK" class="nk-btn">Purchase Now $30</a>
+
+                    <div class="nk-gap-6"></div>
+                    <div class="nk-gap-2 mnt-7 d-none d-lg-block"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nk-gap-6 d-none d-lg-block"></div>
+        <div class="nk-gap-4 d-none d-xl-block"></div>
+        <div class="container text-white">
+            <div class="row vertical-gap">
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon text-main">
+                            <span class="pe-7s-paint-bucket"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Amazing Design &amp; Code</div>
+                            <div class="nk-ibox-text">Cleanest code and design which as light as a cloud</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon text-main">
+                            <span class="pe-7s-monitor"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">100% Responsive</div>
+                            <div class="nk-ibox-text">Tested on all devices, works with all the touch sensors</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon text-main">
+                            <span class="pe-7s-like"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">30+ Stylish Demos</div>
+                            <div class="nk-ibox-text">The best collection of Templates for quick start to create your website</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon text-main">
+                            <span class="pe-7s-comment"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Fast &amp; Friendly Support</div>
+                            <div class="nk-ibox-text">Quick and professional support, ready to answer all your questions.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Skylith -->
+
+    <!-- START: Demos -->
+    <div class="bg-gray-1">
+        <div class="nk-gap-5"></div>
+        <div class="text-center">
+            <h2 class="fs-100 dib promo-text-gradient">30+</h2>
+            <h2>Pre-Built Website Templates</h2>
+            <div class="nk-subtitle-2">Minimalistic, Creative and Dark Styles</div>
+        </div>
+        <div class="nk-gap-3"></div>
+
+        <div class="container-fluid text-center">
+            <!-- START: Filter -->
+            <ul class="nk-isotope-filter nk-isotope-filter-alt nk-isotope-filter-active dib text-dark-1">
+                <li class="active" data-filter="*">All</li>
+                <li class="nk-isotope-filter-separator"></li>
+                <li data-filter="Agency">Agency</li>
+                <li class="nk-isotope-filter-separator"></li>
+                <li data-filter="Portfolio">Portfolio</li>
+                <li class="nk-isotope-filter-separator"></li>
+                <li data-filter="Photography">Photography</li>
+                <li class="nk-isotope-filter-separator"></li>
+                <li data-filter="One Page">One Page</li>
+                <li class="nk-isotope-filter-separator"></li>
+                <li data-filter="Shop">Shop</li>
+            </ul>
+            <!-- END: Filter -->
+
+            <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols nk-isotope-gap ml-0 mr-0">
+                {% set available_home_pages = [
+                    {
+                        href: 'index.html',
+                        img: 'screenshot-demo-promo.jpg',
+                        title: 'Promo One Page',
+                        filter: 'Agency, Portfolio, Photography, One Page'
+                    }, {
+                        href: 'demo-minimal-classic-agency.html',
+                        img: 'screenshot-demo-minimal-classic-agency.jpg',
+                        title: 'Classic Agency',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-minimal-photography.html',
+                        img: 'screenshot-demo-minimal-photography.jpg',
+                        title: 'Minimal Photography',
+                        filter: 'Photography, Portfolio'
+                    }, {
+                        href: 'demo-minimal-split.html',
+                        img: 'screenshot-demo-minimal-split.jpg',
+                        title: 'Minimal Split Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-creative-outline-portfolio.html',
+                        img: 'screenshot-demo-creative-outline-portfolio.jpg',
+                        title: 'Creative Outline Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-dark-creative-agency.html',
+                        img: 'screenshot-demo-dark-creative-agency.jpg',
+                        title: 'Dark Creative Agency',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-minimal-architecture.html',
+                        img: 'screenshot-demo-minimal-architecture.jpg',
+                        title: 'Architecture & Interior',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-creative-designer-portfolio.html',
+                        img: 'screenshot-demo-creative-designer-portfolio.jpg',
+                        title: 'Designer Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-minimal-agency.html',
+                        img: 'screenshot-demo-minimal-agency.jpg',
+                        title: 'Minimal Agency',
+                        filter: 'Agency, Portfolio'
+                    }, {
+                        href: 'demo-dark-portfolio.html',
+                        img: 'screenshot-demo-dark-portfolio.jpg',
+                        title: 'Dark Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-minimal-freelancer-portfolio.html',
+                        img: 'screenshot-demo-minimal-freelancer-portfolio.jpg',
+                        title: 'Minimal Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-minimal-fullscreen.html',
+                        img: 'screenshot-demo-minimal-fullscreen.jpg',
+                        title: 'Digital Agency Fullscreen',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-creative-text.html',
+                        img: 'screenshot-demo-creative-text.jpg',
+                        title: 'Creative Portfolio Text',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-creative-agency.html',
+                        img: 'screenshot-demo-creative-agency.jpg',
+                        title: 'Creative Agency',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-creative-portfolio.html',
+                        img: 'screenshot-demo-creative-portfolio.jpg',
+                        title: 'Creative Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-creative-freelancer-portfolio.html',
+                        img: 'screenshot-demo-creative-freelancer-portfolio.jpg',
+                        title: 'Creative Freelancer',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-minimal-agency-2.html',
+                        img: 'screenshot-demo-minimal-agency-2.jpg',
+                        title: 'Minimal Agency 2',
+                        filter: 'Agency, Portfolio'
+                    }, {
+                        href: 'demo-dark-fullscreen.html',
+                        img: 'screenshot-demo-dark-fullscreen.jpg',
+                        title: 'Dark Fullscreen Agency',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-minimal-video.html',
+                        img: 'screenshot-demo-minimal-video.jpg',
+                        title: 'Video Gallery',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-dark-photographer.html',
+                        img: 'screenshot-demo-dark-photographer.jpg',
+                        title: 'Dark Photographer',
+                        filter: 'Photography'
+                    }, {
+                        href: 'demo-minimal-one-page.html',
+                        img: 'screenshot-demo-minimal-one-page.jpg',
+                        title: 'Minimal One Page',
+                        filter: 'One Page'
+                    }, {
+                        href: 'demo-dark-split-portfolio.html',
+                        img: 'screenshot-demo-dark-split-portfolio.jpg',
+                        title: 'Dark Fullscreen Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-creative-business-one-page.html',
+                        img: 'screenshot-demo-creative-business-one-page.jpg',
+                        title: 'Business One Page',
+                        filter: 'Agency, One Page'
+                    }, {
+                        href: 'demo-dark-photo-slideshow.html',
+                        img: 'screenshot-demo-dark-photographer-slider.jpg',
+                        title: 'Photographer Fullscreen',
+                        filter: 'Portfolio, Photography'
+                    }, {
+                        href: 'shop.html',
+                        img: 'screenshot-demo-shop.jpg',
+                        title: 'Minimal Shop',
+                        filter: 'Shop'
+                    }, {
+                        href: 'demo-dark-modern-portfolio.html',
+                        img: 'screenshot-demo-dark-modern-portfolio.jpg',
+                        title: 'Modern Dark Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-minimal-carousel-portfolio.html',
+                        img: 'screenshot-demo-minimal-carousel-portfolio.jpg',
+                        title: 'Carousel Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-dark-creative-portfolio.html',
+                        img: 'screenshot-demo-dark-creative-portfolio.jpg',
+                        title: 'Modern Fullscreen Portfolio',
+                        filter: 'Portfolio'
+                    }, {
+                        href: 'demo-dark-photographer-slider.html',
+                        img: 'screenshot-demo-dark-fullscreen-slider.jpg',
+                        title: 'Fullscreen Slider',
+                        filter: 'Portfolio, Photography'
+                    }, {
+                        href: 'demo-creative-agency-2.html',
+                        img: 'screenshot-demo-creative-agency-2.jpg',
+                        title: 'Creative Agency 2',
+                        filter: 'Agency'
+                    }, {
+                        href: 'demo-creative-developer-portfolio.html',
+                        img: 'screenshot-demo-creative-developer-portfolio.jpg',
+                        title: 'Creative Developer Portfolio',
+                        filter: 'Portfolio'
+                    }
+                ] %}
+                {% for item in available_home_pages %}
+                <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-6">
+                        <a href="{{ item.href }}" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image-wrap">
+                            <img class="nk-portfolio-item-image" src="assets/images/{{ item.img }}" alt="{{ item.title }}">
+                        </div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h5">{{ item.title }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+
+                <div class="nk-isotope-item promo-demos-soon">
+                    <div>Coming <span>...soon</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Demos -->
+
+    <!-- START: Portfolio Layouts -->
+    <div class="nk-box bg-dark">
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/promo-bg-1.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="nk-gap-6"></div>
+        <h2 class="text-center text-white h1">Amazing Portfolio Layouts</h2>
+        <div class="text-center text-white"><em>Beautiful Portfolio Styles to present your work</em></div>
+        <div class="nk-gap-4"></div>
+        <img src="assets/images/promo-layouts.png" alt="" class="nk-img-stretch">
+    </div>
+    <!-- END: Portfolio Layouts -->
+
+    <!-- START: Creative Portfolio Details -->
+    <div class="bg-gray-6">
+        <div class="nk-gap-5"></div>
+        <h2 class="text-center">Creative Portfolio Details</h2>
+        <div class="text-center"><em>Showcase your Awesome Projects</em></div>
+        <div class="nk-gap-3"></div>
+        <div class="nk-carousel-2 nk-carousel-x1 nk-carousel-all-visible nk-carousel-arrows-bottom-center" data-autoplay="10000" data-dots="false" data-arrows="true" data-loop="true" data-size="1"  data-cell-align="center" data-parallax="true">
+            {% set available_work_pages = [
+            {
+                href: 'demo-minimal-freelancer-portfolio-work-single-1.html',
+                img: 'screenshot-work-1.jpg'
+            }, {
+                href: 'demo-minimal-split-single-2.html',
+                img: 'screenshot-work-2.jpg'
+            }, {
+                href: 'demo-minimal-agency-work-single-2.html',
+                img: 'screenshot-work-3.jpg'
+            }, {
+                href: 'demo-minimal-split-single-1.html',
+                img: 'screenshot-work-4.jpg'
+            }, {
+                href: 'demo-minimal-agency-2-work-single-3.html',
+                img: 'screenshot-work-5.jpg'
+            }, {
+                href: 'demo-dark-fullscreen-work-2.html',
+                img: 'screenshot-work-6.jpg'
+            }, {
+                href: 'demo-minimal-fullscreen-work.html',
+                img: 'screenshot-work-7.jpg'
+            }, {
+                href: 'demo-creative-agency-work-single-2.html',
+                img: 'screenshot-work-8.jpg'
+            }, {
+                href: 'demo-minimal-agency-2-work-single-1.html',
+                img: 'screenshot-work-9.jpg'
+            }, {
+                href: 'demo-dark-creative-agency-work-1.html',
+                img: 'screenshot-work-10.jpg'
+            }, {
+                href: 'demo-minimal-agency-work-single-1.html',
+                img: 'screenshot-work-11.jpg'
+            }, {
+                href: 'demo-creative-freelancer-portfolio-work-single.html',
+                img: 'screenshot-work-12.jpg'
+            }, {
+                href: 'demo-minimal-split-single-3.html',
+                img: 'screenshot-work-13.jpg'
+            }, {
+                href: 'demo-minimal-architecture-portfolio-single.html',
+                img: 'screenshot-work-14.jpg'
+            }, {
+                href: 'demo-minimal-agency-2-work-single-2.html',
+                img: 'screenshot-work-15.jpg'
+            }, {
+                href: 'demo-dark-split-portfolio-work-single.html',
+                img: 'screenshot-work-16.jpg'
+            }, {
+                href: 'demo-creative-agency-work-single-1.html',
+                img: 'screenshot-work-17.jpg'
+            }
+            ] %}
+
+            <div class="nk-carousel-inner">
+                {% for item in available_work_pages %}
+                    <div>
+                        <div>
+                            <a href="{{ item.href }}"><img src="assets/images/{{ item.img }}" alt="" class="nk-img-stretch nk-carousel-parallax-img"></a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- END: Creative Portfolio Details -->
+
+    <!-- START: Modern Header Styles -->
+    <div class="promo-bg-purple text-white">
+        <div class="nk-gap-5"></div>
+        <h2 class="text-center text-white">Modern Header Styles</h2>
+        <div class="text-center"><em>Choose the Modern Header for your website</em></div>
+        <div class="nk-gap-3"></div>
+        <div class="nk-carousel-2 nk-carousel-x1 nk-carousel-all-visible nk-carousel-arrows-bottom-center" data-autoplay="10000" data-dots="false" data-arrows="true" data-loop="true" data-size="1" data-cell-align="left" data-parallax="false">
+            {% set available_headers = [
+            {
+                href: 'demo-creative-text.html',
+                img: 'screenshot-header-9.jpg'
+            }, {
+                href: 'demo-minimal-photography.html',
+                img: 'screenshot-header-2.jpg'
+            }, {
+                href: 'demo-creative-designer-portfolio.html',
+                img: 'screenshot-header-1.jpg'
+            }, {
+                href: 'demo-minimal-freelancer-portfolio.html',
+                img: 'screenshot-header-3.jpg'
+            }, {
+                href: 'demo-dark-modern-portfolio.html',
+                img: 'screenshot-header-4.jpg'
+            }, {
+                href: 'demo-dark-split-portfolio.html',
+                img: 'screenshot-header-5.jpg'
+            }, {
+                href: 'demo-minimal-split.html',
+                img: 'screenshot-header-6.jpg'
+            }, {
+                href: 'demo-minimal-carousel-portfolio.html',
+                img: 'screenshot-header-7.jpg'
+            }, {
+                href: 'demo-dark-fullscreen.html',
+                img: 'screenshot-header-8.jpg'
+            }, {
+                href: 'demo-creative-agency.html',
+                img: 'screenshot-header-10.jpg'
+            }
+            ] %}
+
+            <div class="nk-carousel-inner">
+                {% for item in available_headers %}
+                    <div>
+                        <div>
+                            <a href="{{ item.href }}"><img src="assets/images/{{ item.img }}" alt="" class="nk-img-stretch nk-carousel-parallax-img"></a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <!-- END: Modern Header Styles -->
+
+    <!-- START: Create Blog -->
+    <div class="nk-box">
+        <div class="nk-gap-6"></div>
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/promo-bg-2.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="container">
+            <div class="row vertical-gap align-items-center">
+                <div class="col-lg-4">
+                    <h2>Create your Blog</h2>
+                    <div class="nk-gap-1 mnt-20"></div>
+                    <p>Create a unique and creative blog with Skylith Template. Skylith includes 10 unique blog styles and 5 unique post styles. All layouts are made with love and attention to detail.</p>
+                    <div class="nk-gap mnt-9"></div>
+
+                    <div class="row vertical-gap sm-gap mw-300">
+                        <div class="col-6">
+                            <span class="pe-7s-photo promo-text-gradient align-middle fs-40 mr-10"></span> <span class="fs-18">Photo</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="pe-7s-repeat promo-text-gradient align-middle fs-40 mr-10"></span> <span class="fs-18">Slider</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="pe-7s-film promo-text-gradient align-middle fs-40 mr-10"></span> <span class="fs-18">Video</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="pe-7s-photo-gallery promo-text-gradient align-middle fs-40 mr-10"></span> <span class="fs-18">Gallery</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="pe-7s-menu promo-text-gradient align-middle fs-40 mr-10"></span> <span class="fs-18">Sidebar</span>
+                        </div>
+                        <div class="col-6">
+                            <span class="pe-7s-sun promo-text-gradient align-middle fs-40 mr-10"></span> <span class="fs-18">Dark</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 offset-lg-1">
+                    <img src="assets/images/promo-blog.png" alt="" class="nk-img">
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Create Blog -->
+
+    <!-- START: Create Store -->
+    <div class="nk-box">
+        <div class="nk-gap-6"></div>
+        <div class="container text-center">
+            <h2>Create your Online Store</h2>
+            <div class="nk-gap-1 mnt-20"></div>
+            <p>Start your unique online store with ease. Sell your products with <br> beautiful product grids and stylish product page.</p>
+
+            <img src="assets/images/promo-shop.png" alt="" class="nk-img">
+
+            <div class="nk-gap-2"></div>
+            <a href="shop.html" class="nk-btn">View Shop Pages</a>
+        </div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Create Store -->
+
+    <!-- START: Features -->
+    <div class="nk-box promo-bg-gradient text-white">
+        <div class="nk-gap-6"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul class="list-unstyled">
+                        <li><span class="fa fa-star mr-10"></span> Modern &amp; Creative Design</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Clean Code</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Responsive Layouts</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Amazing Portfolio Styles</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Different Blog Styles</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="list-unstyled">
+                        <li><span class="fa fa-star mr-10"></span> Developers Friendly (sources included)</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Highly Customizable</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Smooth Animations Sections</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> AJAX Contact Form</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Ready for Retina</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul class="list-unstyled">
+                        <li><span class="fa fa-star mr-10"></span> Based on Bootstrap 4</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Google Maps</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Fast &amp; Friendly Support</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Extensive Documentation</li>
+                        <li class="pt-20"><span class="fa fa-star mr-10"></span> Smooth Parallax Sections</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Features -->
+
+    <!-- START: Let's Create -->
+    <div class="nk-box bg-dark-1 text-center">
+        <div class="nk-gap-6"></div>
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/promo-bg-1.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="text-white h1">Let's Create with <em>Skylith</em></h2>
+                    <div class="nk-gap-1 mnt-20"></div>
+                    <p class="text-white">Skylith is all that you need to create your creative website. <br> Start enjoying your creativity already today.</p>
+                    <div class="nk-gap mnt-9"></div>
+                    <a href="https://themeforest.net/item/skylith-viral-creative-multipurpose-html-template/21214857?ref=_nK" class="nk-btn">Purchase Now $30</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Let's Create -->
+
+{% endblock %}

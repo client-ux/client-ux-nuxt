@@ -1,0 +1,69 @@
+{% set page_dark = true %}
+{% set nav_dark = true %}
+{% set footer_bg_color = '#0b0b0b' %}
+{% set footer_text_color = 'text-white' %}
+{% set post = posts[0] %}
+{% extends 'layouts/layout-dark-creative-agency.html' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="nk-gap-4"></div>
+
+                <!-- START: Post -->
+                <div class="nk-blog-post nk-blog-post-single">
+
+                    <h1 class="display-4 text-center text-main">{{ post.title }}</h1>
+
+                    <div class="nk-post-meta text-center">
+                        <div class="nk-post-date">{{ post.date }}</div>
+                        <div class="nk-post-category">{{ post.cat | safe}}</div>
+                        <div class="nk-post-comments-count">2 Comments</div>
+                    </div>
+
+                    <div class="nk-gap-3"></div>
+
+                    <div class="nk-post-thumb nk-stretch">
+                        <img src="assets/images/post-single-1-dark.jpg" class="nk-img-stretch" alt="">
+                    </div>
+
+                    <!-- START: Post Text -->
+                    <div class="nk-post-text">
+                        {% include "shared/blog-content-dark-2.html" %}
+                    </div>
+                    <!-- END: Post Text -->
+
+                    <!-- START: Post Share -->
+                    <div class="nk-post-share-2">
+                        <a href="#" title="Share page on Facebook" data-share="facebook"><span class="fa fa-facebook-official"></span> Facebook</a>
+                        <a href="#" title="Share page on Google+" data-share="google-plus"><span class="fa fa-google"></span> Google+</a>
+                        <a href="#" title="Share page on Twitter" data-share="twitter"><span class="fa fa-twitter"></span> Twitter</a>
+                        <a href="#" title="Share page on Pinterest" data-share="pinterest"><span class="fa fa-pinterest"></span> Pinterest</a>
+                        <!--
+                        <a href="#" title="Share page on LinkedIn" data-share="linkedin"><span class="fa fa-linkedin"></span> LinkedIn</a>
+                        <a href="#" title="Share page on Vkontakte" data-share="vk"><span class="fa fa-vk"></span> Vkontakte</a>
+                        -->
+                    </div>
+                    <!-- END: Post Share -->
+                </div>
+                <!-- END: Post -->
+
+                <div class="nk-gap-3"></div>
+            </div>
+        </div>
+    </div>
+
+    {% include "shared/blog-comments.html" %}
+    {% include "shared/blog-comments-reply.html" %}
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-dark-05 text-white">
+        <div class="container">
+            <a class="nk-pagination-prev" href="#"><span class="pe-7s-angle-left"></span> Previous Post</a>
+            <a class="nk-pagination-center" href="demo-dark-creative-agency-blog.html"><span class="nk-icon-squares"></span></a>
+            <a class="nk-pagination-next" href="#">Next Post <span class="pe-7s-angle-right"></span> </a>
+        </div>
+    </div>
+    <!-- END: Pagination -->
+{% endblock %}

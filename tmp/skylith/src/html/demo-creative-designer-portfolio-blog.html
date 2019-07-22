@@ -1,0 +1,40 @@
+{% set header_title = 'Creative Designer Portfolio - Blog' %}
+{% extends 'layouts/layout-creative-designer-portfolio.html' %}
+
+{% block content %}
+<div class="container-fluid">
+    <!-- START: Posts List -->
+    <div class="nk-blog-isotope-3 nk-isotope nk-isotope-3-cols">
+
+        {% for post in posts %}
+        <!-- START: Post -->
+        <div class="nk-isotope-item">
+            <div class="nk-blog-post">
+                <a href="demo-creative-designer-portfolio-blog-single.html" class="nk-post-link"></a>
+
+                <div class="nk-post-thumb" style="background-image: url('{{ post.thumb_s2 }}');"></div>
+
+                <div class="nk-post-content">
+                    <div>
+                        <div class="nk-post-date">{{ post.date }}</div>
+
+                        <h2 class="nk-post-title h3"><a href="demo-creative-designer-portfolio-blog-single.html">{{ post.title }}</a></h2>
+
+                        <a class="nk-post-more" href="demo-creative-designer-portfolio-blog-single.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END: Post -->
+        {% endfor %}
+
+    </div>
+    <!-- END: Posts List -->
+</div>
+
+<!-- START: Pagination -->
+<div class="nk-pagination nk-pagination-center">
+    <a href="#">Load More Posts</a>
+</div>
+<!-- END: Pagination -->
+{% endblock %}

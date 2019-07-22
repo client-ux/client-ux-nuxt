@@ -1,0 +1,102 @@
+{% set page_title = 'Minimal Video Gallery' %}
+{% extends 'layouts/layout-minimal-video.html' %}
+
+{% block content %}
+
+    <div class="bg-white">
+        <!-- START: Video Gallery Header -->
+        <div class="container text-center">
+            <div class="nk-box">
+                <div class="bg-image bg-image-parallax">
+                    <img src="assets/images/demo-minimal-video-1.jpg" alt="" class="jarallax-img">
+                    <div class="bg-image-overlay" style="background-color: rgba(255, 255, 255, 0.6);"></div>
+                </div>
+                <div class="nk-gap-5 mt-10"></div>
+                <div class="nk-gap-6"></div>
+                <h1 class="display-3">Video Gallery</h1>
+                <div class="nk-gap-2 mb-10"></div>
+                <a class="nk-video-fullscreen-toggle" href="https://vimeo.com/90621027">
+                    <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                </a>
+                <div class="nk-gap-6"></div>
+            </div>
+        </div>
+        <!-- END: Video Gallery Header -->
+
+        <!-- START: Video Gallery -->
+        <div class="container">
+            <div class="row align-items-end justify-content-between nk-popup-gallery">
+                <div class="col-md-7">
+                    <div class="nk-gap-5"></div>
+                    <a href="https://vimeo.com/90621027" data-video="https://vimeo.com/90621027" class="nk-gallery-item">
+                        <img src="assets/images/demo-minimal-video-work-1.jpg" alt="" class="nk-img-stretch">
+                        <span class="nk-gallery-item-icon">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </span>
+                    </a>
+                    <div class="nk-gap"></div>
+                    <h2 class="h5 demo-video-work-title"><a href="demo-minimal-video-work-single.html">Brand New Day</a></h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="nk-gap-5"></div>
+                    <a href="https://vimeo.com/224362926" data-video="https://vimeo.com/224362926" class="nk-gallery-item">
+                        <img src="assets/images/demo-minimal-video-work-2.jpg" alt="" class="nk-img-stretch">
+                        <span class="nk-gallery-item-icon">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </span>
+                    </a>
+                    <div class="nk-gap"></div>
+                    <h2 class="h5 demo-video-work-title"><a href="demo-minimal-video-work-single.html">Snow Shelter</a></h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="nk-gap-5"></div>
+                    <a href="https://vimeo.com/206191617" data-video="https://vimeo.com/206191617" class="nk-gallery-item">
+                        <img src="assets/images/demo-minimal-video-work-3.jpg" alt="" class="nk-img-stretch">
+                        <span class="nk-gallery-item-icon">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </span>
+                    </a>
+                    <div class="nk-gap"></div>
+                    <h2 class="h5 demo-video-work-title"><a href="demo-minimal-video-work-single.html">Paris Louvre</a></h2>
+                </div>
+                <div class="col-md-7">
+                    <div class="nk-gap-5"></div>
+                    <a href="https://www.youtube.com/watch?v=CW5oGRx9CLM" data-video="https://www.youtube.com/watch?v=CW5oGRx9CLM" class="nk-gallery-item">
+                        <img src="assets/images/demo-minimal-video-work-4.jpg" alt="" class="nk-img-stretch">
+                        <span class="nk-gallery-item-icon">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </span>
+                    </a>
+                    <div class="nk-gap"></div>
+                    <h2 class="h5 demo-video-work-title"><a href="demo-minimal-video-work-single.html">Miokios Shore</a></h2>
+                </div>
+                <div class="col-md-7">
+                    <div class="nk-gap-5"></div>
+                    <a href="https://www.youtube.com/watch?v=TqnCbqUg-tc" data-video="https://www.youtube.com/watch?v=TqnCbqUg-tc" class="nk-gallery-item">
+                        <img src="assets/images/demo-minimal-video-work-5.jpg" alt="" class="nk-img-stretch">
+                        <span class="nk-gallery-item-icon">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </span>
+                    </a>
+                    <div class="nk-gap"></div>
+                    <h2 class="h5 demo-video-work-title"><a href="demo-minimal-video-work-single.html">Feel Free</a></h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="nk-gap-5"></div>
+                    <a href="https://www.youtube.com/watch?v=6V0hlyv6sss" data-video="https://www.youtube.com/watch?v=6V0hlyv6sss" class="nk-gallery-item">
+                        <img src="assets/images/demo-minimal-video-work-6.jpg" alt="" class="nk-img-stretch">
+                        <span class="nk-gallery-item-icon">
+                            <span class="nk-video-icon"><span><span class="nk-play-icon"></span></span></span>
+                        </span>
+                    </a>
+                    <div class="nk-gap"></div>
+                    <h2 class="h5 demo-video-work-title"><a href="demo-minimal-video-work-single.html">Successful Landing</a></h2>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-4"></div>
+        <!-- END: Video Gallery -->
+    </div>
+
+
+{% endblock %}

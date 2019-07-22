@@ -1,0 +1,65 @@
+{% set page_title = 'Minimal Split - Blog' %}
+{% set header_title = 'Skylith Blog' %}
+{% set header_text = '<h1 class="nk-title text-white display-4">Skylith Blog</h1>' %}
+{% set header_show = true %}
+{% set header_title_show = false %}
+{% set header_image = 'assets/images/demo-minimal-creative-agency-bg-2.jpg' %}
+{% set header_image_overlay = 'rgba(12, 12, 12, 0.6)' %}
+{% extends 'layouts/layout-minimal-split.html' %}
+
+{% block content %}
+    <div class="container">
+        <!-- START: Filter -->
+        <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+            <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+        </div>
+        <ul class="nk-isotope-filter">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Nature">Nature</li>
+            <li data-filter="Cities">Cities</li>
+            <li data-filter="Branding">Branding</li>
+            <li data-filter="Design">Design</li>
+        </ul>
+        <!-- END: Filter -->
+
+        <!-- START: Posts List -->
+        <div class="nk-blog-isotope nk-isotope nk-isotope-gap nk-isotope-3-cols">
+
+            {% for post in posts %}
+                <!-- START: Post -->
+                <div class="nk-isotope-item" data-filter="{{ post.cat_text }}">
+                    <div class="nk-blog-post">
+                        <div class="nk-post-thumb">
+                            <a href="demo-minimal-split-blog-single.html">
+                                <img src="{{ post.thumb_sm }}" alt="" class="nk-img-stretch">
+                            </a>
+                            <div class="nk-post-category">{{ post.cat | safe }}</div>
+                        </div>
+                        <h2 class="nk-post-title h4"><a href="demo-minimal-split-blog-single.html">{{ post.title }}</a></h2>
+
+                        <div class="nk-post-date">
+                            {{ post.date }}
+                        </div>
+
+                        <div class="nk-post-text">
+                            {{ post.excerpt_sm | safe }}
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Post -->
+            {% endfor %}
+
+        </div>
+        <!-- END: Posts List -->
+
+        <div class="nk-gap-4"></div>
+
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-gray-5">
+        <a href="#">Load More Posts</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

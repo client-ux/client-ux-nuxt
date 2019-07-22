@@ -1,0 +1,32 @@
+{% set page_dark = true %}
+{% set main_style_file = 'skylith-yellow' %}
+{% set custom_css = 'assets/css/custom-dark-creative-agency.css' %}
+{% set header_text_color = 'text-white' %}
+{% set footer = 3 %}
+{% set footer_bg_color = '#101010' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set footer_scroll_top_btn = 2 %}
+{% set nav_dark = true %}
+{% set nav_items_collapsed = true %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation = {
+    'demo-dark-creative-agency.html': {
+        'name': 'Home'
+    },
+    'demo-dark-creative-agency-portfolio.html': {
+        'name': 'Portfolio'
+    },
+    'demo-dark-creative-agency-blog.html': {
+        'name': 'Blog'
+    },
+    'demo-dark-creative-agency-about.html': {
+        'name': 'About'
+    },
+    'demo-dark-creative-agency-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

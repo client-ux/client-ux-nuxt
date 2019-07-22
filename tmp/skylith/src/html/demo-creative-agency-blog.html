@@ -1,0 +1,85 @@
+{% set page_title = 'Creative Agency - Blog' %}
+{% set header_show = true %}
+{% set header_text = '<h1 class="nk-title text-white">Skylith Blog</h1>' %}
+{% set header_image = 'assets/images/demo-minimal-architecture-header-blog.jpg' %}
+{% set header_image_overlay = 'rgba(0, 0, 0, 0.6)' %}
+{% set header_size = '' %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+
+{% extends 'layouts/layout-creative-agency.html' %}
+
+{% block content %}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-8">
+
+            <div class="nk-gap-5"></div>
+
+            <!-- START: Posts List -->
+            <div class="nk-blog-isotope-2 nk-isotope nk-isotope-gap nk-isotope-1-cols">
+
+                {% for i in [1, 2, 3, 4] %}
+                {% set post = posts[i] %}
+                <!-- START: Post -->
+                <div class="nk-isotope-item" data-filter="{{ post.cat_text }}">
+                    <div class="nk-blog-post">
+                        <div class="nk-post-thumb">
+                            <a href="demo-creative-agency-blog-single.html">
+                                <img src="{{ post.thumb_s3_lg }}" alt="" class="nk-img-stretch">
+                            </a>
+                            <div class="nk-post-category">{{ post.cat | safe}}</div>
+                        </div>
+                        <h2 class="nk-post-title h3"><a href="demo-creative-agency-blog-single.html">{{ post.title }}</a></h2>
+
+                        <div class="nk-post-date">
+                            {{ post.date }}
+                        </div>
+
+                        <div class="nk-post-text">
+                            {{ post.excerpt | safe }}
+
+                            <a href="demo-creative-agency-blog-single.html" class="nk-btn nk-btn-md nk-btn-outline nk-btn-color-gray-7 nk-btn-hover-color-dark-3 text-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Post -->
+                {% endfor %}
+
+            </div>
+
+            <div class="text-center">
+                <div class="nk-gap-3"></div>
+                <a href="#" class="nk-btn nk-btn-color-gray-7 text-dark-1">Load More</a>
+            </div>
+            <!-- END: Posts List -->
+
+            <div class="nk-gap-5"></div>
+
+        </div>
+        <div class="col-lg-4">
+            <!--
+                START: Sidebar
+
+                Additional Classes:
+                    .nk-sidebar-sticky
+
+                Additional Attributes:
+                    data-offset-top - add top offset to sticky sidebar
+            -->
+            <aside class="nk-sidebar nk-sidebar-sticky" data-offset-top="0">
+
+                <div class="nk-gap-5"></div>
+                {% include "shared/blog-sidebar-s3.html" %}
+                <div class="nk-gap-5"></div>
+
+            </aside>
+            <!-- END: Sidebar -->
+        </div>
+    </div>
+
+</div>
+{% endblock %}

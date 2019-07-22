@@ -1,0 +1,32 @@
+{% set header_text_color = 'text-white' %}
+{% set footer = 1 %}
+{% set nav_transparent = true %}
+{% set nav_side = true %}
+{% set nav_side_dark = false %}
+{% set nav_side_bg = "assets/images/bg-menu-full-light.jpg" %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_side = {
+    'demo-minimal-agency-2.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-agency-2-blog.html': {
+        'name': 'Blog'
+    },
+    'demo-minimal-agency-2-about.html': {
+        'name': 'About',
+        'sub': {
+            'demo-minimal-agency-2-about.html': {
+                'name': 'About'
+            },
+            'demo-minimal-agency-2-services.html': {
+                'name': 'Services'
+            },
+            'demo-minimal-agency-2-contact-us.html': {
+                'name': 'Contact Us'
+            }
+        }
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

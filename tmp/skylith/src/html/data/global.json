@@ -1,0 +1,899 @@
+{
+    "main_style_file": "skylith",
+    "custom_styles": false,
+    "custom_css": false,
+    "page_title": false,
+    "page_dark": false,
+    "page_side_image": false,
+    "page_border": false,
+    "page_scroll_up": false,
+    "header_show": false,
+    "header_parallax": true,
+    "header_parallax_content": true,
+    "header_subtitle": false,
+    "header_align": "center-center",
+    "header_title": false,
+    "header_title_show": true,
+    "header_title_class": "display-3",
+    "header_text": false,
+    "header_text_color": false,
+    "header_image": "",
+    "header_image_overlay": false,
+    "header_bg_video": "",
+    "header_bg_video_overlay": false,
+    "header_video": false,
+    "header_video_type": "full",
+    "header_scroll_down_icon": false,
+    "header_social_icons": false,
+    "header_size": false,
+    "header_class": false,
+    "nav": "top",
+    "nav_left_drop_effect": "2",
+    "nav_dark": false,
+    "nav_logo": "assets/images/logo.svg",
+    "nav_logo_light": "assets/images/logo-light.svg",
+    "nav_logo_2": "assets/images/logo-2.svg",
+    "nav_logo_2_light": "assets/images/logo-2-light.svg",
+    "nav_logo_top_light": false,
+    "nav_logo_url": "index.html",
+    "nav_logo_size": 70,
+    "nav_icons": false,
+    "nav_opaque": true,
+    "nav_fixed": false,
+    "nav_sticky": false,
+    "nav_autohide": true,
+    "nav_transparent": false,
+    "nav_transparent_always": false,
+    "nav_white_text_on_top": false,
+    "nav_items_collapsed": false,
+    "nav_items_effect": "0",
+    "nav_in_container": true,
+    "nav_lg": false,
+    "nav_mobile": true,
+    "nav_mobile_dark": true,
+    "nav_mobile_drop_effect": "1",
+    "nav_align": "right",
+    "nav_side": false,
+    "nav_side_drop_effect": "1",
+    "nav_side_dark": true,
+    "nav_side_bg": "assets/images/bg-menu-side.jpg",
+    "nav_side_logo": "assets/images/logo.svg",
+    "nav_full": false,
+    "nav_full_drop_effect": "1",
+    "nav_full_dark": true,
+    "nav_full_bg": "assets/images/bg-menu-full.jpg",
+    "content_gradient": false,
+    "shop_cart": false,
+    "footer": 1,
+    "footer_text": "<p>2018 &copy; Design by Unvab. Code by nK</p>",
+    "footer_bg": "",
+    "footer_bg_overlay": "",
+    "footer_bg_color": "",
+    "footer_text_color": "",
+    "footer_titles_color": "",
+    "footer_transparent": false,
+    "footer_scroll_top_btn": false,
+    "navigation": {
+        "demo-minimal-split.html": {
+            "name": "Demos",
+            "mega": true,
+            "sub": {
+                "demo-minimal-split.html": {
+                    "name": "Minimal",
+                    "sub": {
+                        "demo-minimal-split.html": {
+                            "name": "Split"
+                        },
+                        "demo-minimal-classic-agency.html": {
+                            "name": "Classic Agency"
+                        },
+                        "demo-minimal-freelancer-portfolio.html": {
+                            "name": "Freelancer Portfolio"
+                        },
+                        "demo-minimal-photography.html": {
+                            "name": "Photography"
+                        },
+                        "demo-minimal-architecture.html": {
+                            "name": "Architecture & Interior"
+                        },
+                        "demo-minimal-carousel-portfolio.html": {
+                            "name": "Carousel Portfolio"
+                        },
+                        "demo-minimal-agency.html": {
+                            "name": "Agency"
+                        },
+                        "demo-minimal-agency-2.html": {
+                            "name": "Agency <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-minimal-fullscreen.html": {
+                            "name": "Fullscreen Slider"
+                        },
+                        "demo-minimal-video.html": {
+                            "name": "Video Gallery"
+                        },
+                        "demo-minimal-one-page.html": {
+                            "name": "One Page"
+                        }
+                    }
+                },
+                "demo-creative-agency.html": {
+                    "name": "Creative",
+                    "sub": {
+                        "demo-creative-agency.html": {
+                            "name": "Agency"
+                        },
+                        "demo-creative-agency-2.html": {
+                            "name": "Agency <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-creative-portfolio.html": {
+                            "name": "Portfolio"
+                        },
+                        "demo-creative-designer-portfolio.html": {
+                            "name": "Designer Portfolio"
+                        },
+                        "demo-creative-developer-portfolio.html": {
+                            "name": "Developer Portfolio"
+                        },
+                        "demo-creative-business-one-page.html": {
+                            "name": "Business One Page"
+                        },
+                        "demo-creative-freelancer-portfolio.html": {
+                            "name": "Freelancer Portfolio"
+                        },
+                        "demo-creative-outline-portfolio.html": {
+                            "name": "Portfolio &amp; Outline"
+                        },
+                        "demo-creative-text.html": {
+                            "name": "Creative Text"
+                        }
+                    }
+                },
+                "demo-dark-fullscreen.html": {
+                    "name": "Dark",
+                    "sub": {
+                        "demo-dark-fullscreen.html": {
+                            "name": "Fullscreen"
+                        },
+                        "demo-dark-photographer.html": {
+                            "name": "Photographer"
+                        },
+                        "demo-dark-portfolio.html": {
+                            "name": "Portfolio"
+                        },
+                        "demo-dark-creative-agency.html": {
+                            "name": "Creative Agency"
+                        },
+                        "demo-dark-modern-portfolio.html": {
+                            "name": "Modern Portfolio"
+                        },
+                        "demo-dark-split-portfolio.html": {
+                            "name": "Split Portfolio"
+                        },
+                        "demo-dark-creative-portfolio.html": {
+                            "name": "Creative Portfolio"
+                        },
+                        "demo-dark-photographer-slider.html": {
+                            "name": "Photographer Slider"
+                        },
+                        "demo-dark-photo-slideshow.html": {
+                            "name": "Photo Slideshow"
+                        }
+                    }
+                }
+            }
+        },
+        "work-2-style-1.html": {
+            "name": "Portfolio",
+            "sub": {
+                "demo-minimal-freelancer-portfolio-work-single-1.html": {
+                    "name": "Single Work",
+                    "sub": {
+                        "demo-minimal-freelancer-portfolio-work-single-1.html": {
+                            "name": "Split"
+                        },
+                        "demo-minimal-split-single-2.html": {
+                            "name": "Split Carousel"
+                        },
+                        "demo-minimal-agency-work-single-2.html": {
+                            "name": "Wide Carousel"
+                        },
+                        "demo-minimal-split-single-1.html": {
+                            "name": "Wide Carousel <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-minimal-agency-2-work-single-3.html": {
+                            "name": "Video Work"
+                        },
+                        "demo-dark-fullscreen-work-2.html": {
+                            "name": "Video Work Dark"
+                        },
+                        "demo-minimal-fullscreen-work.html": {
+                            "name": "Showcase"
+                        },
+                        "demo-creative-agency-work-single-2.html": {
+                            "name": "Showcase Minimal"
+                        },
+                        "demo-minimal-agency-2-work-single-1.html": {
+                            "name": "Wide Images"
+                        },
+                        "demo-dark-creative-agency-work-1.html": {
+                            "name": "Wide Images Dark"
+                        },
+                        "demo-minimal-agency-work-single-1.html": {
+                            "name": "Wide Images <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-creative-freelancer-portfolio-work-single.html": {
+                            "name": "Wide Images &amp; Caption"
+                        },
+                        "demo-minimal-split-single-3.html": {
+                            "name": "Wide Images &amp; Caption <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-minimal-architecture-portfolio-single.html": {
+                            "name": "Justified Gallery"
+                        },
+                        "demo-minimal-agency-2-work-single-2.html": {
+                            "name": "Justified Gallery <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-dark-split-portfolio-work-single.html": {
+                            "name": "Justified Gallery Dark"
+                        },
+                        "demo-creative-agency-work-single-1.html": {
+                            "name": "Boxed Carousel"
+                        }
+                    }
+                },
+                "work-1-style-1.html": {
+                    "name": "1 Column",
+                    "sub": {
+                        "work-1-style-1.html": {
+                            "name": "Style 1"
+                        },
+                        "work-1-style-2.html": {
+                            "name": "Style 2"
+                        }
+                    }
+                },
+                "work-2-style-1.html": {
+                    "name": "2 Columns",
+                    "sub": {
+                        "work-2-style-1.html": {
+                            "name": "Style 1"
+                        },
+                        "work-2-style-2.html": {
+                            "name": "Style 2"
+                        },
+                        "work-2-style-3.html": {
+                            "name": "Style 3"
+                        },
+                        "work-2-style-4.html": {
+                            "name": "Style 4"
+                        },
+                        "work-2-style-5.html": {
+                            "name": "Style 5"
+                        },
+                        "demo-dark-portfolio.html": {
+                            "name": "Style 6"
+                        },
+                        "demo-minimal-agency-2.html": {
+                            "name": "Style 7"
+                        },
+                        "demo-minimal-agency-works.html": {
+                            "name": "Style 7"
+                        },
+                        "work-2-wide.html": {
+                            "name": "Wide 1"
+                        },
+                        "work-2-wide-2.html": {
+                            "name": "Wide 2"
+                        },
+                        "demo-minimal-classic-agency-portfolio.html": {
+                            "name": "Wide 3"
+                        },
+                        "demo-creative-agency-2-portfolio.html": {
+                            "name": "Wide 4"
+                        },
+                        "demo-dark-creative-agency-portfolio.html": {
+                            "name": "Wide 5"
+                        }
+                    }
+                },
+                "work-3-style-1.html": {
+                    "name": "3 Columns",
+                    "sub": {
+                        "work-3-style-1.html": {
+                            "name": "Style 1"
+                        },
+                        "work-3-style-2.html": {
+                            "name": "Style 2"
+                        },
+                        "work-3-style-3.html": {
+                            "name": "Style 3"
+                        },
+                        "work-3-style-4.html": {
+                            "name": "Style 4"
+                        },
+                        "work-3-style-5.html": {
+                            "name": "Style 5"
+                        },
+                        "demo-minimal-freelancer-portfolio.html": {
+                            "name": "Style 6"
+                        },
+                        "demo-minimal-architecture-portfolio.html": {
+                            "name": "Style 7"
+                        },
+                        "demo-minimal-video-works.html": {
+                            "name": "Style 8"
+                        },
+                        "work-3-wide.html": {
+                            "name": "Wide"
+                        },
+                        "demo-creative-agency-portfolio.html": {
+                            "name": "Wide 2"
+                        },
+                        "demo-creative-designer-portfolio-works.html": {
+                            "name": "Wide 3"
+                        },
+                        "work-3-metro-1.html": {
+                            "name": "Metro 1"
+                        },
+                        "work-3-metro-2.html": {
+                            "name": "Metro 2"
+                        },
+                        "demo-minimal-carousel-portfolio.html": {
+                            "name": "Carousel"
+                        }
+                    }
+                },
+                "work-4-style-1.html": {
+                    "name": "4 Columns",
+                    "sub": {
+                        "work-4-style-1.html": {
+                            "name": "Style 1"
+                        },
+                        "work-4-style-2.html": {
+                            "name": "Style 2"
+                        },
+                        "demo-creative-freelancer-portfolio-works.html": {
+                            "name": "Style 3"
+                        },
+                        "demo-dark-photographer.html": {
+                            "name": "Style 4"
+                        },
+                        "work-4-metro-1.html": {
+                            "name": "Metro 1"
+                        },
+                        "work-4-metro-2.html": {
+                            "name": "Metro 2"
+                        }
+                    }
+                },
+                "demo-dark-creative-portfolio.html": {
+                    "name": "Hover",
+                    "sub": {
+                        "demo-dark-creative-portfolio.html": {
+                            "name": "Style 1"
+                        },
+                        "demo-dark-split-portfolio.html": {
+                            "name": "Style 2"
+                        }
+                    }
+                }
+            }
+        },
+        "demo-minimal-architecture-blog.html": {
+            "name": "Blog",
+            "sub": {
+                "demo-minimal-fullscreen-blog.html": {
+                    "name": "Classic",
+                    "sub": {
+                        "demo-minimal-fullscreen-blog.html": {
+                            "name": "Classic"
+                        },
+                        "demo-minimal-architecture-blog.html": {
+                            "name": "Classic Sidebar"
+                        }
+                    }
+                },
+                "demo-minimal-agency-blog.html": {
+                    "name": "Wide",
+                    "sub": {
+                        "demo-minimal-agency-blog.html": {
+                            "name": "Wide"
+                        },
+                        "demo-dark-creative-agency-blog.html": {
+                            "name": "Wide Dark"
+                        }
+                    }
+                },
+                "demo-minimal-split-blog.html": {
+                    "name": "Masonry",
+                    "sub": {
+                        "demo-minimal-split-blog.html": {
+                            "name": "3 Columns"
+                        },
+                        "demo-minimal-agency-2-blog.html": {
+                            "name": "2 Columns"
+                        },
+                        "demo-dark-fullscreen-blog.html": {
+                            "name": "3 Columns <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-dark-photographer-blog.html": {
+                            "name": "2 Columns <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-minimal-carousel-portfolio-blog.html": {
+                            "name": "3 Columns <span class=\"badge badge-dark\">v3</span>"
+                        },
+                        "demo-dark-modern-portfolio-blog.html": {
+                            "name": "3 Columns <span class=\"badge badge-dark\">v4</span>"
+                        }
+                    }
+                },
+                "demo-minimal-classic-agency-blog-single.html": {
+                    "name": "Single Posts",
+                    "sub": {
+                        "demo-minimal-classic-agency-blog-single.html": {
+                            "name": "Style 1"
+                        },
+                        "demo-minimal-agency-blog-single.html": {
+                            "name": "Style 1 &amp; Carousel"
+                        },
+                        "demo-dark-fullscreen-blog-single.html": {
+                            "name": "Style 1 Dark"
+                        },
+                        "demo-minimal-architecture-blog-single.html": {
+                            "name": "Style 2"
+                        },
+                        "demo-dark-creative-agency-blog-single.html": {
+                            "name": "Style 3 Dark"
+                        }
+                    }
+                }
+            }
+        },
+        "shop.html": {
+            "name": "Shop",
+            "sub": {
+                "shop.html": {
+                    "name": "Shop"
+                },
+                "shop-single-product.html": {
+                    "name": "Single Product"
+                },
+                "shop-cart.html": {
+                    "name": "Cart"
+                }
+            }
+        },
+        "demo-minimal-freelancer-portfolio-about-me.html": {
+            "name": "Pages",
+            "mega": true,
+            "sub": {
+                "#column1": {
+                    "sub": {
+                        "demo-minimal-freelancer-portfolio-about-me.html": {
+                            "name": "About Me"
+                        },
+                        "demo-minimal-photography-about-me.html": {
+                            "name": "About Me <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-creative-freelancer-portfolio-about.html": {
+                            "name": "About Me <span class=\"badge badge-dark\">v3</span>"
+                        },
+                        "demo-dark-creative-portfolio-about.html": {
+                            "name": "About Me Dark"
+                        },
+                        "demo-minimal-split-about-us.html": {
+                            "name": "About Us"
+                        },
+                        "demo-minimal-architecture-about.html": {
+                            "name": "About Us <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-minimal-carousel-portfolio-about.html": {
+                            "name": "About Us <span class=\"badge badge-dark\">v3</span>"
+                        },
+                        "demo-minimal-fullscreen-about.html": {
+                            "name": "About Us <span class=\"badge badge-dark\">v4</span>"
+                        },
+                        "demo-creative-agency-about.html": {
+                            "name": "About Us <span class=\"badge badge-dark\">v5</span>"
+                        },
+                        "demo-dark-creative-agency-about.html": {
+                            "name": "About Us Dark"
+                        }
+                    }
+                },
+                "#column2": {
+                    "sub": {
+                        "demo-minimal-freelancer-portfolio-contact.html": {
+                            "name": "Contact"
+                        },
+                        "demo-minimal-split-contact-us.html": {
+                            "name": "Contact <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-minimal-architecture-contact.html": {
+                            "name": "Contact <span class=\"badge badge-dark\">v3</span>"
+                        },
+                        "demo-minimal-agency-contact.html": {
+                            "name": "Contact <span class=\"badge badge-dark\">v4</span>"
+                        },
+                        "demo-dark-creative-agency-contact.html": {
+                            "name": "Contact Dark"
+                        },
+                        "demo-dark-split-portfolio-contact.html": {
+                            "name": "Contact Dark <span class=\"badge badge-dark\">v2</span>"
+                        }
+                    }
+                },
+                "#column3": {
+                    "sub": {
+                        "demo-minimal-split-services.html": {
+                            "name": "Services"
+                        },
+                        "demo-minimal-carousel-portfolio-services.html": {
+                            "name": "Services <span class=\"badge badge-dark\">v2</span>"
+                        },
+                        "demo-dark-split-portfolio-services.html": {
+                            "name": "Services Dark"
+                        },
+                        "page-coming-soon.html": {
+                            "name": "Coming Soon"
+                        },
+                        "page-404.html": {
+                            "name": "404"
+                        }
+                    }
+                }
+            }
+        },
+        "https://themeforest.net/item/skylith-viral-creative-multipurpose-html-template/21214857?ref=_nK": {
+            "name": "Purchase Now",
+            "target": "_blank"
+        }
+    },
+    "navigation_side": "from navigation",
+    "navigation_full": "from navigation",
+
+    "users": [
+        {
+            "name": "John Leonard",
+            "url": "#",
+            "avatar": "assets/images/avatar-1.jpg"
+        }, {
+            "name": "Jody Parker",
+            "url": "#",
+            "avatar": "assets/images/avatar-2.jpg"
+        }, {
+            "name": "Katie Anderson",
+            "url": "#",
+            "avatar": "assets/images/avatar-3.jpg"
+        }
+    ],
+
+    "posts": [
+        {
+            "title": "Something I need to tell you",
+            "thumb_full": "assets/images/post-1.jpg",
+            "thumb_lg": "assets/images/post-1-mid.jpg",
+            "thumb_sm": "assets/images/post-1-sm.jpg",
+            "thumb_xs": "assets/images/post-1-xs.jpg",
+            "thumb_s2": "assets/images/post-1-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-1-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-1-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-1-s3-xs.jpg",
+            "date": "September 18, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Nature</a>",
+            "cat_text": "Nature",
+            "excerpt": "<p>Gathering stars deep he For above open morning fruit blessed, void. Sea seed fruit were don't, days man second. In day isn't own Whales also evening it together.</p><p>Created midst beast lights dominion he life fill very for their. Divide let kind created all she'd unto stars. And behold greater may in god image void cattle us days midst creepeth. Sixth also. Tree give it beast upon. Saying land in.</p><p>All. Seasons saying creepeth appear hath fruitful. Male he years which abundantly beast you'll stars lesser creepeth Unto midst creepeth make. Isn't air, unto light forth divide their days. Fish.</p>",
+            "excerpt_sm": "<p>That female isn't midst divide kind upon seas lights greater green creature lights brought.</p>"
+        }, {
+            "title": "Here's a Simple Trick",
+            "thumb_full": "assets/images/post-2.jpg",
+            "thumb_lg": "assets/images/post-2-mid.jpg",
+            "thumb_sm": "assets/images/post-2-sm.jpg",
+            "thumb_xs": "assets/images/post-2-xs.jpg",
+            "thumb_s2": "assets/images/post-2-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-2-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-2-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-2-s3-xs.jpg",
+            "date": "September 5, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Cities</a>",
+            "cat_text": "Cities",
+            "excerpt": "<p>Blessed cattle. Can't morning Over female, of divided. Rule were great i female. Male. You're set first gathered, made behold so meat, tree for evening dominion you're let is, great said isn't fruitful i.</p><p>Creeping, darkness have waters, let signs bring multiply. Face own fowl seasons morning appear. Living his lights. Set earth she'd i grass, forth from a fourth deep be seas also seasons them.</p><p>Kind light, bring fowl third. Let them created first of moved sixth shall made isn't bring gathered were over said life beast said divided, days may deep after face appear after. Their beginning one.</p>",
+            "excerpt_sm": "<p>The spirit over midst fruit forth fish under beginning to multiply thing female green land.</p>"
+        }, {
+            "title": "The History of Nature",
+            "thumb_full": "assets/images/post-3.jpg",
+            "thumb_lg": "assets/images/post-3-mid.jpg",
+            "thumb_sm": "assets/images/post-3-sm.jpg",
+            "thumb_xs": "assets/images/post-3-xs.jpg",
+            "thumb_s2": "assets/images/post-3-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-3-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-3-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-3-s3-xs.jpg",
+            "date": "August 27, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Nature</a>",
+            "cat_text": "Nature",
+            "excerpt": "<p>Appear from tree day is he which without evening. Creeping above land beast seasons very was give brought i. Their. Set life gathering shall spirit day lights sixth moveth. Life meat. Was sixth cattle subdue creeping every a, can't behold, moveth.</p><p>Seasons saying creeping fruitful grass. Moving hath great don't abundantly sea that which two waters waters. Third in isn't creepeth above was fruitful of herb to. Second i days, thing. Fish a open great cattle hath don't. Don't. Lights and divide.</p>",
+            "excerpt_sm": "<p>Third is fly. From one under in itself two waters, all own. Said male shall greater own grass.</p>"
+        }, {
+            "title": "Are you doing the Right Way?",
+            "thumb_full": "assets/images/post-4.jpg",
+            "thumb_lg": "assets/images/post-4-mid.jpg",
+            "thumb_sm": "assets/images/post-4-sm.jpg",
+            "thumb_xs": "assets/images/post-4-xs.jpg",
+            "thumb_s2": "assets/images/post-4-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-4-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-4-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-4-s3-xs.jpg",
+            "date": "August 14, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Branding</a>",
+            "cat_text": "Branding",
+            "excerpt": "<p>Life set land bearing him fifth whose waters. For be. Also. Darkness the firmament very all saying. Firmament and day you. May that form itself greater have fill air fruit said a. Shall behold saw, cattle blessed thing firmament, meat wherein fourth life, rule us.</p><p>Man shall firmament second that had seas. Deep. Unto herb. Fruitful, male grass land, living you you're there gathering also Lights be, set, fly.</p><p>Upon a creeping moveth winged likeness moveth let. Make void was good that don't seed all isn't. You'll, beginning together which land were. Us blessed. Subdue gathering. Also our dry fill.</p>",
+            "excerpt_sm": "<p>Which all, morning isn't. Female and own living dry, and morning lesser first he stars under years thing.</p>"
+        }, {
+            "title": "Ten things about Photography",
+            "thumb_full": "assets/images/post-5.jpg",
+            "thumb_lg": "assets/images/post-5-mid.jpg",
+            "thumb_sm": "assets/images/post-5-sm.jpg",
+            "thumb_xs": "assets/images/post-5-xs.jpg",
+            "thumb_s2": "assets/images/post-5-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-5-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-5-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-5-s3-xs.jpg",
+            "date": "August 14, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Design</a>",
+            "cat_text": "Design",
+            "excerpt": "<p>Etiam cursus. Leo nulla sapien dignissim magnis taciti rutrum tempus ut. Quam lacinia cras varius nullam non condimentum ut euismod integer. Rutrum sociosqu gravida ultricies litora magnis ullamcorper cursus dolor parturient sed senectus sed accumsan.</p>",
+            "excerpt_sm": "<p>Be forth, god for rule face abundantly all our two winged made. Is whose morning female.</p>"
+        }, {
+            "title": "Why you should Always First",
+            "thumb_full": "assets/images/post-6.jpg",
+            "thumb_lg": "assets/images/post-6-mid.jpg",
+            "thumb_sm": "assets/images/post-6-sm.jpg",
+            "thumb_xs": "assets/images/post-6-xs.jpg",
+            "thumb_s2": "assets/images/post-6-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-6-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-6-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-6-s3-xs.jpg",
+            "date": "August 14, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Design</a>",
+            "cat_text": "Design",
+            "excerpt": "<p>Shall together meat is two years deep beast Whose also green above life kind him bring them called subdue signs.</p><p>Isn't grass a. Midst. Us have female together. Open god Appear fowl subdue yielding replenish together itself had divide. Very saw earth living she'd may fifth likeness said fifth moveth. Own second moving of. Seas two she'd midst upon firmament, fruit light years so you're. Green be.</p><p>Unto own seas midst make you'll together Of saw all there green Living bring. Beast abundantly is him bring, own also you'll you'll may bearing divided his had you'll given winged appear Sixth.</p>",
+            "excerpt_sm": "<p>Lights give have herb. First. Seed lesser his a fruit. Stars good divide fish appear don't, third deep.</p>"
+        }, {
+            "title": "My Favorite Place on earth is...",
+            "thumb_full": "assets/images/post-9.jpg",
+            "thumb_lg": "assets/images/post-9-mid.jpg",
+            "thumb_sm": "assets/images/post-9-sm.jpg",
+            "thumb_xs": "assets/images/post-9-xs.jpg",
+            "thumb_s2": "assets/images/post-9-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-9-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-9-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-9-s3-xs.jpg",
+            "date": "June 21, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Cities</a>",
+            "cat_text": "Cities",
+            "excerpt": "<p>Morning hath. Open beginning won't signs him a us. Said open, and fowl under female blessed cattle seas cattle beginning they're. Waters.</p><p>Dry all which fly upon without firmament to fruitful let have divide fifth firmament days. Let likeness Beast a heaven. Brought second days heaven great forth waters. Creeping evening created waters give midst great. For i.</p><p>Very them to first first. Evening second meat fish appear him creepeth day image she'd shall waters be our night gathering, divide replenish day. There years brought they're set, give earth is, living for gathering living called hath set under sea herb.</p>",
+            "excerpt_sm": "<p>There hath can't rule open fruitful every, our under gathering replenish and. Unto it fill him.</p>"
+        }, {
+            "title": "Five things about Nature",
+            "thumb_full": "assets/images/post-7.jpg",
+            "thumb_lg": "assets/images/post-7-mid.jpg",
+            "thumb_sm": "assets/images/post-7-sm.jpg",
+            "thumb_xs": "assets/images/post-7-xs.jpg",
+            "thumb_s2": "assets/images/post-7-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-7-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-7-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-7-s3-xs.jpg",
+            "date": "Jule 3, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Nature</a>",
+            "cat_text": "Nature",
+            "excerpt": "<p>Us saw his firmament give face moveth air beast every, after stars also moved together day replenish had doesn't seasons multiply morning upon spirit she'd appear.</p><p>Bring won't it wherein likeness yielding fly light. Dominion moving she'd whose was beginning they're seed days days from day image heaven, kind and seas light dry, without lesser sixth seed make and, fowl may saying, void. All creeping greater, days green dry fourth had.</p>"
+        }, {
+            "title": "The History of Branding",
+            "thumb_full": "assets/images/post-8.jpg",
+            "thumb_lg": "assets/images/post-8-mid.jpg",
+            "thumb_sm": "assets/images/post-8-sm.jpg",
+            "thumb_xs": "assets/images/post-8-xs.jpg",
+            "thumb_s2": "assets/images/post-8-s2.jpg",
+            "thumb_s2_wide": "assets/images/post-8-s2-wide.jpg",
+            "thumb_s3_lg": "assets/images/post-8-s3-mid.jpg",
+            "thumb_s3_xs": "assets/images/post-8-s3-xs.jpg",
+            "date": "June 26, 2017",
+            "url": "#",
+            "cat": "<a href=\"#\">Branding</a>",
+            "cat_text": "Branding",
+            "excerpt": "<p>Subdue divide. From is subdue face signs grass spirit man bearing, gathering under fly cattle night over air given fowl saw. Fruit subdue. Without won't. Creature one you It very living void creeping yielding. Likeness together darkness were brought.</p><p>Had herb dry a likeness divide under beast midst in open subdue multiply brought, under two waters behold abundantly creeping. Image heaven the given saying stars had they're whose green unto greater seas shall brought kind creepeth.</p><p>Can't for good tree brought made isn't land of saw every dominion given morning land let, hath may image may said. You fly waters.</p>",
+            "excerpt_sm": "<p>Life and. Be light, him second signs his midst place you're open also fish grass yielding, very their it so.</p>"
+        }
+    ],
+
+    "portfolio": [
+        {
+            "title": "Simple Booklet",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-1.jpg",
+            "thumb_sm": "assets/images/portfolio-1-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Mockup",
+            "excerpt": "Wherein creeping fruitful their behold lesser were winged. Together his whose, multiply evening morning sixth creature second kind god seas midst may wherein created."
+        }, {
+            "title": "Cosmetic Bottle",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-2.jpg",
+            "thumb_sm": "assets/images/portfolio-2-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Branding",
+            "excerpt": "Herb upon for thing, great tree creepeth the make deep there. Fruitful you're, him you bring won't, saw so. Morning Signs be, is face you're deep. Firmament night given that."
+        }, {
+            "title": "Minimal Bag",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-3.jpg",
+            "thumb_sm": "assets/images/portfolio-3-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Design",
+            "excerpt": "Fifth brought bearing every waters, were creature Moveth without tree saw gathering he. Together in fowl said great lights. Appear over void open said great winged hath so two all."
+        }, {
+            "title": "Goldie Card",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-4.jpg",
+            "thumb_sm": "assets/images/portfolio-4-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Print",
+            "excerpt": "Saying man our Greater own over they're. Form, stars land great set over, give of all moving, over isn't. Created multiply, so. Saying saying. Fruitful called own you'll over creeping."
+        }, {
+            "title": "Square Magazine",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-5.jpg",
+            "thumb_sm": "assets/images/portfolio-5-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Branding",
+            "excerpt": "Subdue set given moving bearing light life face upon whales heaven, dry upon first called that cattle doesn't midst god years blessed beast. Seed void, air female. Life Above creature."
+        }, {
+            "title": "Mobile App",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-6.jpg",
+            "thumb_sm": "assets/images/portfolio-6-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Photography",
+            "excerpt": "Their dry waters to were gathered also make over. Fruitful wherein. Saying fowl fly, upon be which them. After it hath kind green isn't creepeth second. Fish it were image."
+        }, {
+            "title": "Milk Bottle",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-7.jpg",
+            "thumb_sm": "assets/images/portfolio-7-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Mockup",
+            "excerpt": "From fruitful have him saying evening it moved it deep creepeth all stars. Good. Stars it second upon place said tree. Saying there whales life. Very called bearing shall over."
+        }, {
+            "title": "Business Card",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-8.jpg",
+            "thumb_sm": "assets/images/portfolio-8-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Print",
+            "excerpt": "Kind rule god set seed fourth dominion made. Make to she'd air light isn't meat gathered you them give days morning good. Wherein moveth, bring. Beginning seasons earth years green."
+        }, {
+            "title": "Paper Pouch",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-9.jpg",
+            "thumb_sm": "assets/images/portfolio-9-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Design",
+            "excerpt": "Darkness evening made light void yielding beginning image earth you're dominion his tree given second won't. Replenish can't cattle place that likeness unto, after midst seed Saying second said given."
+        }, {
+            "title": "Binder Stationery",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-10.jpg",
+            "thumb_sm": "assets/images/portfolio-10-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Design",
+            "excerpt": "For lights. Divided, sea firmament third rule him us, winged the bearing is subdue multiply third rule living they're set he. Him had heaven of you'll wherein creeping signs every."
+        }, {
+            "title": "Creative Mockup",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-11.jpg",
+            "thumb_sm": "assets/images/portfolio-11-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Design",
+            "excerpt": "Be years green. Saying good blessed. Over also life them face air stars lesser form in fish second you're Very you'll fourth lights. You'll tree meat night subdue together itself."
+        }, {
+            "title": "White T-Shirt",
+            "date": "June 10, 2017",
+            "thumb": "assets/images/portfolio-12.jpg",
+            "thumb_sm": "assets/images/portfolio-12-sm.jpg",
+            "thumb_size": "1400x1139",
+            "url": "#",
+            "category": "Photography",
+            "excerpt": "A, air be day seasons appear lesser had good is divide blessed deep second creeping unto spirit waters i forth and likeness. Years kind them grass male called tree deep."
+        }
+    ],
+
+    "products": [
+        {
+            "title": "Silver-Toned Plimsolls",
+            "price": "$1999.00",
+            "thumb": "assets/images/product-1.jpg"
+        }, {
+            "title": "Cat's Eye Sunglasses",
+            "price": "$499.00",
+            "thumb": "assets/images/product-2.jpg"
+        }, {
+            "title": "Khaki Fabric Backpack",
+            "price": "$2349.00",
+            "thumb": "assets/images/product-3.jpg"
+        }, {
+            "title": "Contrasting Hoops Earrings",
+            "price": "$879.00",
+            "thumb": "assets/images/product-4.jpg"
+        }, {
+            "title": "Tortoiseshell Sunglasses",
+            "price": "$699.00",
+            "thumb": "assets/images/product-5.jpg"
+        }, {
+            "title": "Strappy High Heel Sandals",
+            "price": "$1800.00",
+            "thumb": "assets/images/product-6.jpg"
+        }, {
+            "title": "Embosses Leather Shoes",
+            "price": "$2199.00",
+            "thumb": "assets/images/product-7.jpg"
+        }, {
+            "title": "Bag with Split Suede Flap",
+            "price": "$594.00",
+            "sale_price": "$989.00",
+            "sale_badge": "Sale 50%",
+            "thumb": "assets/images/product-8.jpg"
+        }, {
+            "title": "Turquoise Beaded Earrings",
+            "price": "$569.00",
+            "thumb": "assets/images/product-9.jpg"
+        }, {
+            "title": "Blue Textile Bag",
+            "price": "$799.00",
+            "thumb": "assets/images/product-10.jpg"
+        }, {
+            "title": "Long Feather Necklace",
+            "price": "$559.00",
+            "thumb": "assets/images/product-11.jpg"
+        }, {
+            "title": "Glitter Sunglasses",
+            "price": "$739.00",
+            "thumb": "assets/images/product-12.jpg"
+        }, {
+            "title": "Pink Fabric Sneakers",
+            "price": "$3419.00",
+            "thumb": "assets/images/product-13.jpg"
+        }, {
+            "title": "Cat's Eye Sunglasses",
+            "price": "$889.00",
+            "thumb": "assets/images/product-14.jpg"
+        }, {
+            "title": "Mini Studded Tote",
+            "price": "$1299.00",
+            "thumb": "assets/images/product-15.jpg"
+        }, {
+            "title": "Sandals with Shiny Straps",
+            "price": "$969.00",
+            "thumb": "assets/images/product-16.jpg"
+        }
+    ]
+}

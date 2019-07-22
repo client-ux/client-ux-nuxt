@@ -1,0 +1,401 @@
+
+aside.nk-sidebar {
+    padding-left: 20px;
+
+    .nk-widget-title {
+        margin-bottom: 2.1rem;
+    }
+
+    .nk-widget ~ .nk-widget {
+        margin-top: 45px;
+    }
+
+    @media #{$media_sm} {
+        padding-left: 0;
+    }
+}
+
+.nk-widget {
+    overflow: hidden;
+
+    ~ .nk-widget {
+        margin-top: 65px;
+    }
+
+    .nk-widget-title {
+        margin-bottom: 1.3rem;
+        font-family: inherit;
+        font-size: 1.09rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .02em;
+    }
+}
+
+// Recent Posts
+.nk-recent-posts {
+    .nk-recent-post {
+        display: flex;
+        align-items: center;
+    }
+    .nk-recent-post + .nk-recent-post {
+        margin-top: 20px;
+    }
+
+    .nk-recent-post-thumb {
+        flex: 0 0 80px;
+        max-width: 80px;
+
+        a {
+            transition: .2s;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+    }
+
+    .nk-recent-post-cont {
+        flex: 0 0 1;
+        padding-left: 20px;
+    }
+
+    .nk-recent-post-title {
+        margin-bottom: 6px;
+        font-size: 1rem;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: .2s;
+
+            &:hover {
+                color: $color_main;
+            }
+        }
+    }
+
+    .nk-recent-post-date {
+        font-size: .9rem;
+        opacity: .8;
+    }
+}
+
+// Categories List
+.nk-categories-list {
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    list-style-type: none;
+
+    > li {
+        padding: 0;
+        margin: 0;
+
+        + li::before {
+            content: "";
+            display: block;
+            border-bottom: 1px solid;
+            opacity: .15;
+        }
+
+        a {
+            display: block;
+            padding: 14px 0;
+            color: $color_dark_1;
+            text-decoration: none;
+            transition: .2s;
+
+            &:hover {
+                color: $color_main;
+            }
+
+            > span {
+                display: inline-block;
+                margin-right: 7px;
+                margin-left: -5px;
+                font-size: 1.1rem;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+// Tags List
+.nk-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    margin: -5px;
+    list-style-type: none;
+
+    > li {
+        flex: 0 0 auto;
+        padding: 5px;
+        margin: 0;
+
+        a {
+            display: inline-block;
+            padding: 8px 25px;
+            color: $color_dark_1;
+            text-decoration: none;
+            background-color: #fff;
+            transition: .2s;
+
+            &:hover {
+                color: #fff;
+                background-color: $color_main;
+            }
+
+            > span {
+                display: inline-block;
+                margin-right: 7px;
+                margin-left: -5px;
+                font-size: 1.1rem;
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+// Links List
+.nk-links-list {
+    padding-bottom: 12px;
+    color: $color_titles;
+
+    > ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    > ul li {
+        flex: 0 0 50%;
+        a {
+            color: inherit;
+            text-decoration: none;
+            transition: .2s;
+
+            &:hover {
+                color: $color_main;
+            }
+        }
+    }
+}
+
+// Search Form
+.nk-search-form {
+    position: relative;
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 49px;
+        padding-right: 15px;
+        font-size: 1.5rem;
+        line-height: 52px;
+        color: $color_gray_mid;
+        cursor: pointer;
+        background: none;
+        border: none;
+        outline: none;
+        transition: .2s;
+
+        &:hover {
+            color: $color_main;
+        }
+    }
+}
+
+// Twitter
+.nk-twitter-list {
+    .nk-twitter {
+        position: relative;
+        padding-left: 39px;
+
+        + .nk-twitter {
+            margin-top: 20px;
+        }
+
+        .nk-twitter-date {
+            margin-bottom: 10px;
+            font-size: .8rem;
+            line-height: 1.4;
+            opacity: .6;
+        }
+
+        .nk-twitter-icon {
+            position: absolute;
+            top: 2px;
+            left: 0;
+            font-size: 1.3rem;
+        }
+    }
+}
+// Twitter Style 2
+.nk-twitter-list-2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    .nk-twitter {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        min-width: 250px;
+        padding: 25px 30px;
+        margin-right: 1px;
+        margin-bottom: 1px;
+        background-color: #fff;
+        transition: .2s;
+
+        &:hover {
+            background-color: $color_gray_1;
+        }
+
+        .nk-twitter-name {
+            margin-bottom: 15px;
+            font-family: $font_headings;
+            font-weight: 600;
+            color: $color_dark_main;
+        }
+
+        .nk-twitter-text {
+            font-family: $font_headings;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .nk-twitter-date {
+            padding-top: 50px;
+            margin-top: auto;
+            font-size: .9rem;
+            color: $color_gray_mid;
+
+            > span {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+// Social
+.nk-social {
+    color: $color_titles;
+
+    > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    > ul li > a {
+        position: relative;
+        display: block;
+        padding: 8px;
+        font-size: 1.13rem;
+        color: inherit;
+        opacity: .4;
+    }
+
+    &.nk-social-left > ul {
+        justify-content: flex-start;
+    }
+    &.nk-social-right > ul {
+        justify-content: flex-end;
+    }
+}
+.nk-social-2 {
+    padding-bottom: 12px;
+    color: $color_titles;
+
+    > ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    > ul li {
+        flex: 0 0 50%;
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    }
+}
+.nk-social,
+.nk-social-2 {
+
+    > ul li {
+        > a {
+            text-decoration: none;
+            transition: .2s;
+
+            > span {
+                position: relative;
+                display: block;
+
+                > span,
+                > svg {
+                    display: block;
+                }
+            }
+            span.nk-social-front,
+            svg.nk-social-front {
+                opacity: 1;
+                transition: .2s;
+                z-index: 1;
+            }
+            span.nk-social-back,
+            svg.nk-social-back {
+                position: absolute;
+                top: 0;
+                left: 0;
+                opacity: 0;
+                transition: .2s;
+                z-index: 2;
+            }
+
+            &:hover,
+            &.hover {
+                opacity: 1;
+
+                span.nk-social-front,
+                svg.nk-social-front {
+                    opacity: 0;
+                }
+                span.nk-social-back,
+                svg.nk-social-back {
+                    opacity: 1;
+                }
+            }
+
+            @each $name, $color in $colors_social {
+                &.nk-social-#{$name} span.nk-social-back,
+                &.nk-social-#{$name} svg.nk-social-back {
+                    color: $color;
+
+                    @if $name == "instagram" {
+                        @supports (-webkit-background-clip: text) {
+                            background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+                            -webkit-background-clip: text; // stylelint-disable-line
+                            -webkit-text-fill-color: transparent;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &.text-white > ul li > a {
+        opacity: .9;
+    }
+}

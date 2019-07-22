@@ -1,0 +1,90 @@
+{% set header_title = 'Dark Photographer Slider - Works' %}
+{% extends 'layouts/layout-dark-photographer-slider.html' %}
+
+{% block content %}
+
+    <!-- START: Works -->
+    <div class="container">
+        <div class="nk-portfolio-list nk-isotope nk-isotope-4-cols nk-isotope-gap-xs nk-popup-gallery">
+            {% set available_photos = [
+            {
+                img_full: 'demo-dark-photographer-1.jpg',
+                img: 'demo-dark-photographer-1-sm.jpg',
+                size: '1920x2560',
+                filter: 'Landscape'
+            }, {
+                img_full: 'demo-dark-photographer-2.jpg',
+                img: 'demo-dark-photographer-2-sm.jpg',
+                size: '1920x1275',
+                filter: 'People'
+            }, {
+                img_full: 'demo-dark-photographer-3.jpg',
+                img: 'demo-dark-photographer-3-sm.jpg',
+                size: '1920x1280',
+                filter: 'Landscape'
+            }, {
+                img_full: 'demo-dark-photographer-4.jpg',
+                img: 'demo-dark-photographer-4-sm.jpg',
+                size: '1920x1280',
+                filter: 'Inspiration'
+            }, {
+                img_full: 'demo-dark-photographer-5.jpg',
+                img: 'demo-dark-photographer-5-sm.jpg',
+                size: '1920x2560',
+                filter: 'Wildlife'
+            }, {
+                img_full: 'demo-dark-photographer-7.jpg',
+                img: 'demo-dark-photographer-7-sm.jpg',
+                size: '1920x1080',
+                filter: 'Wildlife'
+            }, {
+                img_full: 'demo-dark-photographer-6.jpg',
+                img: 'demo-dark-photographer-6-sm.jpg',
+                size: '1920x1440',
+                filter: 'People'
+            }, {
+                img_full: 'demo-dark-photographer-8.jpg',
+                img: 'demo-dark-photographer-8-sm.jpg',
+                size: '1920x1280',
+                filter: 'Landscape'
+            }, {
+                img_full: 'demo-dark-photographer-9.jpg',
+                img: 'demo-dark-photographer-9-sm.jpg',
+                size: '1920x1275',
+                filter: 'Inspiration'
+            }, {
+                img_full: 'demo-dark-photographer-10.jpg',
+                img: 'demo-dark-photographer-10-sm.jpg',
+                size: '1920x2890',
+                filter: 'People'
+            }, {
+                img_full: 'demo-dark-photographer-12.jpg',
+                img: 'demo-dark-photographer-12-sm.jpg',
+                size: '1920x1280',
+                filter: 'Inspiration'
+            }, {
+                img_full: 'demo-dark-photographer-11.jpg',
+                img: 'demo-dark-photographer-11-sm.jpg',
+                size: '1920x1277',
+                filter: 'Inspiration'
+            }, {
+                img_full: 'demo-dark-photographer-13.jpg',
+                img: 'demo-dark-photographer-13-sm.jpg',
+                size: '1920x2400',
+                filter: 'People'
+            }
+            ] %}
+            {% for item in available_photos %}
+                <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-1 hover">
+                        <a href="assets/images/{{ item.img_full }}" class="nk-portfolio-item-link nk-gallery-item" data-size="{{ item.size }}"></a>
+                        <img class="nk-portfolio-item-image" src="assets/images/{{ item.img }}" alt="">
+                        <div class="nk-portfolio-item-info"></div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- END: Works -->
+
+{% endblock %}

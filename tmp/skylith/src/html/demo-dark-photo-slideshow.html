@@ -1,0 +1,69 @@
+{% set page_title = 'Dark Photo Slideshow' %}
+{% set header_show = false %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% set nav_in_container = false %}
+{% extends 'layouts/layout-dark-photo-slideshow.html' %}
+
+{% block content %}
+
+    <!-- START: Slider -->
+    <div class="nk-slider bg-dark" data-container="false" data-show-nav="false" data-show-bullets="false" data-show-arrows="false" data-show-thumbs="true" data-show-slideshow-nav="true" data-autoplay="100000" data-content-centering="bottom" data-height="100vh">
+
+        {% set items = [
+            {
+                img: 'demo-dark-photo-slideshow-item-1.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-1.jpg',
+                title: 'Beautiful Silence'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-2.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-2.jpg',
+                title: 'The Up & Down Life'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-3.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-3.jpg',
+                title: 'Best Years are Still Ahead'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-4.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-4.jpg',
+                title: 'On the Way to Success'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-5.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-5.jpg',
+                title: 'The Sister of My Soul '
+            }, {
+                img: 'demo-dark-photo-slideshow-item-6.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-6.jpg',
+                title: 'Your heart is your temple'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-7.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-7.jpg',
+                title: 'The Big Adventure'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-8.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-8.jpg',
+                title: 'Behind the facade'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-9.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-9.jpg',
+                title: 'Surprising Things To Do'
+            }, {
+                img: 'demo-dark-photo-slideshow-item-10.jpg',
+                thumb: 'demo-dark-photo-slideshow-item-thumb-10.jpg',
+                title: 'Ten Tiny Breaths'
+            }
+        ] %}
+
+        {% for item in items %}
+            <div class="nk-slider-item" data-thumb="assets/images/{{ item.thumb }}">
+                <img src="assets/images/{{ item.img }}" alt="" class="nk-slider-image" data-size="1920x1080">
+                <div class="nk-slider-content">
+                    <p class="lead pl-30">{{ item.title }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <!-- END: Slider -->
+
+{% endblock %}

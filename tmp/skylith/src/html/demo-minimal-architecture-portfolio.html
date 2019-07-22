@@ -1,0 +1,82 @@
+{% set page_title = 'Minimal Architecture & Interior - Portfolio' %}
+{% set header_show = false %}
+{% extends 'layouts/layout-minimal-architecture.html' %}
+
+{% block content %}
+
+    <div class="container">
+
+        <!-- START: Filter -->
+        <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+            <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+        </div>
+        <ul class="nk-isotope-filter">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Interior">Interior</li>
+            <li data-filter="Building">Building</li>
+            <li data-filter="Branding">Branding</li>
+            <li data-filter="Design">Design</li>
+        </ul>
+        <!-- END: Filter -->
+
+        <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols nk-isotope-gap nk-popup-gallery">
+            {% set items = [
+            {
+                img: 'assets/images/demo-minimal-architecture-portfolio-1.jpg',
+                title: 'Grey Walled Interior',
+                filter: 'Interior'
+            },
+            {
+                img: 'assets/images/demo-minimal-architecture-portfolio-2.jpg',
+                title: 'Houses During Daytime',
+                filter: 'Branding'
+            },
+            {
+                img: 'assets/images/demo-minimal-architecture-portfolio-3.jpg',
+                title: 'High Building',
+                filter: 'Building'
+            },
+            {
+                img: 'assets/images/demo-minimal-architecture-portfolio-4.jpg',
+                title: 'Silver Building',
+                filter: 'Design'
+            },
+            {
+                img: 'assets/images/demo-minimal-architecture-portfolio-5.jpg',
+                title: 'Steadfastness',
+                filter: 'Building'
+            },
+            {
+                img: 'assets/images/demo-minimal-architecture-portfolio-6.jpg',
+                title: 'Architectural Building',
+                filter: 'Branding'
+            }
+            ] %}
+            {% for item in items %}
+                <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-6">
+                        <a href="demo-minimal-architecture-portfolio-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image-wrap">
+                            <img class="nk-portfolio-item-image" src="{{ item.img }}" alt="">
+                        </div>
+                        <div class="nk-portfolio-item-info">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h5 mb0">Richard Cennedy</h2>
+                                <div class="nk-portfolio-item-category mt-0">{{ item.filter }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="nk-gap-4"></div>
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

@@ -1,0 +1,63 @@
+{% set page_title = 'Minimal Agency 2' %}
+{% set header_show = false %}
+{% extends 'layouts/layout-minimal-agency-2.html' %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="nk-gap-3"></div>
+
+        <h1 class="text-center">Welcome to Skylith</h1>
+        <div class="nk-gap"></div>
+
+        <p class="text-center mb-10">We are a new design studio based in USA. We have over 20 years of combined experience, <br> and know a thing or two about designing websites and mobile apps.</p>
+    </div>
+
+    <div class="container">
+        <!-- START: Filter -->
+        <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+            <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+        </div>
+        <ul class="nk-isotope-filter">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Branding">Branding</li>
+            <li data-filter="Print">Print</li>
+            <li data-filter="Photography">Photography</li>
+            <li data-filter="Design">Design</li>
+            <li data-filter="Mockup">Mockup</li>
+        </ul>
+        <!-- END: Filter -->
+
+        <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols nk-isotope-gap pt-20">
+            {% set overlays = cycler('rgba(255, 224, 131, 0.3)', 'rgba(239, 194, 196, 0.3)', 'rgba(201, 172, 151, 0.3)', 'rgba(229, 153, 127, 0.3)', 'rgba(244, 244, 244, 0.3)', 'rgba(140, 140, 140, 0.3)') %}
+            {% set work_url = cycler('demo-minimal-agency-2-work-single-1.html', 'demo-minimal-agency-2-work-single-2.html', 'demo-minimal-agency-2-work-single-3.html') %}
+            {% for i in [4, 3, 5, 1, 6, 8] %}
+                {% set item = portfolio[i] %}
+                <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-6">
+                        <a href="{{ work_url.next() }}" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image">
+                            <div style="background-image: url('{{ item.thumb_sm }}');"></div>
+                            <div class="nk-portfolio-item-image-overlay" style="background-color: {{ overlays.next() }};"></div>
+                        </div>
+                        <div class="nk-portfolio-item-info text-center">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                <div class="nk-portfolio-item-category">{{ item.category }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="nk-gap-4"></div>
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

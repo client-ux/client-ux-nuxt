@@ -1,0 +1,54 @@
+{% set page_title = 'Dark Creative Portfolio' %}
+{% set footer = false %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% extends 'layouts/layout-dark-creative-portfolio.html' %}
+
+{% block content %}
+
+    <div class="nk-hover-image text-white">
+        <div class="container">
+            <ul class="nk-hover-image-links nk-hover-image-links-2">
+
+                {% set items = [
+                    {
+                        thumb: 'assets/images/portfolio-single-style-2-1.jpg',
+                        title: 'New Magazine'
+                    },
+                    {
+                        thumb: 'assets/images/portfolio-single-style-2-2.jpg',
+                        title: 'Smart Watch Design'
+                    },
+                    {
+                        thumb: 'assets/images/portfolio-single-style-2-3.jpg',
+                        title: 'Creative Mobile App'
+                    },
+                    {
+                        thumb: 'assets/images/portfolio-single-style-2-5.jpg',
+                        title: 'Promotional'
+                    },
+                    {
+                        thumb: 'assets/images/portfolio-single-style-2-6.jpg',
+                        title: 'Photography Website'
+                    },
+                    {
+                        thumb: 'assets/images/portfolio-single-style-2-7.jpg',
+                        title: 'Personal Blog'
+                    }
+                ] %}
+
+                {% for item in items %}
+                    <li>
+                        <a {{ 'class="active"' | safe if loop.index == 1 }} href="demo-dark-creative-portfolio-work-single.html" data-hover-image="{{ item.thumb }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="nk-hover-image-img-cont">
+            <div class="bg-image">
+                <img src="#" alt="" class="nk-hover-image-img">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,50 @@
+<!--
+    START: Footer
+
+    Additional Classes:
+        .nk-footer-transparent
+-->
+<footer class="nk-footer{{ ' nk-footer-transparent' if footer_transparent }}"{% if footer_bg_color %} style="background-color: {{ footer_bg_color }};"{% endif %}>
+    {% if footer_bg %}
+    <div class="bg-image">
+        <img src="{{ footer_bg }}" alt="" class="jarallax-img">
+        {% if footer_bg_overlay %}<div class="bg-image-overlay" style="background-color: {{ footer_bg_overlay }};"></div>{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="nk-footer-cont nk-footer-cont-md">
+        <div class="container text-center">
+            <div class="row vertical-gap sm-gap align-items-center">
+
+                <div class="col-lg-5 order-lg-3 text-lg-right">
+                    <div class="nk-social{{ ' ' + footer_text_color if footer_text_color }}">
+                        <ul>
+                            <li><a class="nk-social-twitter" href="https://twitter.com/"><span><span class="nk-social-front fa fa-twitter"></span><span class="nk-social-back fa fa-twitter"></span></span></a></li>
+                            <li><a class="nk-social-facebook" href="https://www.facebook.com/"><span><span class="nk-social-front fa fa-facebook"></span><span class="nk-social-back fa fa-facebook"></span></span></a></li>
+                            <li><a class="nk-social-dribbble" href="https://dribbble.com/"><span><span class="nk-social-front fa fa-dribbble"></span><span class="nk-social-back fa fa-dribbble"></span></span></a></li>
+                            <li><a class="nk-social-instagram" href="https://www.instagram.com/"><span><span class="nk-social-front fa fa-instagram"></span><span class="nk-social-back fa fa-instagram"></span></span></a></li>
+                            <li><a class="nk-social-behance" href="https://behance.com/"><span><span class="nk-social-front fa fa-behance"></span><span class="nk-social-back fa fa-behance"></span></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                {% if footer_text_color == 'text-gray-1' %}{% set footer_text_color = 'text-gray' %}{% endif %}
+
+                <div class="col-lg-5 text-lg-left">
+                    <div class="nk-footer-text{{ ' ' + footer_text_color if footer_text_color }}">
+                        {{ footer_text | safe }}
+                    </div>
+                </div>
+
+                <div class="col-lg-2">
+                    {% if footer_scroll_top_btn == 2 %}
+                        <a class="nk-footer-scroll-top-btn-2 nk-anchor {{ ' ' + footer_titles_color if footer_titles_color }}" href="#top">
+                            Go To Top
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END: Footer -->

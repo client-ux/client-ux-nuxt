@@ -1,0 +1,330 @@
+
+/* Style 1 */
+.nk-ibox-1 {
+    position: relative;
+    min-height: 50px;
+
+    .nk-ibox-icon {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 3px;
+        font-size: 3.3rem;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .nk-ibox-cont {
+        margin-left: 72px;
+    }
+
+    .nk-ibox-title {
+        font-weight: 500;
+    }
+    .nk-ibox-text {
+        margin-top: -1px;
+        font-size: .97rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+}
+
+/* Style 1a */
+.nk-ibox-1-a {
+    position: relative;
+    min-height: 50px;
+
+    .nk-ibox-icon {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        margin-top: 3px;
+        font-size: 3.3rem;
+        line-height: 50px;
+        color: $color_main;
+        text-align: center;
+    }
+
+    .nk-ibox-cont {
+        margin-left: 72px;
+    }
+
+    .nk-ibox-title {
+        font-family: $font_headings;
+        font-size: 2.3rem;
+        font-weight: 600;
+    }
+    .nk-ibox-text {
+        font-family: $font_headings;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: $color_titles;
+    }
+}
+
+/* Style 2 */
+.nk-ibox-2 {
+    position: relative;
+
+    .nk-ibox-cont {
+        padding-top: 7px;
+    }
+
+    .nk-ibox-title {
+        font-size: .96rem;
+        font-weight: 500;
+        color: $color_titles;
+        text-transform: uppercase;
+    }
+}
+
+/* Style 3 */
+.nk-ibox-3 {
+    position: relative;
+    text-align: center;
+
+    .nk-ibox-icon {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 17px;
+        font-size: 3.3rem;
+        line-height: 50px;
+        text-align: center;
+    }
+    .nk-ibox-title {
+        font-size: .91rem;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .nk-ibox-text {
+        margin-top: 8px;
+        opacity: .75;
+    }
+}
+
+/* Style 3a */
+.nk-ibox-3-a {
+    position: relative;
+    text-align: center;
+
+    .nk-ibox-icon {
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 17px;
+        font-size: 3.3rem;
+        line-height: 1;
+        color: $color_main;
+        text-align: center;
+    }
+    .nk-ibox-title {
+        font-family: $font_headings;
+        font-weight: 600;
+        color: $color_titles;
+    }
+    .nk-ibox-text {
+        margin-top: 8px;
+        opacity: .75;
+    }
+}
+
+/* Style 4 */
+.nk-ibox-4 {
+    position: relative;
+    padding: 35px 30px;
+    border: 1px solid $color_gray_6;
+
+    .nk-ibox-icon {
+        width: 50px;
+        height: 50px;
+        margin-top: 5px;
+        margin-bottom: 17px;
+        font-size: 3.1rem;
+        line-height: 50px;
+        color: $color-dark_1;
+        text-align: center;
+        transition: .2s;
+    }
+    .nk-ibox-title {
+        font-size: .91rem;
+        font-weight: 500;
+        color: $color-dark_1;
+        text-transform: uppercase;
+    }
+    .nk-ibox-text {
+        margin-top: 8px;
+        color: $color-dark_4;
+        opacity: .75;
+    }
+
+    // dark
+    &.nk-ibox-4-dark {
+        border-color: $color_dark_3;
+
+        .nk-ibox-icon,
+        .nk-ibox-title {
+            color: #fff;
+        }
+        .nk-ibox-text {
+            color: $color_gray_mid;
+        }
+    }
+
+    &:hover .nk-ibox-icon {
+        color: $color_main;
+    }
+}
+
+/* Style 5 */
+.nk-ibox-5 {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+
+    .nk-ibox-icon {
+        width: 100px;
+        height: 100px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-bottom: 17px;
+        margin-left: auto;
+        font-size: 3.3rem;
+        line-height: 110px;
+        color: $color-dark_1;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 50%;
+    }
+    .nk-ibox-title {
+        font-family: $font_headings;
+        font-weight: 500;
+        color: $color_titles;
+    }
+    .nk-ibox-text {
+        margin-top: 8px;
+        color: $color-dark_4;
+        opacity: .75;
+    }
+
+    // dark
+    &.nk-ibox-4-dark {
+        border-color: $color_dark_3;
+
+        .nk-ibox-icon,
+        .nk-ibox-title {
+            color: #fff;
+        }
+        .nk-ibox-text {
+            color: $color_gray_mid;
+        }
+    }
+
+    // icon jump
+    &:hover .nk-ibox-icon > span {
+        animation: nk-ibox-5-jump 1s ease 0s 1 normal;
+    }
+}
+
+@keyframes nk-ibox-5-jump {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-5px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    60%{
+        transform: translateY(-2px);
+    }
+    80%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+/* Style 6 */
+.nk-ibox-6 {
+    position: relative;
+    overflow: hidden;
+    background-color: $color_dark_main;
+    z-index: 0;
+
+    &:hover {
+        .nk-ibox-cont,
+        .nk-ibox-icon,
+        .nk-ibox-title {
+            transform: translateY(0);
+        }
+        .nk-ibox-cont {
+            background-color: rgba($color_main, .9);
+        }
+    }
+
+    .nk-ibox-cont {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 70px 30px;
+        background-color: rgba($color_dark_main, .9);
+        transition: .3s;
+        transform: translateY(calc(100% - 60px));
+    }
+
+    .nk-ibox-icon {
+        flex: 0 0 auto;
+        font-size: 2.2rem;
+        line-height: 2.2rem;
+        color: #fff;
+        transition: .2s;
+        transform: translateY(-55px);
+
+        + .nk-ibox-title {
+            margin-left: 15px;
+        }
+    }
+    .nk-ibox-title {
+        flex: 1;
+        overflow: hidden;
+        font-family: $font_headings;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #fff;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        transition: .2s;
+        transform: translateY(-58px);
+    }
+    .nk-ibox-text {
+        margin-top: 8px;
+        color: #fff;
+        opacity: .75;
+    }
+}
+
+/* Titles */
+.nk-ibox-title {
+    font-size: 1.25rem;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
+
+.nk-ibox-link {
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}

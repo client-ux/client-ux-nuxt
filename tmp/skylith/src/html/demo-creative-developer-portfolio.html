@@ -1,0 +1,253 @@
+{% set main_style_file = 'skylith-red' %}
+{% set header_title = 'Creative Developer Portfolio' %}
+{% set page_side_image = 'assets/images/demo-creative-developer-portfolio-photo.jpg' %}
+{% set custom_css = 'assets/css/custom-developer-portfolio.css' %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+
+{% set footer = 3 %}
+{% set footer_text = '<a href="#" class="nk-btn nk-btn-no-bg text-white mt-10"><span class="pe-7s-download"></span> Download Resume</a>' %}
+{% set footer_bg_color = '#101010' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set footer_scroll_top_btn = 2 %}
+
+{% set navigation = {
+    '#about' : {
+        name: 'About'
+    },
+    '#works' : {
+        name: 'Works'
+    },
+    '#testimonials' : {
+        name: 'Testimonials'
+    },
+    '#contact' : {
+        name: 'Contact'
+    }
+} %}
+
+{% extends 'layouts/layout-1.html' %}
+
+{% block content %}
+
+    <!-- START: About -->
+    <div class="bg-white" id="about">
+        <div class="nk-gap-6"></div>
+        <div class="nk-gap"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <h1 class="h2 text-center">Hi! My name is Patrick Harrison. I’m a front-end developer.</h1>
+
+                    <div class="nk-gap mnt-7"></div>
+
+                    <p class="text-center">I'm a professional Front-End Developer from San Francisco. 10 years I create web sites, mobile interfaces and user experiences that are meticulously researched and thoughtfully designed.</p>
+
+                    <div class="text-center">
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">HTML</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">CSS</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">JavaScript</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">WordPress</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">Responsive</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">Usability</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">jQuery</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">Bootstrap</a>
+                        <a href="#" class="nk-btn nk-btn-xs nk-btn-circle nk-btn-color-gray-5 text-gray m-5">Sketch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-4"></div>
+    </div>
+    <!-- END: About -->
+
+    <!-- START: Awards -->
+    <div class="bg-main">
+        <div class="container">
+            <div class="nk-gap-1 mb-10"></div>
+            <div class="nk-links-row bg-main text-white">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <h3 class="h2 text-white mb-5 nk-count">2164</h3>
+                            <a href="#" class="text-white pt-0">GitHub Squares</a>
+                        </li>
+                        <li class="nk-links-row-separator-sm mnt-50"></li>
+                        <li>
+                            <h3 class="h2 text-white mb-5 nk-count">358</h3>
+                            <a href="#" class="text-white pt-0">Projects Completed</a>
+                        </li>
+                        <li class="nk-links-row-separator-sm mnt-50"></li>
+                        <li>
+                            <h3 class="h2 text-white mb-5 nk-count">426</h3>
+                            <a href="#" class="text-white pt-0">Happy Clients</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="nk-gap"></div>
+        </div>
+    </div>
+    <!-- END: Awards -->
+
+    <!-- START: Works -->
+    <div class="bg-white" id="works">
+        <div class="container">
+            <div class="nk-gap-4"></div>
+
+            <h2 class="text-center h3">Featured Projects</h2>
+            <div class="nk-gap-1"></div>
+
+            <!-- START: Works -->
+            <div class="nk-portfolio-list nk-isotope nk-isotope-gap nk-isotope-2-cols">
+                <div class="nk-isotope-item" data-filter="Branding">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-5">
+                        <a href="demo-creative-designer-portfolio-work-single-1.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-1.jpg');"></div></div>
+                        <div class="nk-portfolio-item-info bg-main">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h6 text-center mb-0 text-white">New Magazine</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="Photography">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-5">
+                        <a href="demo-creative-designer-portfolio-work-single-2.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-2.jpg');"></div></div>
+                        <div class="nk-portfolio-item-info bg-main">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h6 text-center mb-0 text-white">Apple Watch</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="Print">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-5">
+                        <a href="demo-creative-designer-portfolio-work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-3.jpg');"></div></div>
+                        <div class="nk-portfolio-item-info bg-main">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h6 text-center mb-0 text-white">Creative Mobile App</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="Web Design">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-5">
+                        <a href="demo-creative-designer-portfolio-work-single-1.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-4.jpg');"></div></div>
+                        <div class="nk-portfolio-item-info bg-main">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h6 text-center mb-0 text-white">Social Website</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="Marketing">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-5">
+                        <a href="demo-creative-designer-portfolio-work-single-2.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-5.jpg');"></div></div>
+                        <div class="nk-portfolio-item-info bg-main">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h6 text-center mb-0 text-white">Promotional Video</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nk-isotope-item" data-filter="Development">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-5">
+                        <a href="demo-creative-designer-portfolio-work-single-3.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-6.jpg');"></div></div>
+                        <div class="nk-portfolio-item-info bg-main">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h6 text-center mb-0 text-white">Photography Website</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Works -->
+
+            <div class="nk-gap-4"></div>
+        </div>
+    </div>
+    <!-- END: Works -->
+
+    <!-- START: Testimonials -->
+    <div class="bg-gray-5" id="testimonials">
+        <div class="nk-gap-4"></div>
+        <h2 class="text-center h3">Testimonials</h2>
+        <div class="container-fluid">
+            <!-- START: Carousel -->
+            <div class="nk-carousel nk-carousel-all-visible" data-autoplay="18000" data-loop="true" data-dots="true" data-arrows="false" data-cell-align="center" data-parallax="false">
+                <div class="nk-carousel-inner">
+                    <div><div>
+                            <blockquote class="nk-blockquote-style-1">
+                                <p>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</p>
+                                <cite>Michael Hopkins</cite>
+                            </blockquote>
+                            <div class="nk-gap"></div>
+                        </div></div>
+                    <div><div>
+                            <blockquote class="nk-blockquote-style-1">
+                                <p>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</p>
+                                <cite>Michael Hopkins</cite>
+                            </blockquote>
+                            <div class="nk-gap"></div>
+                        </div></div>
+                    <div><div>
+                            <blockquote class="nk-blockquote-style-1">
+                                <p>Outstanding job and exceeded all expectations. It was a pleasure to work with them on a sizable first project and am looking forward to start the next one asap.</p>
+                                <cite>Michael Hopkins</cite>
+                            </blockquote>
+                            <div class="nk-gap"></div>
+                        </div></div>
+                </div>
+            </div>
+            <!-- END: Carousel -->
+        </div>
+        <div class="nk-gap-4"></div>
+    </div>
+    <!-- END: Testimonials -->
+
+    <!-- START: Contact -->
+    <div class="nk-box" id="contact">
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/demo-creative-developer-portfolio-contact-bg.jpg" alt="" class="jarallax-img">
+            <div class="bg-image-overlay" style="background-color: rgba(210, 14, 23, 0.9);"></div>
+        </div>
+
+        <div class="container">
+            <div class="nk-gap-4"></div>
+
+            <h2 class="text-center text-white h3">Interested in working <br> with me?</h2>
+            <div class="nk-gap-1"></div>
+
+            <form action="php/ajax-contact-form.php" class="nk-form nk-form-style-2 text-white nk-form-ajax">
+                <div class="row vertical-gap">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                    </div>
+                </div>
+
+                <div class="nk-gap-1"></div>
+                <textarea class="form-control required" name="message" rows="8" placeholder="Your Message" aria-required="true"></textarea>
+                <div class="nk-gap-1"></div>
+                <div class="nk-form-response-success"></div>
+                <div class="nk-form-response-error"></div>
+                <div class="text-center">
+                    <button class="nk-btn nk-btn-outline nk-btn-color-white">Send Message</button>
+                </div>
+            </form>
+
+            <div class="nk-gap-4"></div>
+        </div>
+    </div>
+    <!-- END: Contact -->
+
+{% endblock %}

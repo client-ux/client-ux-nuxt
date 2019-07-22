@@ -1,0 +1,98 @@
+{% set page_title = 'Minimal Agency - Contact' %}
+{% extends 'layouts/layout-minimal-video.html' %}
+
+{% block content %}
+
+    <div class="bg-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <!-- START: Contact Info -->
+                    <div class="nk-gap-2 mt-10"></div>
+
+                    <div class="text-center">
+                        <h1>Contact Info</h1>
+                        <div class="nk-gap mnt-10"></div>
+
+                        <p>Let us know what you're looking for in an agency. We'll take a look and see if this <br> could be the start of something beautiful. Please get in touch and <br> let’s schedule time to talk!</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="nk-ibox-5">
+                                <div class="nk-ibox-icon">
+                                    <span class="pe-7s-call"></span>
+                                </div>
+                                <div class="nk-ibox-cont">
+                                    <div class="nk-ibox-title">Phone</div>
+                                    <div class="nk-ibox-text">+44 987 065 908</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="nk-ibox-5">
+                                <div class="nk-ibox-icon">
+                                    <span class="pe-7s-map-marker"></span>
+                                </div>
+                                <div class="nk-ibox-cont">
+                                    <div class="nk-ibox-title">Address</div>
+                                    <div class="nk-ibox-text">10111 Santa Monica Boulevard, LA</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="nk-ibox-5">
+                                <div class="nk-ibox-icon">
+                                    <span class="pe-7s-paper-plane"></span>
+                                </div>
+                                <div class="nk-ibox-cont">
+                                    <div class="nk-ibox-title">Email</div>
+                                    <div class="nk-ibox-text">info@Example.com</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="nk-gap-4"></div>
+                    <!-- END: Contact Info -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <!-- START: Get in Touch -->
+                <div class="nk-gap-5"></div>
+
+                <form action="php/ajax-contact-form.php" class="nk-form nk-form-ajax">
+                    <div class="row vertical-gap">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                        </div>
+                    </div>
+
+                    <div class="nk-gap-1"></div>
+                    <input type="text" class="form-control required" name="title" placeholder="Your Title">
+
+                    <div class="nk-gap-1"></div>
+                    <textarea class="form-control required" name="message" rows="8" placeholder="Your Message" aria-required="true"></textarea>
+                    <div class="nk-gap-1"></div>
+                    <div class="nk-form-response-success"></div>
+                    <div class="nk-form-response-error"></div>
+                    <div class="text-center">
+                        <button class="nk-btn nk-btn-color-dark-1">Send Message</button>
+                    </div>
+                </form>
+                <!-- END: Get in Touch -->
+
+                <div class="nk-gap-5"></div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

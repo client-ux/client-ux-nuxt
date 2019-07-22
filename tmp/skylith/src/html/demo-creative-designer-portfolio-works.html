@@ -1,0 +1,110 @@
+{% set page_title = 'Creative Designer Portfolio - Works' %}
+
+{% extends 'layouts/layout-creative-designer-portfolio.html' %}
+
+demo-creative-designer-header.jpg
+
+{% block content %}
+
+    <!-- START: Works -->
+    <!-- START: Filter -->
+    <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+        <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+    </div>
+    <ul class="nk-isotope-filter">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter="Branding">Branding</li>
+        <li data-filter="Print">Print</li>
+        <li data-filter="Photography">Photography</li>
+        <li data-filter="Design">Design</li>
+    </ul>
+    <!-- END: Filter -->
+    <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols bg-dark-1">
+        <div class="nk-isotope-item" data-filter="Branding">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1-a hover">
+                <a href="demo-creative-designer-portfolio-work-single-1.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-1.jpg');"></div></div>
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h3">New Magazine</h2>
+                        <div class="nk-portfolio-item-category">Branding</div>
+                        <div class="nk-portfolio-item-letter display-extra-big text-main">N</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-isotope-item" data-filter="Photography">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1-a hover">
+                <a href="demo-creative-designer-portfolio-work-single-2.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-2.jpg');"></div></div>
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h3">Apple Watch</h2>
+                        <div class="nk-portfolio-item-category">Photography</div>
+                        <div class="nk-portfolio-item-letter display-extra-big text-main">A</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-isotope-item" data-filter="Print">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1-a hover">
+                <a href="demo-creative-designer-portfolio-work-single-3.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-3.jpg');"></div></div>
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h3">Creative Mobile App</h2>
+                        <div class="nk-portfolio-item-category">Print</div>
+                        <div class="nk-portfolio-item-letter display-extra-big text-main">C</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-isotope-item" data-filter="Web Design">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1-a hover">
+                <a href="demo-creative-designer-portfolio-work-single-1.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-4.jpg');"></div></div>
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h3">Social Website</h2>
+                        <div class="nk-portfolio-item-category">Web Design</div>
+                        <div class="nk-portfolio-item-letter display-extra-big text-main">S</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-isotope-item" data-filter="Marketing">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1-a hover">
+                <a href="demo-creative-designer-portfolio-work-single-2.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-5.jpg');"></div></div>
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h3">Promotional Video</h2>
+                        <div class="nk-portfolio-item-category">Marketing</div>
+                        <div class="nk-portfolio-item-letter display-extra-big text-main">P</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-isotope-item" data-filter="Development">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1-a hover">
+                <a href="demo-creative-designer-portfolio-work-single-3.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-6.jpg');"></div></div>
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h3">Photography Website</h2>
+                        <div class="nk-portfolio-item-category">Development</div>
+                        <div class="nk-portfolio-item-letter display-extra-big text-main">P</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Works -->
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-white">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

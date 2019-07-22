@@ -1,0 +1,23 @@
+{% set custom_css = 'assets/css/custom-minimal-shop.css' %}
+{% set header_text_color = 'text-white' %}
+{% set nav = 'left' %}
+{% set nav_dark = true %}
+{% set footer = 5 %}
+{% set footer_bg_color = '#f2f2f2' %}
+{% set footer_text_color = 'text-gray' %}
+{% set footer_titles_color = 'text-dark' %}
+{% set footer_scroll_top_btn = 1 %}
+{% set shop_cart = true %}
+{% set navigation = {
+    'shop.html': {
+        'name': 'Shop'
+    },
+    'shop-single-product.html': {
+        'name': 'Product'
+    },
+    'shop-cart.html': {
+        'name': 'Cart'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

@@ -1,0 +1,46 @@
+{% set main_style_file = 'skylith-pink' %}
+{% set header_text_color = 'text-white' %}
+{% set custom_css = 'assets/css/custom-minimal-carousel-portfolio.css' %}
+{% set footer = 1 %}
+{% set nav_full = 2 %}
+{% set nav_full_dark = false %}
+{% set nav_full_drop_effect = '2' %}
+{% set nav_full_bg = false %}
+{% set nav_items_effect = 1 %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_full = {
+    'demo-minimal-carousel-portfolio.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-carousel-portfolio-works.html': {
+        'name': 'Portfolio'
+    },
+    'demo-minimal-carousel-portfolio-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-minimal-carousel-portfolio-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-minimal-carousel-portfolio-blog-single.html': {
+                'name': 'Single Post'
+            }
+        }
+    },
+    'demo-minimal-carousel-portfolio-about.html': {
+        'name': 'About',
+        'sub': {
+            'demo-minimal-carousel-portfolio-about.html': {
+                'name': 'About'
+            },
+            'demo-minimal-carousel-portfolio-services.html': {
+                'name': 'Services'
+            },
+            'demo-minimal-carousel-portfolio-contact.html': {
+                'name': 'Contact'
+            }
+        }
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

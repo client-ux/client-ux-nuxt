@@ -1,0 +1,80 @@
+{% set header_title = 'Creative Portfolio & Outline - Works' %}
+{% extends 'layouts/layout-creative-outline-portfolio.html' %}
+
+{% block content %}
+<div class="container">
+    <!-- START: Filter -->
+    <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+        <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+    </div>
+    <ul class="nk-isotope-filter">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter="Graphic Design">Graphic Design</li>
+        <li data-filter="Identity">Identity</li>
+        <li data-filter="Illustrations">Illustrations</li>
+        <li data-filter="Mockups">Mockups</li>
+    </ul>
+    <!-- END: Filter -->
+
+    <div class="nk-portfolio-list nk-isotope nk-isotope-gap nk-isotope-4-cols">
+        {% set items = [
+            {
+                thumb: 'assets/images/demo-creative-agency-work-9.jpg',
+                title: 'Shapes Illustration',
+                category: 'Graphic Design'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-8.jpg',
+                title: 'Paper Mockup',
+                category: 'Identity'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                title: 'Creative Portrait',
+                category: 'Illustrations'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-7.jpg',
+                title: 'In The Night',
+                category: 'Graphic Design'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-1.jpg',
+                title: 'Various Illustrations',
+                category: 'Illustrations'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-2.jpg',
+                title: 'Creative Shapes',
+                category: 'Graphic Design'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                title: 'Raymond Coller',
+                category: 'Mockups'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                title: 'Allen Carter',
+                category: 'Graphic Design'
+            }
+        ] %}
+        {% set item_size = cycler('', 'nk-portfolio-item-square', '', 'nk-portfolio-item-square', 'nk-portfolio-item-square', 'nk-portfolio-item-square', '', '') %}
+        {% for item in items %}
+        <div class="nk-isotope-item" data-filter="{{ item.category }}">
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-6 {{ item_size.next() }}">
+                <a href="demo-creative-outline-portfolio-work-single.html" class="nk-portfolio-item-link"></a>
+                <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                <div class="nk-portfolio-item-info text-center">
+                    <div>
+                        <h2 class="nk-portfolio-item-title h5">{{ item.title }}</h2>
+                        <div class="nk-portfolio-item-category mt-0">{{ item.category }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="nk-gap-4"></div>
+</div>
+
+<!-- START: Pagination -->
+<div class="nk-pagination nk-pagination-center">
+    <a href="#">Load More Works</a>
+</div>
+<!-- END: Pagination -->
+{% endblock %}

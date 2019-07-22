@@ -1,0 +1,27 @@
+{% set page_title = 'Dark Split Portfolio' %}
+{% set footer = false %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_sticky = true %}
+{% extends 'layouts/layout-dark-split-portfolio.html' %}
+
+{% block content %}
+
+    <div class="nk-hover-image nk-hover-image-side text-white">
+        <div class="container">
+            <ul class="nk-hover-image-links">
+                {% for item in portfolio %}
+                    <li>
+                        <a {{ 'class="active"' | safe if loop.index == 1 }} href="demo-dark-split-portfolio-work-single.html" data-hover-image="{{ item.thumb }}"><span>{{ '0' if loop.index < 10 }}{{ loop.index }}.</span> {{ item.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="nk-hover-image-img-cont">
+            <div class="bg-image">
+                <img src="#" alt="" class="nk-hover-image-img">
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

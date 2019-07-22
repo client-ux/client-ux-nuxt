@@ -1,0 +1,66 @@
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Recent Posts</h4>
+
+    <div class="nk-recent-posts">
+        {% for i in [4, 5, 7, 8] %}
+            {% set post = posts[i] %}
+            <!-- START: Post -->
+            <div class="nk-recent-post">
+                <div class="nk-recent-post-thumb">
+                    <a href="{{ post.url }}">
+                        <img src="{{ post.thumb_s3_xs }}" alt="" class="nk-img-stretch">
+                    </a>
+                </div>
+                <div class="nk-recent-post-cont">
+                    <h3 class="nk-recent-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <div class="nk-recent-post-date">{{ post.date }}</div>
+                </div>
+            </div>
+            <!-- END: Post -->
+        {% endfor %}
+    </div>
+</div>
+
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Categories</h4>
+
+    <ul class="nk-categories-list">
+        <li><a href="#" data-toggle="tooltip" data-placement="left" title="216"><span class="pe-7s-angle-right"></span> Nature</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="left" title="146"><span class="pe-7s-angle-right"></span> Cities</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="left" title="79"><span class="pe-7s-angle-right"></span> Branding</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="left" title="43"><span class="pe-7s-angle-right"></span> Design</a></li>
+    </ul>
+</div>
+
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Tags</h4>
+
+    <ul class="nk-tags-list">
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="268">People</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="220">Design</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="135">Nature</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="113">Photography</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="96">Art</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="55">City</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="14">Lifestyle</a></li>
+        <li><a href="#" data-toggle="tooltip" data-placement="top" title="2">Branding</a></li>
+    </ul>
+</div>
+
+<div class="nk-widget">
+    <form action="#" class="nk-search-form">
+        <input class="form-control required" name="q" placeholder="Search...">
+        <button><span class="pe-7s-search"></span></button>
+    </form>
+</div>
+
+<div class="nk-widget">
+    <h4 class="nk-widget-title">Newsletter</h4>
+
+    <form action="#">
+        <div class="input-group">
+            <input class="form-control required" type="email" name="email" placeholder="Enter Email">
+            <button class="nk-btn nk-btn-color-dark-1 pr-15 pl-15 ml-10">Ok</button>
+        </div>
+    </form>
+</div>

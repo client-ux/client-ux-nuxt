@@ -1,0 +1,48 @@
+{% set main_style_file = 'skylith-pink' %}
+{% set custom_css = 'assets/css/custom-creative-agency.css' %}
+{% set header_text_color = 'text-white' %}
+{% set footer = 3 %}
+{% set footer_bg_color = '#101010' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set footer_scroll_top_btn = 2 %}
+{% set nav_full = 2 %}
+{% set nav_full_bg = 'assets/images/demo-creative-agency-navbar-bg.png' %}
+{% set nav_items_effect = 1 %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_full = {
+    'demo-creative-agency-2.html': {
+        'name': 'Home'
+    },
+    'demo-creative-agency-2-portfolio.html': {
+        'name': 'Portfolio',
+        'sub': {
+            'demo-creative-agency-2-portfolio.html': {
+                'name': 'Portfolio'
+            },
+            'demo-creative-agency-2-work-single.html': {
+                'name': 'Single'
+            }
+        }
+    },
+    'demo-creative-agency-2-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-creative-agency-2-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-creative-agency-2-blog-single.html': {
+                'name': 'Single'
+            }
+        }
+    },
+    'demo-creative-agency-2-about.html': {
+        'name': 'About'
+    },
+    'demo-creative-agency-2-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

@@ -1,0 +1,72 @@
+<!--
+    START: Footer
+
+    Additional Classes:
+        .nk-footer-transparent
+-->
+<footer class="nk-footer{{ ' nk-footer-transparent' if footer_transparent }}"{% if footer_bg_color %} style="background-color: {{ footer_bg_color }};"{% endif %}>
+    {% if footer_bg %}
+    <div class="bg-image bg-image-parallax">
+        <img src="{{ footer_bg }}" alt="" class="jarallax-img">
+        {% if footer_bg_overlay %}<div class="bg-image-overlay" style="background-color: {{ footer_bg_overlay }};"></div>{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="nk-footer-widgets{{ ' ' + footer_text_color if footer_text_color }}">
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-lg-3">
+                    <div class="nk-widget">
+                        <h3 class="h2 {{ footer_titles_color if footer_titles_color }}">Say Hi!</h3>
+                        <p class="mb-5">
+                            <a href="#" class="text-inherit">info@Example.com</a>
+                        </p>
+                        <p>
+                            +44 987 065 901
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title{{ ' ' + footer_titles_color if footer_titles_color }}">The Agency</h4>
+                        <div class="nk-links-list{{ ' ' + footer_text_color if footer_text_color }}">
+                            <ul>
+                                <li><a href="#">Projects</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Legals</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title{{ ' ' + footer_titles_color if footer_titles_color }}">Follow Us</h4>
+                        <div class="nk-social-2{{ ' ' + footer_text_color if footer_text_color }}">
+                            <ul>
+                                <li><a class="nk-social-facebook" href="https://www.facebook.com/"><span><span class="nk-social-front">Facebook</span><span class="nk-social-back">Facebook</span></span></a></li>
+                                <li><a class="nk-social-dribbble" href="https://dribbble.com/"><span><span class="nk-social-front">Dribbble</span><span class="nk-social-back">Dribbble</span></span></a></li>
+                                <li><a class="nk-social-twitter" href="https://twitter.com/"><span><span class="nk-social-front">Twitter</span><span class="nk-social-back">Twitter</span></span></a></li>
+                                <li><a class="nk-social-behance" href="https://behance.com/"><span><span class="nk-social-front">Behance</span><span class="nk-social-back">Behance</span></span></a></li>
+                                <li><a class="nk-social-instagram" href="https://www.instagram.com/"><span><span class="nk-social-front">Instagram</span><span class="nk-social-back">Instagram</span></span></a></li>
+                                <li><a class="nk-social-pinterest" href="https://pinterest.com/"><span><span class="nk-social-front">Pinterest</span><span class="nk-social-back">Pinterest</span></span></a></li>
+                                <li><a class="nk-social-linkedin" href="#"><span><span class="nk-social-front">LinkedIn</span><span class="nk-social-back">LinkedIn</span></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title{{ ' ' + footer_titles_color if footer_titles_color }}">Copyright</h4>
+                        {{ footer_text | safe }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END: Footer -->

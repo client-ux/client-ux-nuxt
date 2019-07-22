@@ -1,0 +1,71 @@
+<!--
+    START: Navbar Mobile
+
+    Additional Classes:
+        .nk-navbar-dark
+        .nk-navbar-align-center
+        .nk-navbar-align-right
+        .nk-navbar-items-effect-1
+        .nk-navbar-drop-effect-1
+        .nk-navbar-drop-effect-2
+-->
+<nav class="nk-navbar nk-navbar-full nk-navbar-align-center{{ ' nk-navbar-dark' if nav_mobile_dark }}{{ ' nk-navbar-items-effect-1' if nav_items_effect == 1 }} nk-navbar-drop-effect-{{ nav_mobile_drop_effect }}" id="nk-nav-mobile">
+    {% if nav_full_bg %}
+        <div class="nk-navbar-bg">
+            <div class="bg-image">
+                <img src="{{ nav_full_bg }}" alt="" class="jarallax-img">
+            </div>
+        </div>
+    {% endif %}
+    <div class="nk-nav-table">
+        <div class="nk-nav-row">
+            <div class="container{{ '-fluid' if nav_in_container == false }}">
+                <div class="nk-nav-header">
+                    {% if nav_logo %}
+                    <div class="nk-nav-logo">
+                        <a href="{{ nav_logo_url }}" class="nk-nav-logo">
+                            {% if nav == 'left' %}
+                                <img src="{{ nav_logo_2 }}" alt="" width="19" class="nk-nav-logo-img-dark">
+                                <img src="{{ nav_logo_2_light }}" alt="" width="19" class="nk-nav-logo-img-light">
+                            {% else %}
+                                <img src="{{ nav_logo }}" alt="" width="{{ nav_logo_size }}" class="nk-nav-logo-img-dark">
+                                <img src="{{ nav_logo_light }}" alt="" width="{{ nav_logo_size }}" class="nk-nav-logo-img-light">
+                            {% endif %}
+                        </a>
+                    </div>
+                    {% endif %}
+                    <div class="nk-nav-close nk-navbar-full-toggle">
+                        <span class="nk-icon-close"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-nav-row-full nk-nav-row">
+            <div class="nano">
+                <div class="nano-content">
+                    <div class="nk-nav-table">
+                        <div class="nk-nav-row nk-nav-row-full nk-nav-row-center nk-navbar-mobile-content">
+                            <ul class="nk-nav">
+                                <!-- Here will be inserted menu from [data-mobile-menu="#nk-nav-mobile"] -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-nav-row">
+            <div class="container">
+                <div class="nk-social">
+                    <ul>
+                        <li><a class="nk-social-twitter" href="https://twitter.com/"><span><span class="nk-social-front fa fa-twitter"></span><span class="nk-social-back fa fa-twitter"></span></span></a></li>
+                        <li><a class="nk-social-facebook" href="https://www.facebook.com/"><span><span class="nk-social-front fa fa-facebook"></span><span class="nk-social-back fa fa-facebook"></span></span></a></li>
+                        <li><a class="nk-social-dribbble" href="https://dribbble.com/"><span><span class="nk-social-front fa fa-dribbble"></span><span class="nk-social-back fa fa-dribbble"></span></span></a></li>
+                        <li><a class="nk-social-instagram" href="https://www.instagram.com/"><span><span class="nk-social-front fa fa-instagram"></span><span class="nk-social-back fa fa-instagram"></span></span></a></li>
+                        <li><a class="nk-social-behance" href="https://behance.com/"><span><span class="nk-social-front fa fa-behance"></span><span class="nk-social-back fa fa-behance"></span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- END: Navbar Mobile -->

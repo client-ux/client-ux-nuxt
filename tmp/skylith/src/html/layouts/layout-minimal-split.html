@@ -1,0 +1,42 @@
+{% set header_text_color = 'text-white' %}
+{% set nav = 'left' %}
+{% set footer = 5 %}
+{% set footer_bg_color = '#101010' %}
+{% set footer_text_color = 'text-gray' %}
+{% set footer_titles_color = 'text-white' %}
+{% set footer_scroll_top_btn = 1 %}
+{% set navigation = {
+    'demo-minimal-split.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-split-about-us.html': {
+        'name': 'About',
+        'sub': {
+            'demo-minimal-split-about-us.html': {
+                'name': 'About Us'
+            },
+            'demo-minimal-split-contact-us.html': {
+                'name': 'Contact Us'
+            },
+            'demo-minimal-split-services.html': {
+                'name': 'Services'
+            }
+        }
+    },
+    'demo-minimal-split-portfolio.html': {
+        'name': 'Portfolio'
+    },
+    'demo-minimal-split-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-minimal-split-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-minimal-split-blog-single.html': {
+                'name': 'Single'
+            }
+        }
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

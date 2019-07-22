@@ -1,0 +1,142 @@
+{% set page_title = 'Creative Portfolio & Outline' %}
+{% set header_show = false %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% extends 'layouts/layout-creative-outline-portfolio.html' %}
+
+{% block content %}
+
+    <!-- START: Works -->
+    <div class="bg-white">
+        <div class="nk-gap-5"></div>
+
+        <div class="display-extra-big text-gray-2 text-center mb-0">PORTFOLIO</div>
+        <h1 class="text-center mnt-100">Creative Design Agency</h1>
+        <div class="nk-gap mnt-7"></div>
+
+        <!-- START: Filter -->
+        <div class="nk-pagination nk-pagination-nobg nk-pagination-center pb-40">
+            <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+        </div>
+        <ul class="nk-isotope-filter">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Branding">Branding</li>
+            <li data-filter="Print">Print</li>
+            <li data-filter="Photography">Photography</li>
+            <li data-filter="Design">Design</li>
+            <li data-filter="Mockup">Mockup</li>
+        </ul>
+        <!-- END: Filter -->
+
+        <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
+            {% set items = [
+                {
+                    thumb: 'assets/images/demo-creative-agency-work-1.jpg',
+                    title: 'Various Illustrations',
+                    filter: 'Branding'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-2.jpg',
+                    title: 'Creative Shapes',
+                    filter: 'Branding'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                    title: 'Raympnd Coller',
+                    filter: 'Print'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                    title: 'Allen Carter',
+                    filter: 'Photography'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-5.jpg',
+                    title: 'Album Cover',
+                    filter: 'Design'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                    title: 'Creative Portrait',
+                    filter: 'Print'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-7.jpg',
+                    title: 'In the Night',
+                    filter: 'Design'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-8.jpg',
+                    title: 'Paper Mockup',
+                    filter: 'Design'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-9.jpg',
+                    title: 'Shapes Illustration',
+                    filter: 'Mockup'
+                }
+            ] %}
+            {% for item in items %}
+                <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-2">
+                        <a href="#" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center m-20">
+                            <div>
+                                <div class="nk-divider-2 nk-divider-2-color-main mb-40"></div>
+                                <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                <div class="nk-portfolio-item-category">{{ item.filter }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- END: Works -->
+
+    <!-- START: Experience -->
+    <div class="bg-white">
+        <div class="nk-gap-5"></div>
+        <h2 class="h3 lh-35 text-center">Over 10 years of <em>combined experience</em>, and know <br> a thing or two about designing websites <br> and mobile apps.
+        </h2>
+        <div class="nk-gap-2"></div>
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-lg-4 offset-lg-0 col-8 offset-2">
+                    <div class="nk-ibox-3-a">
+                        <div class="nk-ibox-icon text-color-main-custom">
+                            <span class="pe-7s-arc"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Web Development</div>
+                            <div class="nk-ibox-text">Web development is a broad term for the work involved in developing a web site for the Internet.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-8 offset-2">
+                    <div class="nk-ibox-3-a">
+                        <div class="nk-ibox-icon text-color-main-custom">
+                            <span class="pe-7s-diamond"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Web & UI/UX Design</div>
+                            <div class="nk-ibox-text">Web design encompasses many different skills and disciplines in the production of all web.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-0 col-8 offset-2">
+                    <div class="nk-ibox-3-a">
+                        <div class="nk-ibox-icon text-color-main-custom">
+                            <span class="pe-7s-portfolio"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">SEO & Marketing</div>
+                            <div class="nk-ibox-text">A process of affecting the visibility of a website or a web page in a web search engine's unpaid results.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nk-gap-3"></div>
+            <div class="text-center">
+                <a href="#" class="nk-btn">Contact Us</a>
+            </div>
+            <div class="nk-gap-5"></div>
+        </div>
+    </div>
+    <!-- END: Experience -->
+
+{% endblock %}

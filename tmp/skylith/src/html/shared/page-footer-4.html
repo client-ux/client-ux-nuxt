@@ -1,0 +1,59 @@
+<!--
+    START: Footer
+
+    Additional Classes:
+        .nk-footer-transparent
+-->
+<footer class="nk-footer{{ ' nk-footer-transparent' if footer_transparent }}"{% if footer_bg_color %} style="background-color: {{ footer_bg_color }};"{% endif %}>
+    {% if footer_bg %}
+    <div class="bg-image">
+        <img src="{{ footer_bg }}" alt="" class="jarallax-img">
+        {% if footer_bg_overlay %}<div class="bg-image-overlay" style="background-color: {{ footer_bg_overlay }};"></div>{% endif %}
+    </div>
+    {% endif %}
+
+    <div class="nk-footer-widgets{{ ' ' + footer_text_color if footer_text_color }}">
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-lg-4">
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title{{ ' ' + footer_titles_color if footer_titles_color }}">About Us</h4>
+                        <p class="nk-heading-font">
+                            Aenean mattis augue in arcu tempor bibendum. Nam euismod facilisis magna, quis pharetra turpis molestie eu. Integer feugiat arcu sit amet leo ullamcorper feugiat efficitur.
+                        </p>
+                        <div class="nk-social nk-social-left{{ ' ' + footer_text_color if footer_text_color }}">
+                            <ul>
+                                <li><a class="nk-social-twitter" href="https://twitter.com/"><span><span class="nk-social-front fa fa-twitter"></span><span class="nk-social-back fa fa-twitter"></span></span></a></li>
+                                <li><a class="nk-social-facebook" href="https://www.facebook.com/"><span><span class="nk-social-front fa fa-facebook"></span><span class="nk-social-back fa fa-facebook"></span></span></a></li>
+                                <li><a class="nk-social-dribbble" href="https://dribbble.com/"><span><span class="nk-social-front fa fa-dribbble"></span><span class="nk-social-back fa fa-dribbble"></span></span></a></li>
+                                <li><a class="nk-social-instagram" href="https://www.instagram.com/"><span><span class="nk-social-front fa fa-instagram"></span><span class="nk-social-back fa fa-instagram"></span></span></a></li>
+                                <li><a class="nk-social-behance" href="https://behance.com/"><span><span class="nk-social-front fa fa-behance"></span><span class="nk-social-back fa fa-behance"></span></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title{{ ' ' + footer_titles_color if footer_titles_color }}">Latest Tweets</h4>
+                        <div class="nk-twitter-list" data-twitter-count="2"></div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="nk-widget">
+                        <h4 class="nk-widget-title{{ ' ' + footer_titles_color if footer_titles_color }}">Instagram</h4>
+                        <div class="nk-instagram row xs-gap vertical-gap multi-column"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nk-footer-cont nk-footer-cont-sm">
+        <div class="container text-center">
+            <div class="nk-footer-text{{ ' ' + footer_text_color if footer_text_color }}">
+                {{ footer_text | safe }}
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- END: Footer -->

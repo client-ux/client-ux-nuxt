@@ -1,0 +1,153 @@
+{% set page_title = 'Shop Single Product' %}
+{% extends 'layouts/layout-shop.html' %}
+
+{% block content %}
+
+    <div class="bg-white nk-shop-cart-page">
+        <div class="container">
+            <!-- START: Shop Header -->
+            <div class="nk-shop-header">
+                <a href="shop.html" class="nk-shop-header-back"><span class="nk-icon-arrow-left"></span> Back to Shop</a>
+                <a href="#" class="nk-shop-cart-toggle">
+                    <span class="pe-7s-shopbag"></span>
+                    <span class="nk-badge">2</span>
+                </a>
+            </div>
+            <!-- END: Shop Header -->
+
+            <div class="row lg-gap vertical-gap">
+                <div class="col-lg-8">
+                    <!-- START: Table with Products -->
+                    <table class="table table-responsive-md">
+                        <thead>
+                            <tr>
+                                <td><div class="text-center">Product</div></td>
+                                <td>Price</td>
+                                <td>Quantity</td>
+                                <td>Total</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="nk-shop-cart-page-item">
+                                <td>
+                                    <div class="nk-shop-cart-page-item-details">
+                                        <div class="nk-shop-cart-page-item-remove">
+                                            <a href="#"><span class="pe-7s-close"></span></a>
+                                        </div>
+                                        <div class="nk-shop-cart-page-item-thumb">
+                                            <a href="shop-single-product.html"><img src="assets/images/product-8-sm.jpg" alt=""></a>
+                                        </div>
+                                        <div class="nk-shop-cart-page-content-item-cont">
+                                            <a href="shop-single-product.html" class="nk-shop-cart-page-content-item-name">Bag with Split Suede Flap</a>
+                                            <div class="nk-shop-cart-page-content-item-rating">
+                                            <span class="nk-product-rating">
+                                                <span style="width: 80%;"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                <span><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$594.00</td>
+                                <td>
+                                    <div class="nk-form-control-number">
+                                        <input type="number" min="1" max="21" name="quantity" value="1" class="form-control">
+                                    </div>
+                                </td>
+                                <td>$594.00</td>
+                            </tr>
+                            <tr class="nk-shop-cart-page-item">
+                                <td>
+                                    <div class="nk-shop-cart-page-item-details">
+                                        <div class="nk-shop-cart-page-item-remove">
+                                            <a href="#"><span class="pe-7s-close"></span></a>
+                                        </div>
+                                        <div class="nk-shop-cart-page-item-thumb">
+                                            <a href="shop-single-product.html"><img src="assets/images/product-13-sm.jpg" alt=""></a>
+                                        </div>
+                                        <div class="nk-shop-cart-page-content-item-cont">
+                                            <a href="shop-single-product.html" class="nk-shop-cart-page-content-item-name">Pink fabric sneakers</a>
+                                            <div class="nk-shop-cart-page-content-item-rating">
+                                            <span class="nk-product-rating">
+                                                <span style="width: 60%;"><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                                <span><span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span></span>
+                                            </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>$3419.00</td>
+                                <td>
+                                    <div class="nk-form-control-number">
+                                        <input type="number" min="1" max="21" name="quantity" value="1" class="form-control">
+                                    </div>
+                                </td>
+                                <td>$3419.00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- END: Table with Products -->
+
+                    <form action="#" class="nk-form nk-form-style-1">
+                        <div class="row vertical-gap">
+                            <div class="col-md-8">
+                                <div class="input-group">
+                                    <input type="text" name="coupon" class="form-control" placeholder="Coupon Code">
+                                    <button class="nk-btn nk-btn-outline nk-btn-color-dark ml-10">Apply Coupon</button>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-right">
+                                <button class="nk-btn nk-btn-color-dark" disabled>Update Cart</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4">
+                    <table class="table table-responsive-md nk-shop-cart-page-total">
+                        <thead>
+                            <tr>
+                                <td colspan="2"><span class="text-black">Cart Totals</span></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <span class="text-black">Subtotal</span>
+                                </td>
+                                <td>$4013.00</td>
+                            </tr>
+                            <tr>
+                                <td class="align-top">
+                                    <span class="text-black">Shipping</span>
+                                </td>
+                                <td>
+                                    <div class="custom-controls-stacked">
+                                        <div class="custom-control custom-radio">
+                                            <input type="radio" id="shippingRadio" name="shipping" class="custom-control-input">
+                                            <label class="custom-control-label" for="shippingRadio">Standard (Free)</label>
+                                        </div>
+                                        <label class="custom-control custom-radio">
+                                            <input type="radio" id="shippingRadio2" name="shipping" class="custom-control-input">
+                                            <label class="custom-control-label" for="shippingRadio2">Express ($49.00)</label>
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="text-black">Total</span>
+                                </td>
+                                <td><span class="text-black fs-20 fw-600">$4013.00</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <a href="#" class="nk-btn nk-btn-lg nk-btn-block nk-btn-color-dark">Proceed to Checkout</a>
+                </div>
+            </div>
+
+            <div class="nk-gap-5"></div>
+        </div>
+    </div>
+
+{% endblock %}

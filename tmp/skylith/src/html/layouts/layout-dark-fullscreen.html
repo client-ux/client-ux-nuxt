@@ -1,0 +1,37 @@
+{% set custom_css = 'assets/css/custom-dark-fullscreen.css' %}
+{% set page_dark = true %}
+{% set nav_items_collapsed = true %}
+{% set nav_dark = true %}
+{% set nav_autohide = false %}
+{% set footer = 3 %}
+{% set footer_scroll_top_btn = 2 %}
+{% set footer_bg_color = '#0b0b0b' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set navigation = {
+    'demo-dark-fullscreen.html': {
+        'name': 'Home'
+    },
+    'demo-dark-fullscreen-work-1.html': {
+        'name': 'Work',
+        'sub': {
+            'demo-dark-fullscreen-work-1.html': {
+                'name': 'Work 1'
+            },
+            'demo-dark-fullscreen-work-2.html': {
+                'name': 'Work 2'
+            }
+        }
+    },
+    'demo-dark-fullscreen-blog.html': {
+        'name': 'Blog'
+    },
+    'demo-dark-fullscreen-about.html': {
+        'name': 'About'
+    },
+    'demo-dark-fullscreen-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

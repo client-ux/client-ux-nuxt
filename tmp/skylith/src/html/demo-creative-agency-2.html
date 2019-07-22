@@ -1,0 +1,87 @@
+{% set page_title = 'Creative Agency 2' %}
+{% set header_show = true %}
+{% set header_title = 'We create <em>everything</em> digital, <br> printable, minimal, visual <br><em>and analytical.</em>' %}
+{% set header_title_class = 'lh-50' %}
+{% set header_image = 'assets/images/demo-creative-agency-2-header.jpg' %}
+{% set header_image_overlay = 'rgba(1, 18, 102, 0.85)' %}
+{% set header_size = 'full' %}
+{% set header_text_color = 'text-white' %}
+{% set header_text = '<div class="nk-gap-4"></div>' %}
+{% set header_scroll_down_icon = true %}
+{% set header_parallax = true %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% set nav_sticky = true %}
+
+{% extends 'layouts/layout-creative-agency-2.html' %}
+
+{% block content %}
+
+    <!-- START: Our works -->
+    <div class="bg-dark">
+        <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols">
+            {% set items = [
+                {
+                    thumb: 'assets/images/demo-creative-agency-work-1.jpg',
+                    title: 'Various Illustrations',
+                    category: 'Branding'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-2.jpg',
+                    title: 'Creative Shapes',
+                    category: 'Branding'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                    title: 'Raympnd Coller',
+                    category: 'Print'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                    title: 'Allen Carter',
+                    category: 'Photography'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-5.jpg',
+                    title: 'Album Cover',
+                    category: 'Design'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                    title: 'Creative Portrait',
+                    category: 'Print'
+                }
+            ] %}
+            {% for item in items %}
+                <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="demo-creative-agency-2-work-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center" style="    background-color: rgba(204, 17, 57, 0.9);">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                <div class="nk-portfolio-item-category">{{ item.category }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- END: Our works -->
+
+    <!-- START: Let's Work Together -->
+    <div class="nk-box bg-dark-05 text-center">
+        <div class="nk-gap-5"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="text-white">Let`s work together</h2>
+                    <div class="nk-gap-1 mnt-20"></div>
+                    <p class="text-white">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+                    <div class="nk-gap mnt-9"></div>
+                    <a href="#" class="nk-btn nk-btn-outline nk-btn-color-white nk-btn-hover-color-main">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Let's Work Together -->
+
+{% endblock %}

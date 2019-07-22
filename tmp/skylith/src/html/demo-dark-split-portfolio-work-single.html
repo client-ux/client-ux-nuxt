@@ -1,0 +1,112 @@
+{% set page_title = 'Dark Split Portfolio - Work' %}
+{% set header_show = true %}
+{% set header_text = '
+<div class="nk-subtitle-2 mb-5">Architecture / Photo</div>
+<h1 class="nk-title display-4 text-white">Steadfastness</h1>' %}
+{% set header_image = 'assets/images/demo-minimal-split-single-4.jpg' %}
+{% set header_image_overlay = 'rgba(0, 0, 0, 0.6)' %}
+{% set header_size = '' %}
+{% set footer = false %}
+
+{% extends 'layouts/layout-dark-split-portfolio.html' %}
+
+{% block content %}
+
+    <div class="container">
+
+        <div class="nk-gap"></div>
+        <div class="nk-justified-gallery nk-portfolio-list nk-popup-gallery">
+            {% set items = [
+            {
+            img: 'assets/images/demo-minimal-split-single-4-2.jpg',
+            img_sm: 'assets/images/demo-minimal-split-single-4-2-sm.jpg',
+            img_size: '1523x1102'
+            },
+            {
+            img: 'assets/images/demo-minimal-split-single-4-3.jpg',
+            img_sm: 'assets/images/demo-minimal-split-single-4-3-sm.jpg',
+            img_size: '1280x1610'
+            },
+            {
+            img: 'assets/images/demo-minimal-split-single-4-4.jpg',
+            img_sm: 'assets/images/demo-minimal-split-single-4-4-sm.jpg',
+            img_size: '1282x1178'
+            },
+            {
+            img: 'assets/images/demo-minimal-split-single-4-5.jpg',
+            img_sm: 'assets/images/demo-minimal-split-single-4-5-sm.jpg',
+            img_size: '1280x650'
+            },
+            {
+            img: 'assets/images/demo-minimal-split-single-4-6.jpg',
+            img_sm: 'assets/images/demo-minimal-split-single-4-6-sm.jpg',
+            img_size: '1200x868'
+            }
+            ] %}
+            {% for item in items %}
+                <div class="nk-portfolio-item nk-portfolio-item-info-style-1">
+                    <a href="{{ item.img }}" class="nk-portfolio-item-link nk-gallery-item" data-size="{{ item.img_size }}"></a>
+                    <img class="nk-portfolio-item-image" src="{{ item.img_sm }}" alt="">
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                        <div>
+                            <div class="nk-portfolio-item-icon"><span class="pe-7s-expand1"></span></div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="nk-portfolio-single">
+
+            <div class="nk-gap-3"></div>
+            <div class="row vertical-gap">
+                <div class="col-lg-4 offset-lg-2">
+                    <div class="nk-portfolio-info">
+                        <div class="nk-portfolio-text">
+                            <div class="lead lead-sm">
+                                We use an agile approach to test assumptions and <strong><em>connect with the needs</em></strong> of your audience early and often.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1">
+                    <table class="nk-portfolio-details">
+                        <tr>
+                            <td><strong>Client:</strong></td>
+                            <td>Anna Doe</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Date:</strong></td>
+                            <td>06.20.2017</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Share:</strong></td>
+                            <td class="nk-post-share">
+                                <a href="#" title="Share page on Facebook" data-share="facebook">Facebook</a>,
+                                <a href="#" title="Share page on Twitter" data-share="twitter">Twitter</a>,
+                                <a href="#" title="Share page on Pinterest" data-share="pinterest">Pinterest</a>
+                                <!--
+                                <a href="#" title="Share page on Google Plus" data-share="google-plus">Google Plus</a>,
+                                <a href="#" title="Share page on LinkedIn" data-share="linkedin">LinkedIn</a>,
+                                <a href="#" title="Share page on Vkontakte" data-share="vk">Vkontakte</a>
+                                -->
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="nk-gap-5"></div>
+
+        </div>
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-dark-05 text-white">
+        <div class="container">
+            <a class="nk-pagination-prev" href="#"><span class="pe-7s-angle-left"></span> Previous Work</a>
+            <a class="nk-pagination-center" href="demo-dark-split-portfolio-works.html"><span class="nk-icon-squares"></span></a>
+            <span class="nk-pagination-next"></span>
+        </div>
+    </div>
+    <!-- END: Pagination -->
+{% endblock %}

@@ -1,0 +1,37 @@
+{% set page_dark = true %}
+{% set header_text_color = 'text-white' %}
+{% set nav_items_collapsed = true %}
+{% set nav_sticky = true %}
+{% set nav_dark = true %}
+{% set footer = 3 %}
+{% set footer_scroll_top_btn = 2 %}
+{% set footer_bg_color = '#0b0b0b' %}
+{% set footer_text_color = 'text-white' %}
+{% set footer_titles_color = 'text-white' %}
+{% set navigation = {
+    'demo-dark-portfolio.html': {
+        'name': 'Home'
+    },
+    'demo-dark-portfolio-about.html': {
+        'name': 'About'
+    },
+    'demo-dark-portfolio-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-dark-portfolio-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-dark-portfolio-blog-single.html': {
+                'name': 'Single'
+            }
+        }
+    },
+    'demo-dark-portfolio-work.html': {
+        'name': 'Work'
+    },
+    'demo-dark-portfolio-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

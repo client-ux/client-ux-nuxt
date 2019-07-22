@@ -1,0 +1,49 @@
+{% set custom_css = 'assets/css/custom-dark-modern-portfolio.css' %}
+{% set page_dark = true %}
+{% set nav_full = 2 %}
+{% set nav_dark = true %}
+{% set nav_autohide = false %}
+{% set nav_full_bg = 'assets/images/bg-menu-full-2.jpg' %}
+{% set nav_items_effect = 1 %}
+{% set footer = 3 %}
+{% set footer_scroll_top_btn = 2 %}
+{% set footer_bg_color = '#0b0b0b' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_full = {
+    'demo-dark-modern-portfolio.html': {
+        'name': 'Home'
+    },
+    'demo-dark-modern-portfolio-work-1.html': {
+        'name': 'Work',
+        'sub': {
+            'demo-dark-modern-portfolio-work-1.html': {
+                'name': 'Work 1'
+            },
+            'demo-dark-modern-portfolio-work-2.html': {
+                'name': 'Work 2'
+            }
+        }
+    },
+    'demo-dark-modern-portfolio-about.html': {
+        'name': 'About'
+    },
+    'demo-dark-modern-portfolio-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-dark-modern-portfolio-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-dark-modern-portfolio-blog-single.html': {
+                'name': 'Single Post'
+            }
+        }
+    },
+    'demo-dark-modern-portfolio-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

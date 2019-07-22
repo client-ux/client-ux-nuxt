@@ -1,0 +1,71 @@
+{% set page_title = 'Creative Agency 2 - Portfolio' %}
+
+{% extends 'layouts/layout-creative-agency-2.html' %}
+
+{% block content %}
+
+    <!-- START: Our works -->
+    <!-- START: Filter -->
+    <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+        <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+    </div>
+    <ul class="nk-isotope-filter">
+        <li class="active" data-filter="*">All</li>
+        <li data-filter="Branding">Branding</li>
+        <li data-filter="Print">Print</li>
+        <li data-filter="Photography">Photography</li>
+        <li data-filter="Design">Design</li>
+    </ul>
+    <!-- END: Filter -->
+    <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols">
+        {% set items = [
+            {
+                thumb: 'assets/images/demo-creative-agency-work-1.jpg',
+                title: 'Various Illustrations',
+                category: 'Branding'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-2.jpg',
+                title: 'Creative Shapes',
+                category: 'Branding'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                title: 'Raympnd Coller',
+                category: 'Print'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                title: 'Allen Carter',
+                category: 'Photography'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-5.jpg',
+                title: 'Album Cover',
+                category: 'Design'
+            }, {
+                thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                title: 'Creative Portrait',
+                category: 'Print'
+            }
+        ] %}
+        {% for item in items %}
+            <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                    <a href="demo-creative-agency-2-work-single.html" class="nk-portfolio-item-link"></a>
+                    <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center" style="    background-color: rgba(204, 17, 57, 0.9);">
+                        <div>
+                            <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                            <div class="nk-portfolio-item-category">{{ item.category }}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    <!-- END: Our works -->
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-white">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

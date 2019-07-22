@@ -1,0 +1,117 @@
+{% set page_title = 'Creative Portfolio' %}
+{% set header_show = false %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% extends 'layouts/layout-creative-portfolio.html' %}
+
+{% block content %}
+
+    <!-- START: Works -->
+    <div class="bg-white">
+        <div class="nk-gap-6"></div>
+        <div class="nk-gap mt-5"></div>
+
+        <h1 class="text-center">Let's make Creative</h1>
+        <div class="nk-subtitle-2 text-center mt-20">Design / Branding</div>
+        <div class="nk-gap mnt-7"></div>
+
+        <!-- START: Filter -->
+        <div class="nk-pagination nk-pagination-nobg nk-pagination-center pb-40">
+            <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+        </div>
+        <ul class="nk-isotope-filter">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Branding">Branding</li>
+            <li data-filter="Print">Print</li>
+            <li data-filter="Photography">Photography</li>
+            <li data-filter="Design">Design</li>
+            <li data-filter="Mockup">Mockup</li>
+        </ul>
+        <!-- END: Filter -->
+
+        <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
+            {% set items = [
+                {
+                    thumb: 'assets/images/demo-creative-agency-work-1.jpg',
+                    title: 'Various Illustrations',
+                    filter: 'Branding',
+                    color: '#69b88b'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-2.jpg',
+                    title: 'Creative Shapes',
+                    filter: 'Branding',
+                    color: '#962444'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                    title: 'Raympnd Coller',
+                    filter: 'Print',
+                    color: '#fa7f21'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                    title: 'Allen Carter',
+                    filter: 'Photography',
+                    color: '#2a54e0'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-5.jpg',
+                    title: 'Album Cover',
+                    filter: 'Design',
+                    color: '#251a5d'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                    title: 'Creative Portrait',
+                    filter: 'Print',
+                    color: '#e47d87'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-7.jpg',
+                    title: 'In the Night',
+                    filter: 'Design',
+                    color: '#882fa8'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-8.jpg',
+                    title: 'Paper Mockup',
+                    filter: 'Design',
+                    color: '#cc325e'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-9.jpg',
+                    title: 'Shapes Illustration',
+                    filter: 'Mockup',
+                    color: '#291eff'
+                }
+            ] %}
+            {% for item in items %}
+                <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="demo-creative-portfolio-work-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center" style="background-color: {{ item.color }}">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                <div class="nk-portfolio-item-letter display-extra-big">{{ item.title[0] }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- END: Works -->
+
+    <!-- START: Let's Work Together -->
+    <div class="nk-box bg-dark-05 text-center">
+        <div class="nk-gap-5"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <h2 class="text-white">Let`s work together</h2>
+                    <div class="nk-gap-1 mnt-20"></div>
+                    <p class="text-white">Let us know what you're looking for in an agency. We'll take a look and see if this could be the start of something beautiful.</p>
+                    <div class="nk-gap mnt-9"></div>
+                    <a href="#" class="nk-btn nk-btn-outline nk-btn-color-white nk-btn-hover-color-main">Contact Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Let's Work Together -->
+
+{% endblock %}

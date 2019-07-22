@@ -1,0 +1,30 @@
+{% set header_text_color = 'text-white' %}
+{% set custom_css = 'assets/css/custom-minimal-architecture.css' %}
+{% set footer = 3 %}
+{% set footer_bg_color = '#101010' %}
+{% set footer_text_color = 'text-gray-1' %}
+{% set footer_titles_color = 'text-gray-1' %}
+{% set footer_scroll_top_btn = 2 %}
+{% set nav_full = 2 %}
+{% set nav_items_effect = 1 %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_full = {
+    'demo-minimal-architecture.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-architecture-portfolio.html': {
+        'name': 'Portfolio'
+    },
+    'demo-minimal-architecture-blog.html': {
+        'name': 'Blog'
+    },
+    'demo-minimal-architecture-about.html': {
+        'name': 'About'
+    },
+    'demo-minimal-architecture-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

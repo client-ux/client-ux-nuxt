@@ -1,0 +1,77 @@
+{% set page_title = 'Creative Freelancer Portfolio' %}
+{% set header_show = true %}
+{% set header_align = 'bottom-left' %}
+{% set header_size = 'lg' %}
+{% set header_title = 'I create <br> Digital Branding <br> <em>Experience</em>' %}
+{% set header_image = 'assets/images/demo-creative-freelancer-portfolio-header.jpg' %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% extends 'layouts/layout-creative-freelancer-portfolio.html' %}
+
+{% block content %}
+
+    <!-- START: Our latest works -->
+    <div class="bg-white">
+
+        <div class="nk-gap mb-10"></div>
+
+        <div class="nk-portfolio-list nk-isotope-gap nk-isotope nk-isotope-2-cols ml-15 mr-15">
+            {% set items = [
+                {
+                    thumb: 'assets/images/demo-creative-agency-work-9.jpg',
+                    title: 'Shapes Illustration',
+                    size: 'square'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-8.jpg',
+                    title: 'Paper Mockup',
+                    size: 'xs-1'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-6.jpg',
+                    title: 'Creative Portrait',
+                    size: 'square'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-3.jpg',
+                    title: 'Raympnd Coller',
+                    size: 'xs-1'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-4.jpg',
+                    title: 'Allen Carter',
+                    size: 'square'
+                }, {
+                    thumb: 'assets/images/demo-creative-agency-work-5.jpg',
+                    title: 'Album Cover',
+                    size: 'xs-1'
+                }
+            ] %}
+            <div class="nk-isotope-item">
+                <div class="nk-portfolio-item nk-portfolio-item-xxs nk-portfolio-item-info-style-4">
+                    <div class="nk-portfolio-item-image"></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-left bg-transparent pl-0 pr-0">
+                        <div>
+                            <h3 class="lh-35 mb-0 mw-500 m-auto">I’m a professional Graphic Designer. Over 10 years I create everything digital, printable, minimal and visual.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% for item in items %}
+                <div class="nk-isotope-item">
+                    <div class="nk-portfolio-item nk-portfolio-item-{{ item.size }} nk-portfolio-item-info-style-4">
+                        <a href="demo-creative-freelancer-portfolio-work-single.html" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb }}');"></div></div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom text-left">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h4 fw-400">{{ item.title }}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="nk-gap mt-10"></div>
+
+    </div>
+    <!-- END: Our latest works -->
+
+{% endblock %}

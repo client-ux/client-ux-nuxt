@@ -1,0 +1,124 @@
+{% set page_title = 'Shop' %}
+{% extends 'layouts/layout-shop.html' %}
+
+{% block content %}
+
+    <div class="bg-white">
+        <div class="container">
+            <!-- START: Shop Header -->
+            <div class="nk-shop-header">
+                <a href="#" class="nk-shop-layout-toggle" data-cols="1"><span class="nk-icon-layout-1"></span></a>
+                <a href="#" class="nk-shop-layout-toggle" data-cols="2"><span class="nk-icon-layout-2"></span></a>
+                <a href="#" class="nk-shop-layout-toggle active" data-cols="4"><span class="nk-icon-layout-3"></span></a>
+                <a href="#" class="nk-shop-filter-toggle">
+                    <span>Filter</span>
+                    <span>Hide Filter</span>
+                </a>
+                <a href="#" class="nk-shop-cart-toggle">
+                    <span class="pe-7s-shopbag"></span>
+                    <span class="nk-badge">2</span>
+                </a>
+            </div>
+            <!-- END: Shop Header -->
+
+            <!--
+                START: Shop Filter
+
+                Additional Classes:
+                    .active
+            -->
+            <div class="nk-shop-filter">
+                <div class="row vertical-gap">
+                    <div class="col-lg col-md-4">
+                        <h3 class="nk-shop-filter-item-title">Sort By</h3>
+                        <ul class="nk-shop-filter-item">
+                            <li><a class="active" href="#">Default</a></li>
+                            <li><a href="#">Popularity</a></li>
+                            <li><a href="#">Newest</a></li>
+                            <li><a href="#">Price: Low to High</a></li>
+                            <li><a href="#">Price: High to Low</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-md-4">
+                        <h3 class="nk-shop-filter-item-title">Gender</h3>
+                        <ul class="nk-shop-filter-item">
+                            <li><a class="active" href="#">Show All</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-md-4">
+                        <h3 class="nk-shop-filter-item-title">Product</h3>
+                        <ul class="nk-shop-filter-item">
+                            <li><a class="active" href="#">Show All</a></li>
+                            <li><a href="#">Shoes</a></li>
+                            <li><a href="#">Bags</a></li>
+                            <li><a href="#">Sunglasses</a></li>
+                            <li><a href="#">Accessories</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-md-4">
+                        <h3 class="nk-shop-filter-item-title">Color</h3>
+                        <ul class="nk-shop-filter-item">
+                            <li><a class="active" href="#">Show All</a></li>
+                            <li><a href="#">Black</a></li>
+                            <li><a href="#">Brown</a></li>
+                            <li><a href="#">Gray</a></li>
+                            <li><a href="#">White</a></li>
+                            <li><a href="#">Red</a></li>
+                            <li><a href="#">Green</a></li>
+                            <li><a href="#">Orange</a></li>
+                            <li><a href="#">Blue</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg col-md-4">
+                        <h3 class="nk-shop-filter-item-title">Price</h3>
+                        <ul class="nk-shop-filter-item">
+                            <li><a class="active" href="#">Show All</a></li>
+                            <li><a href="#">$0.00 - $99.00</a></li>
+                            <li><a href="#">$100.00 - $499.00</a></li>
+                            <li><a href="#">$500.00 - $999.00</a></li>
+                            <li><a href="#">$2000.00 - $4999.00</a></li>
+                            <li><a href="#">$5000.00 - $9999.00</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Shop Filter -->
+
+            <!--
+                START: Shop Products
+
+                Additional Classes:
+                    .nk-shop-products-1-col
+                    .nk-shop-products-2-col
+                    .nk-shop-products-3-col
+                    .nk-shop-products-4-col
+            -->
+            <div class="nk-shop-products nk-shop-products-4-col">
+                {% for product in products %}
+                    <div class="nk-shop-product">
+                        <div class="nk-shop-product-thumb">
+                            <a href="shop-single-product.html"><img src="{{ product.thumb }}" alt="{{ product.title }}"></a>
+                            {% if product.sale_badge %}<span class="nk-shop-product-sale">{{ product.sale_badge }}</span>{% endif %}
+                        </div>
+                        <h2 class="nk-shop-product-title"><a href="shop-single-product.html">{{ product.title }}</a></h2>
+                        <div class="nk-shop-product-btn">
+                            <div class="nk-shop-product-price">
+                                {% if product.sale_price %}<del>{{ product.sale_price }}</del>{% endif %}
+                                {{ product.price }}
+                            </div>
+                            <a href="shop-single-product.html" class="nk-shop-product-add-to-cart">Add to Cart</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <!-- END: Shop Products -->
+
+            <div class="nk-shop-load-more">
+                <a href="#" class="nk-shop-load-more-btn">Load More Products</a>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

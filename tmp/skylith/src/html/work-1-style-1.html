@@ -1,0 +1,76 @@
+{% set header_title = 'Portfolio 1 Column Style 1' %}
+{% extends 'layouts/layout-1.html' %}
+
+{% block content %}
+
+    <div class="nk-gap-3"></div>
+
+    <div class="container">
+        <ul class="nk-isotope-filter nk-isotope-filter-active pb-20">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Web Design">Web Design</li>
+            <li data-filter="Photography">Photography</li>
+            <li data-filter="Branding">Branding</li>
+            <li data-filter="Print">Print</li>
+        </ul>
+
+        <div class="nk-portfolio-list nk-isotope nk-isotope-wide nk-isotope-gap-lg">
+            <div class="nk-isotope-item" data-filter="Branding">
+                <div class="nk-portfolio-item nk-portfolio-item-xxs nk-portfolio-item-info-style-1 hover">
+                    <a href="#" class="nk-portfolio-item-link"></a>
+                    <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-1.jpg');"></div></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                        <div>
+                            <h2 class="nk-portfolio-item-title h3">New Magazine</h2>
+                            <div class="nk-portfolio-item-category">Branding</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-isotope-item" data-filter="Photography">
+                <div class="nk-portfolio-item nk-portfolio-item-xxs nk-portfolio-item-info-style-1 hover">
+                    <a href="#" class="nk-portfolio-item-link"></a>
+                    <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-2.jpg');"></div></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                        <div>
+                            <h2 class="nk-portfolio-item-title h3">Apple Watch</h2>
+                            <div class="nk-portfolio-item-category">Photography</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-isotope-item" data-filter="Print">
+                <div class="nk-portfolio-item nk-portfolio-item-xxs nk-portfolio-item-info-style-1 hover">
+                    <a href="#" class="nk-portfolio-item-link"></a>
+                    <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-3.jpg');"></div></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                        <div>
+                            <h2 class="nk-portfolio-item-title h3">Creative Mobile App</h2>
+                            <div class="nk-portfolio-item-category">Print</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nk-isotope-item" data-filter="Web Design">
+                <div class="nk-portfolio-item nk-portfolio-item-xxs nk-portfolio-item-info-style-1 hover">
+                    <a href="#" class="nk-portfolio-item-link"></a>
+                    <div class="nk-portfolio-item-image"><div style="background-image: url('assets/images/portfolio-single-style-2-4.jpg');"></div></div>
+                    <div class="nk-portfolio-item-info nk-portfolio-item-info-bottom">
+                        <div>
+                            <h2 class="nk-portfolio-item-title h3">Social Website</h2>
+                            <div class="nk-portfolio-item-category">Web Design</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nk-gap-3"></div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+{% endblock %}

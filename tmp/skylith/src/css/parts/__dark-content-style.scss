@@ -1,0 +1,163 @@
+.nk-main-dark {
+    color: $dark_color_text;
+    background-color: $color_dark_main;
+
+    .nk-blog-post-single .nk-post-text,
+    .nk-comment .nk-comment-text,
+    .nk-reviews .nk-review .nk-review-text {
+        color: $dark_color_text;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    div.lead,
+    .display-1,
+    .display-2,
+    .display-3,
+    .display-4,
+    .display-big,
+    .nk-subtitle-3 {
+        color: $dark_color_titles;
+    }
+
+    .nk-blog-isotope-4 .nk-blog-post {
+        background-color: $color_dark_main;
+        box-shadow: 0 0 0 1px $color_dark_1;
+
+        .nk-post-title,
+        .nk-post-date,
+        .nk-post-more {
+            color: $dark_color_titles;
+        }
+    }
+
+    .nk-blog-isotope .nk-blog-post .nk-post-meta,
+    .nk-blog-isotope-2 .nk-blog-post .nk-post-meta,
+    .nk-blog-isotope-wide .nk-blog-post .nk-post-meta,
+    .nk-post-meta,
+    .nk-comment .nk-comment-meta .nk-comment-name,
+    .nk-comment .nk-comment-meta .nk-comment-date,
+    .nk-comment .nk-comment-meta .nk-comment-reply {
+        color: $dark_color_titles;
+    }
+
+    .nk-comments {
+        background-color: $color_dark_05;
+    }
+
+    .nk-portfolio-single .nk-portfolio-details strong,
+    .nk-portfolio-launch-site > a {
+        color: $dark_color_titles;
+    }
+    .nk-portfolio-list .nk-portfolio-item.nk-portfolio-item-info-style-6 .nk-portfolio-item-info {
+        color: $dark_color_titles;
+    }
+
+    .nk-reviews .nk-review .nk-review-meta .nk-review-name,
+    .nk-reviews .nk-review .nk-review-meta .nk-review-date {
+        color: $dark_color_titles;
+    }
+
+    .nk-isotope-filter > li {
+        &.active,
+        &:hover {
+            color: $dark_color_titles;
+        }
+    }
+
+    blockquote {
+        color: $dark_color_titles;
+    }
+
+    .nk-btn-2 {
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            color: $dark_color_titles;
+        }
+    }
+    .nk-btn-3 {
+        color: $dark_color_titles;
+    }
+
+    .nk-contact-info > li > strong {
+        color: $dark_color_titles;
+    }
+
+    .nk-ibox-1-a .nk-ibox-text,
+    .nk-ibox-2 .nk-ibox-title,
+    .nk-ibox-3-a .nk-ibox-title,
+    .nk-ibox-5 .nk-ibox-title,
+    .nk-ibox-5 .nk-ibox-icon {
+        color: $dark_color_titles;
+    }
+
+    .nk-progress .nk-progress-title {
+        color: $dark_color_titles;
+    }
+
+    .nk-tabs .nav-tabs .nav-item {
+        color: $dark_color_titles;
+    }
+    .nk-tabs .nav-tabs-styled {
+        background-color: $color_dark_1;
+    }
+
+    .nk-carousel-dots-2 .flickity-page-dots .dot::after {
+        background-color: lighten($color_dark_main, 20%);
+    }
+    .nk-carousel-dots-2 .flickity-page-dots .dot.is-selected::after {
+        background-color: $color_main;
+    }
+    .nk-carousel-dots-3 .flickity-page-dots .dot {
+        &.is-selected,
+        &:hover {
+            color: #fff;
+        }
+    }
+    .nk-flickity-arrow {
+        color: #fff;
+        background-color: $color_dark_1;
+
+        &:hover {
+            background-color: $color_dark_2;
+        }
+    }
+    .nk-carousel-arrows-2 {
+        .nk-flickity-arrow,
+        .nk-flickity-arrow:hover {
+            background-color: transparent;
+        }
+    }
+
+    .nk-fullpage-item-category a:hover {
+        color: $dark_color_titles;
+    }
+
+    .nk-links-list,
+    .nk-social,
+    .nk-social-2 {
+        color: $dark_color_titles;
+    }
+
+    // Forms
+    .form-control {
+        color: $dark_color_text;
+        background-color: transparent;
+        border-color: $color_dark_3;
+    }
+    .form-control:focus {
+        border-color: rgba($color_main, .4);
+    }
+}

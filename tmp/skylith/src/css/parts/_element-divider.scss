@@ -1,0 +1,55 @@
+
+.nk-divider {
+    display: block;
+    color: $color_dark_1;
+    border-bottom: 1px solid;
+}
+
+.nk-divider-md {
+    border-bottom-width: 3px;
+}
+
+.nk-divider-lg {
+    border-bottom-width: 6px;
+}
+
+.nk-divider-2 {
+    display: block;
+    width: 68px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    color: $color_dark_1;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        float: left;
+        width: 12px;
+        height: 2px;
+        background-color: currentColor;
+    }
+    &::before {
+        box-shadow: 11px 11px 0 0 currentColor, 22px 22px 0 0 currentColor, 33px 33px 0 0 currentColor;
+        transform: rotate(-45deg);
+    }
+
+    &::after {
+        margin-left: -4px;
+        box-shadow: 11px -11px 0 0 currentColor, 22px -22px 0 0 currentColor, 33px -33px 0 0 currentColor;
+        transform: rotate(45deg);
+    }
+}
+
+// colors
+@each $name, $color in $colors {
+    $color-selector: "";
+    @if $name != "main" {
+        $color-selector: "-color-#{$name}";
+    }
+    .nk-divider#{$color-selector},
+    .nk-divider-2#{$color-selector} {
+        color: $color;
+    }
+}

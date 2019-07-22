@@ -1,0 +1,41 @@
+{% set header_title = 'Dark Photographer - Blog' %}
+{% extends 'layouts/layout-dark-photographer.html' %}
+
+{% block content %}
+    <div class="container-fluid">
+        <!-- START: Posts List -->
+        <div class="nk-blog-isotope-3 nk-isotope nk-isotope-2-cols">
+
+            {% for i in [0, 1, 2, 3, 4, 5] %}
+            {% set post = posts[i] %}
+            <!-- START: Post -->
+            <div class="nk-isotope-item">
+                <div class="nk-blog-post">
+                    <a href="demo-dark-photographer-blog-single.html" class="nk-post-link"></a>
+
+                    <div class="nk-post-thumb" style="background-image: url('{{ post.thumb_s2 }}');"></div>
+
+                    <div class="nk-post-content">
+                        <div>
+                            <div class="nk-post-date">{{ post.date }}</div>
+
+                            <h2 class="nk-post-title h3"><a href="demo-dark-photographer-blog-single.html">{{ post.title }}</a></h2>
+
+                            <a class="nk-post-more" href="demo-dark-photographer-blog-single.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END: Post -->
+            {% endfor %}
+
+        </div>
+        <!-- END: Posts List -->
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center bg-dark-05 text-white">
+        <a href="#">Load More Posts</a>
+    </div>
+    <!-- END: Pagination -->
+{% endblock %}

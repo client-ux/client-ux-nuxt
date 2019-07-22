@@ -1,0 +1,40 @@
+{% set main_style_file = 'skylith-pink' %}
+{% set custom_css = 'assets/css/custom-minimal-video.css' %}
+{% set nav_items_collapsed = true %}
+{% set nav_autohide = false %}
+{% set footer = 1 %}
+{% set navigation = {
+    'demo-minimal-video.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-video-works.html': {
+        'name': 'Portfolio',
+        'sub': {
+            'demo-minimal-video-works.html': {
+                'name': 'Portfolio'
+            },
+            'demo-minimal-video-work-single.html': {
+                'name': 'Single Work'
+            }
+        }
+    },
+    'demo-minimal-video-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-minimal-video-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-minimal-video-blog-single.html': {
+                'name': 'Single Post'
+            }
+        }
+    },
+    'demo-minimal-video-about.html': {
+        'name': 'About'
+    },
+    'demo-minimal-video-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

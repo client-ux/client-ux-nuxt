@@ -1,0 +1,34 @@
+{% set page_title = 'Dark Portfolio' %}
+{% extends 'layouts/layout-dark-portfolio.html' %}
+
+{% block content %}
+
+    <div class="nk-gap-3"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="nk-portfolio-list nk-isotope nk-isotope-2-cols nk-isotope-gap-extra">
+                    {% for i in [4, 3, 5, 1, 6, 8] %}
+                        {% set item = portfolio[i] %}
+                        <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                            <div class="nk-portfolio-item nk-portfolio-item-lg-0 nk-portfolio-item-info-style-6">
+                                <a href="demo-dark-portfolio-work.html" class="nk-portfolio-item-link"></a>
+                                <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb_sm }}');"></div></div>
+                                <div class="nk-portfolio-item-info">
+                                    <div>
+                                        <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                        <div class="nk-portfolio-item-category">{{ item.category }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nk-gap-3"></div>
+
+{% endblock %}

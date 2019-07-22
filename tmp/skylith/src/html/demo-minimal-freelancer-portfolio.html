@@ -1,0 +1,55 @@
+{% set page_title = 'Minimal Freelancer Portfolio' %}
+{% set header_show = true %}
+{% set header_text = '
+<h1 class="nk-title display-4"><em>Skills. Passion. Ideas</em></h1>
+<div class="nk-subtitle-2 text-dark-1">Design / Photography</div>' %}
+{% set header_image = 'assets/images/demo-minimal-freelancer-portfolio-1.jpg' %}
+{% set header_image_overlay = 'rgba(255, 255, 255, 0.2)' %}
+{% set header_size = 'lg' %}
+{% extends 'layouts/layout-minimal-freelancer-portfolio.html' %}
+
+{% block content %}
+    <div class="bg-white">
+        <div class="container">
+            <!-- START: Filter -->
+            <div class="nk-pagination nk-pagination-nobg nk-pagination-center pt-40">
+                <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+            </div>
+            <ul class="nk-isotope-filter">
+                <li class="active" data-filter="*">All</li>
+                <li data-filter="Branding">Branding</li>
+                <li data-filter="Print">Print</li>
+                <li data-filter="Photography">Photography</li>
+                <li data-filter="Design">Design</li>
+                <li data-filter="Mockup">Mockup</li>
+            </ul>
+            <!-- END: Filter -->
+
+            <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols nk-isotope-gap pt-20">
+                {% set links = cycler('single-1', 'single-2') %}
+                {% for i in [6, 3, 4, 8, 2, 7, 5, 1, 11] %}
+                    {% set item = portfolio[i] %}
+                    <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                        <div class="nk-portfolio-item nk-portfolio-item-info-style-2 {{ 'nk-portfolio-item-lg' if i == 3 or i == 2 or i == 7 else 'nk-portfolio-item-sm' }}">
+                            <a href="demo-minimal-freelancer-portfolio-work-{{ links.next() }}.html" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb_sm }}')"></div></div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                    <div class="nk-portfolio-item-category">{{ item.category }}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- START: Pagination -->
+        <div class="nk-pagination nk-pagination-center pt-35 pb-35">
+            <a href="#">Load More Works</a>
+        </div>
+        <!-- END: Pagination -->
+    </div>
+
+{% endblock %}

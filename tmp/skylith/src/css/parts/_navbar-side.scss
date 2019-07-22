@@ -1,0 +1,282 @@
+.nk-navbar-side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 1002;
+
+    @mixin rightSideSize($width) {
+        width: $width;
+        margin-right: -$width;
+    }
+    @mixin leftSideSize($width) {
+        width: $width;
+        margin-left: -$width;
+    }
+
+    // left side
+    &.nk-navbar-left-side {
+        left: 0;
+        @include leftSideSize(250px);
+
+        @media (max-width: 400px) {
+            @include leftSideSize(200px);
+        }
+    }
+
+    // right side
+    &.nk-navbar-right-side {
+        right: 0;
+        @include rightSideSize(250px);
+
+        @media (max-width: 400px) {
+            @include rightSideSize(200px);
+        }
+    }
+
+    // large size
+    &.nk-navbar-lg {
+        // left side
+        &.nk-navbar-left-side {
+            @include leftSideSize(450px);
+            @media (max-width: 550px) {
+                @include leftSideSize(300px);
+            }
+            @media (max-width: 450px) {
+                @include leftSideSize(250px);
+            }
+        }
+
+        // right side
+        &.nk-navbar-right-side {
+            @include rightSideSize(450px);
+            @media (max-width: 550px) {
+                @include rightSideSize(300px);
+            }
+            @media (max-width: 450px) {
+                @include rightSideSize(250px);
+            }
+        }
+
+        .nk-nav .dropdown > li,
+        .nk-nav > li {
+            &:last-of-type > a,
+            > a {
+                padding-right: 80px;
+                padding-left: 80px;
+
+                @media (max-width: 550px) {
+                    padding-right: 40px;
+                    padding-left: 40px;
+                }
+            }
+        }
+    }
+
+    // close icon
+    .nk-navbar-side-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-top: 44px;
+        padding-right: 53px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        color: $color_dark_4;
+        cursor: pointer;
+        z-index: 1;
+
+        &:hover {
+            color: $color_dark_main;
+        }
+    }
+
+    .nk-nav-table {
+        height: auto;
+        min-height: 100%;
+        padding-top: 105px;
+    }
+
+    // navigation
+    .nano {
+        overflow-y: auto;
+    }
+    .nk-nav {
+        position: relative;
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+
+        .dropdown > li,
+        > li {
+            position: static;
+            display: block;
+
+            &:last-of-type > a,
+            > a {
+                padding: 10px 40px;
+                font-family: $font_headings;
+                font-size: 1.7rem;
+                font-weight: 600;
+                line-height: 1.1;
+                color: $color_dark_4;
+                text-transform: none;
+                white-space: normal;
+
+                @media (max-width: 400px) {
+                    font-size: 1.3rem;
+                }
+            }
+
+            &.active > a,
+            > a:hover {
+                color: $color_dark_main;
+            }
+
+            > a::before,
+            > a::after {
+                content: none;
+            }
+        }
+
+        .nk-drop-item > a::after,
+        .nk-drop-item .nk-drop-item > a::after,
+        > .nk-drop-item > a::after {
+            content: "";
+            position: absolute;
+            display: block;
+            top: 50%;
+            right: 30px;
+            left: auto;
+            width: 1px;
+            color: inherit;
+            border-top: 2px solid;
+            border-left: 2px solid;
+            opacity: .4;
+            transition: .2s opacity;
+            transform: none;
+            will-change: opacity;
+        }
+        .nk-drop-item > a:hover::after,
+        .nk-drop-item > a.hover::after,
+        > .nk-drop-item > a:hover::after,
+        > .nk-drop-item > a.hover::after {
+            opacity: 1;
+        }
+
+        // drop item icon
+        .nk-drop-item > a,
+        > .nk-drop-item > a,
+        .dropdown-back > a {
+            position: relative;
+        }
+    }
+
+    // dropdown
+    .nk-nav .dropdown {
+        display: block;
+        padding: 0;
+        visibility: inherit;
+        background-color: transparent;
+        opacity: 1;
+        transform: none;
+
+        &::before {
+            content: none;
+        }
+    }
+    .nk-nav .nk-drop-item > .dropdown,
+    .nk-nav .nk-drop-item .nk-drop-item > .dropdown {
+        top: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+
+        > li > a {
+            display: none;
+        }
+    }
+    // back icon
+    .dropdown > .dropdown-back > a::after {
+        content: "" !important; // stylelint-disable-line
+        position: absolute;
+        display: block;
+        top: 50%;
+        left: 30px;
+        width: 0;
+        height: 0;
+        margin-top: -1px;
+        color: inherit;
+        border: none;
+        border-top: 2px solid transparent;
+        border-right: 2px solid;
+        border-bottom: 2px solid transparent;
+        opacity: .6;
+        transition: .2s opacity;
+        transform: none;
+        will-change: opacity;
+    }
+    .dropdown > .dropdown-back > a:hover::after,
+    .dropdown > .dropdown-back > a.hover::after {
+        opacity: 1;
+    }
+
+    // social
+    .nk-social {
+        padding: 40px 74px;
+        > ul li > a {
+            opacity: 1;
+        }
+
+        @media (max-width: 550px) {
+            padding-right: 40px;
+            padding-left: 40px;
+        }
+    }
+
+
+    // dark
+    &.nk-navbar-dark {
+        color: #fff;
+        background-color: $color_dark_main;
+
+        .nk-nav .dropdown > li,
+        .nk-nav > li {
+            &:last-of-type > a,
+            > a {
+                color: #d8d8d8;
+            }
+
+            &.active > a {
+                color: #fff;
+            }
+        }
+        .nk-social {
+            color: #d8d8d8;
+        }
+        .nk-navbar-side-close {
+            color: #d8d8d8;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+
+// overlay
+.nk-navbar-overlay {
+    position: fixed;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    z-index: 1001;
+}

@@ -1,0 +1,107 @@
+{% set page_title = 'Creative Agency - Work 3' %}
+{% extends 'layouts/layout-creative-agency.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="nk-portfolio-single">
+
+        <div class="nk-gap-4 mb-14"></div>
+        <h1 class="nk-portfolio-title display-4">Minimal Bag</h1>
+        <div class="row vertical-gap">
+            <div class="col-lg-8">
+                <div class="nk-portfolio-info">
+                    <div class="nk-portfolio-text">
+                        <div class="lead fw-400">
+                            Nullam lobortis neque turpis, <strong><em>nec tempus</em></strong> sem pharetra at. Donec et lobortis quam, <strong><em>in ullamcorper velit</em></strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <table class="nk-portfolio-details">
+                    <tr>
+                        <td><strong>Client:</strong></td>
+                        <td>Anna Doe</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Date:</strong></td>
+                        <td>06.20.2017</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Share:</strong></td>
+                        <td class="nk-post-share">
+                            <a href="#" title="Share page on Facebook" data-share="facebook">Facebook</a>,
+                            <a href="#" title="Share page on Twitter" data-share="twitter">Twitter</a>,
+                            <a href="#" title="Share page on Pinterest" data-share="pinterest">Pinterest</a>
+                            <!--
+                            <a href="#" title="Share page on Google Plus" data-share="google-plus">Google Plus</a>,
+                            <a href="#" title="Share page on LinkedIn" data-share="linkedin">LinkedIn</a>,
+                            <a href="#" title="Share page on Vkontakte" data-share="vk">Vkontakte</a>
+                            -->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="nk-gap-4 mt-14"></div>
+
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="nk-justified-gallery nk-portfolio-list nk-popup-gallery">
+        {% set items = [
+            {
+                img: 'assets/images/demo-minimal-split-single-4-2.jpg',
+                img_sm: 'assets/images/demo-minimal-split-single-4-2-sm.jpg',
+                img_size: '1523x1102'
+            },
+            {
+                img: 'assets/images/demo-minimal-split-single-4-3.jpg',
+                img_sm: 'assets/images/demo-minimal-split-single-4-3-sm.jpg',
+                img_size: '1280x1610'
+            },
+            {
+                img: 'assets/images/demo-minimal-split-single-4-4.jpg',
+                img_sm: 'assets/images/demo-minimal-split-single-4-4-sm.jpg',
+                img_size: '1282x1178'
+            },
+            {
+                img: 'assets/images/demo-minimal-split-single-4-5.jpg',
+                img_sm: 'assets/images/demo-minimal-split-single-4-5-sm.jpg',
+                img_size: '1280x650'
+            },
+            {
+                img: 'assets/images/demo-minimal-split-single-4-6.jpg',
+                img_sm: 'assets/images/demo-minimal-split-single-4-6-sm.jpg',
+                img_size: '1200x868'
+            }
+        ] %}
+        {% for item in items %}
+            <div class="nk-portfolio-item nk-portfolio-item-info-style-1">
+                <a href="{{ item.img }}" class="nk-portfolio-item-link nk-gallery-item" data-size="{{ item.img_size }}"></a>
+                <img class="nk-portfolio-item-image" src="{{ item.img_sm }}" alt="">
+                <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                    <div>
+                        <div class="nk-portfolio-item-icon"><span class="pe-7s-expand1"></span></div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="nk-gap-5"></div>
+
+<!-- START: Pagination -->
+<div class="nk-pagination nk-pagination-center">
+    <div class="container">
+        <a class="nk-pagination-prev" href="demo-creative-agency-work-single-2.html"><span class="pe-7s-angle-left"></span> Previous Work</a>
+        <a class="nk-pagination-center" href="demo-creative-agency-portfolio.html"><span class="nk-icon-squares"></span></a>
+        <span class="nk-pagination-next"></span>
+    </div>
+</div>
+<!-- END: Pagination -->
+{% endblock %}

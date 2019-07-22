@@ -1,0 +1,139 @@
+{% set page_title = 'Minimal Carousel Portfolio - Portfolio' %}
+{% extends 'layouts/layout-minimal-carousel-portfolio.html' %}
+
+{% block content %}
+
+    <div class="container">
+
+        <!-- START: Filter -->
+        <div class="nk-pagination nk-pagination-nobg nk-pagination-center">
+            <a href="#nk-toggle-filter"><span class="nk-icon-squares"></span></a>
+        </div>
+        <ul class="nk-isotope-filter">
+            <li class="active" data-filter="*">All</li>
+            <li data-filter="Interior">Interior</li>
+            <li data-filter="Buildings">Buildings</li>
+            <li data-filter="Fashion">Fashion</li>
+            <li data-filter="Nature">Nature</li>
+            <li data-filter="Lifestyle">Lifestyle</li>
+        </ul>
+        <!-- END: Filter -->
+
+        <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols nk-isotope-gap nk-popup-gallery">
+            {% set items = [
+                {
+                    img: 'assets/images/demo-minimal-photography-1.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-1-sm.jpg',
+                    img_size: '1944x1117',
+                    filter: 'Fashion'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-2.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-2-sm.jpg',
+                    img_size: '1936x916',
+                    filter: 'Buildings'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-3.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-3-sm.jpg',
+                    img_size: '1365x2048',
+                    filter: 'Nature'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-4.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-4-sm.jpg',
+                    img_size: '1943x1458',
+                    filter: 'Buildings'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-5.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-5-sm.jpg',
+                    img_size: '1934x1307',
+                    filter: 'Buildings'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-6.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-6-sm.jpg',
+                    img_size: '1987x1294',
+                    filter: 'Fashion'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-7.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-7-sm.jpg',
+                    img_size: '1231x1821',
+                    filter: 'Interior'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-8.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-8-sm.jpg',
+                    img_size: '1960x1304',
+                    filter: 'Nature'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-9.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-9-sm.jpg',
+                    img_size: '1936x1290',
+                    filter: 'Buildings'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-10.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-10-sm.jpg',
+                    img_size: '1939x1293',
+                    filter: 'Nature'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-11.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-11-sm.jpg',
+                    img_size: '1947x1947',
+                    filter: 'Fashion'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-12.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-12-sm.jpg',
+                    img_size: '1938x1082',
+                    filter: 'Nature'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-13.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-13-sm.jpg',
+                    img_size: '1937x1291',
+                    filter: 'Lifestyle'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-14.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-14-sm.jpg',
+                    img_size: '1975x1312',
+                    filter: 'Nature'
+                },
+                {
+                    img: 'assets/images/demo-minimal-photography-15.jpg',
+                    img_sm: 'assets/images/demo-minimal-photography-15-sm.jpg',
+                    img_size: '1930x1218',
+                    filter: 'Lifestyle'
+                }
+            ] %}
+            {% for item in items %}
+                <div class="nk-isotope-item" data-filter="{{ item.filter }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-info-style-1 nk-portfolio-item-square">
+                        <a href="{{ item.img }}" class="nk-portfolio-item-link nk-gallery-item" data-size="{{ item.img_size }}"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.img_sm }}')"></div></div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                            <div>
+                                <div class="nk-portfolio-item-icon"><span class="pe-7s-expand1"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="nk-gap-5"></div>
+    </div>
+
+    <!-- START: Pagination -->
+    <div class="nk-pagination nk-pagination-center">
+        <a href="#">Load More Works</a>
+    </div>
+    <!-- END: Pagination -->
+
+{% endblock %}

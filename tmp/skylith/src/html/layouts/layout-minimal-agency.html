@@ -1,0 +1,51 @@
+{% set custom_css = 'assets/css/custom-minimal-agency.css' %}
+{% set header_text_color = 'text-white' %}
+{% set footer = 3 %}
+{% set footer_scroll_top_btn = 2 %}
+{% set footer_bg_color = '#fff' %}
+{% set navigation = {
+    'demo-minimal-agency.html': {
+        'name': 'Home'
+    },
+    'demo-minimal-agency-works.html': {
+        'name': 'Portfolio',
+        'sub': {
+            'demo-minimal-agency-works.html': {
+                'name': 'Portfolio'
+            },
+            'demo-minimal-agency-work-single-1.html': {
+                'name': 'Single Work 1'
+            },
+            'demo-minimal-agency-work-single-2.html': {
+                'name': 'Single Work 2'
+            }
+        }
+    },
+    'demo-minimal-agency-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-minimal-agency-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-minimal-agency-blog-single.html': {
+                'name': 'Single Post'
+            }
+        }
+    },
+    'demo-minimal-agency-about.html': {
+        'name': 'About',
+        'sub': {
+            'demo-minimal-agency-about.html': {
+                'name': 'About'
+            },
+            'demo-minimal-agency-services.html': {
+                'name': 'Services'
+            },
+            'demo-minimal-agency-contact.html': {
+                'name': 'Contact'
+            }
+        }
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

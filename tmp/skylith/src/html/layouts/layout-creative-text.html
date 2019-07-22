@@ -1,0 +1,37 @@
+{% set main_style_file = 'skylith-pink' %}
+{% set custom_css = 'assets/css/custom-creative-text.css' %}
+{% set header_text_color = 'text-white' %}
+{% set footer = 6 %}
+{% set footer_text_color = 'text-gray' %}
+{% set nav_side = true %}
+{% set nav_side_dark = false %}
+{% set nav_side_bg = 'assets/images/bg-menu-full-light.jpg' %}
+{% set navigation = false %}
+{% set nav_mobile = false %}
+{% set navigation_side = {
+    'demo-creative-text.html': {
+        'name': 'Home'
+    },
+    'demo-creative-text-blog.html': {
+        'name': 'Blog',
+        'sub': {
+            'demo-creative-text-blog.html': {
+                'name': 'Blog'
+            },
+            'demo-creative-text-blog-single.html': {
+                'name': 'Single'
+            }
+        }
+    },
+    'demo-creative-text-about.html': {
+        'name': 'About'
+    },
+    'demo-creative-text-services.html': {
+        'name': 'Services'
+    },
+    'demo-creative-text-contact.html': {
+        'name': 'Contact'
+    }
+} %}
+
+{% extends "layouts/layout-1.html" %}

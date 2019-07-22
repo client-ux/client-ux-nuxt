@@ -1,0 +1,55 @@
+.nk-pswp {
+    z-index: 100000;
+
+    .pswp__preloader {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+
+    .nk-pswp-video {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 1920px;
+        height: 100%;
+        margin: 0 auto;
+        line-height: 0;
+        text-align: left;
+        vertical-align: middle;
+        z-index: 1045;
+
+        > div {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%;
+
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+            video {
+                width: 100% !important; // stylelint-disable-line
+                height: auto !important; // stylelint-disable-line
+                margin: 0;
+            }
+        }
+    }
+
+    .nk-header-left ~ & {
+        width: calc(100% - 80px);
+        margin-left: 80px;
+
+        @media screen and #{$media_smaller_sm} {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+}

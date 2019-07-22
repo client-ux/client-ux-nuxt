@@ -1,0 +1,647 @@
+{% set custom_css = 'assets/css/custom-minimal-one-page.css' %}
+{% set page_title = 'Minimal One Page' %}
+{% set header_title = 'Brand strategy &amp; digital <br> design agency' %}
+{% set header_subtitle = 'New Branding Agency' %}
+{% set header_show = true %}
+{% set header_title_class = 'display-1' %}
+{% set header_image = 'assets/images/demo-minimal-one-page-1.jpg' %}
+{% set header_image_overlay = 'rgba(12, 12, 12, 0.6)' %}
+{% set header_size = 'full' %}
+{% set header_text_color = 'text-white' %}
+{% set header_text = '<div class="nk-gap-4"></div>' %}
+{% set header_scroll_down_icon = true %}
+{% set header_parallax = true %}
+{% set nav_opaque = false %}
+{% set nav_transparent = true %}
+{% set nav_white_text_on_top = true %}
+{% set nav_sticky = true %}
+{% set footer = 4 %}
+{% set footer_bg = 'assets/images/footer-1.jpg' %}
+{% set footer_bg_overlay = 'rgba(12, 12, 12, 0.9)' %}
+{% set footer_text_color = 'text-white' %}
+{% set footer_titles_color = 'text-white' %}
+{% set navigation = {
+    '#about': {
+        'name': 'About'
+    },
+    '#projects': {
+        'name': 'Projects'
+    },
+    '#blog': {
+        'name': 'Blog'
+    },
+    '#contact': {
+        'name': 'Contact'
+    }
+} %}
+{% extends 'layouts/layout-1.html' %}
+
+{% block content %}
+
+    <!-- START: We Are Designers -->
+    <div class="container-fluid" id="about">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="bg-image bg-image-parallax">
+                    <img src="assets/images/services-1.jpg" alt="" class="jarallax-img">
+                </div>
+                <div class="nk-gap-6"></div>
+                <div class="nk-gap-6"></div>
+                <div class="nk-gap-6"></div>
+                <div class="nk-gap-6"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="nk-gap-4"></div>
+
+                <div class="nk-box-4 mw-620">
+                    <h2 class="display-4">Who we are</h2>
+                    <div class="nk-gap mnt-5"></div>
+
+                    <p>Vestibulum gravida volutpat ipsum non ultrices. Praesent vitae risus. Ut a erat ullamcorper, accumsan felis lacinia, hendrerit. Vivamus scelerisque posuere arcu, eu malesuada purus.</p>
+                    <p>Suspendisse hendrerit mi vel sapien ultrices gravida. Proin non vehicula, pulvinar lorem vitae, pharetra augue.</p>
+
+                    <img src="assets/images/about-me-signature.png" alt="" class="nk-img-fit">
+                </div>
+
+                <div class="nk-gap-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- END: We Are Designers -->
+
+    <!-- START: We Are Developers -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 order-lg-2">
+                <div class="bg-image bg-image-parallax">
+                    <img src="assets/images/services-2.jpg" alt="" class="jarallax-img">
+                </div>
+                <div class="nk-gap-6"></div>
+                <div class="nk-gap-6"></div>
+                <div class="nk-gap-6"></div>
+                <div class="nk-gap-6"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="nk-gap-4"></div>
+
+                <div class="nk-box-4 mw-620 mlauto">
+                    <h2 class="display-4">Professional Skills</h2>
+                    <div class="nk-gap mnt-5"></div>
+
+                    <div class="nk-progress nk-progress-sm nk-count" data-progress="75" data-progress-mask="{$}%">
+                        <div class="nk-progress-title">UI/UX Design <span class="nk-progress-percent">75%</span></div>
+                        <div class="nk-progress-line">
+                            <div style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="nk-gap"></div>
+                    <div class="nk-progress nk-progress-sm nk-count" data-progress="90" data-progress-mask="{$}%">
+                        <div class="nk-progress-title">Web Development <span class="nk-progress-percent">90%</span></div>
+                        <div class="nk-progress-line">
+                            <div style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="nk-gap"></div>
+                    <div class="nk-progress nk-progress-sm nk-count" data-progress="65" data-progress-mask="{$}%">
+                        <div class="nk-progress-title">Marketing <span class="nk-progress-percent">65%</span></div>
+                        <div class="nk-progress-line">
+                            <div style="width: 65%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="nk-gap-4"></div>
+            </div>
+        </div>
+    </div>
+    <!-- END: We Are Developers -->
+
+    <!-- START: Features -->
+    <div class="nk-box bg-dark-1 text-white">
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/bg-pattern.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="nk-gap-5 mnt-6"></div>
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-diamond"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Creative Ideas</div>
+                            <div class="nk-ibox-text">Donec finibus ulicies vulputate mollis massa laoreet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-arc"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Really Clean Code</div>
+                            <div class="nk-ibox-text">Donec finibus ulicies vulputate mollis massa laoreet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-headphones"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Support 24/7</div>
+                            <div class="nk-ibox-text">Donec finibus ulicies vulputate mollis massa laoreet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-3">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-medal"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">Talented Team</div>
+                            <div class="nk-ibox-text">Donec finibus ulicies vulputate mollis massa laoreet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5 mnt-6"></div>
+    </div>
+    <!-- END: Features -->
+
+    <!-- START: Featured Projects -->
+    <div class="container" id="projects">
+        <div class="nk-gap-5 mnt-10"></div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h2 class="display-4">Featured Projects</h2>
+                <div class="nk-gap mnt-5"></div>
+                <p>Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+                </p>
+            </div>
+        </div>
+        <div class="nk-gap-1"></div>
+        <div class="nk-portfolio-list nk-isotope nk-isotope-3-cols">
+            {% for i in [6, 3, 4, 8, 2, 7, 1, 5, 11] %}
+                {% set item = portfolio[i] %}
+                <div class="nk-isotope-item" data-filter="{{ item.category }}">
+                    <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-1">
+                        <a href="{{ item.url }}" class="nk-portfolio-item-link"></a>
+                        <div class="nk-portfolio-item-image"><div style="background-image: url('{{ item.thumb_sm }}');"></div></div>
+                        <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                            <div>
+                                <h2 class="nk-portfolio-item-title h3">{{ item.title }}</h2>
+                                <div class="nk-portfolio-item-category">{{ item.category }}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="nk-gap-5"></div>
+    </div>
+    <!-- END: Featured Projects -->
+
+    <!-- START: Features -->
+    <div class="nk-box bg-dark-1 text-white">
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/bg-pattern.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="nk-gap-5 mnt-6"></div>
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-portfolio"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">548</div>
+                            <div class="nk-ibox-text">Projects Completed</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-clock"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">1465</div>
+                            <div class="nk-ibox-text">Working Hours</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-star"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">612</div>
+                            <div class="nk-ibox-text">Positive Feedbacks</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-like"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title">735</div>
+                            <div class="nk-ibox-text">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-5 mnt-6"></div>
+    </div>
+    <!-- END: Features -->
+
+    <!-- START: Best Services -->
+    <div class="nk-box bg-white">
+        <div class="nk-gap-4 mt-5"></div>
+
+        <h2 class="text-center display-4">Best Services</h2>
+
+        <div class="nk-gap mnt-6"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="text-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nk-gap-2 mt-12"></div>
+        <div class="container">
+            <div class="row vertical-gap">
+                <div class="col-md-6">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-diamond"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title text-dark">Web Design</div>
+                            <div class="nk-ibox-text">Web design encompasses many different skills and disciplinesin the production and maintenance of all web.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-paint-bucket"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title text-dark">Graphic Design</div>
+                            <div class="nk-ibox-text">Graphic design is the process of visual communication and problem-solving through the use of illustration. </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-arc"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title text-dark">Web Development</div>
+                            <div class="nk-ibox-text">Web development is a broad term for the work involved in developing a web site for the Internet.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-target"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title text-dark">Product Strategy</div>
+                            <div class="nk-ibox-text">While the product strategy outlines the elements of the product and the company's target market.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-portfolio"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title text-dark">SEO & Marketing</div>
+                            <div class="nk-ibox-text">A process of affecting the visibility of a website or a web page in a web search engine's unpaid results.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="nk-ibox-1">
+                        <div class="nk-ibox-icon">
+                            <span class="pe-7s-camera"></span>
+                        </div>
+                        <div class="nk-ibox-cont">
+                            <div class="nk-ibox-title text-dark">Photography</div>
+                            <div class="nk-ibox-text">Photography is the science, art, application and practice of creating durable images by recording light.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-4 mt-15"></div>
+    </div>
+    <!-- END: Best Services -->
+
+    <!-- START: Reviews -->
+    <div class="nk-box bg-dark-1">
+        <div class="bg-image bg-image-parallax">
+            <img src="assets/images/bg-pattern.jpg" alt="" class="jarallax-img">
+        </div>
+        <div class="nk-gap-5 mnt-6"></div>
+        <div class="nk-gap-3"></div>
+        <div class="container-fluid">
+            <!-- START: Carousel -->
+            <div class="nk-carousel nk-carousel-all-visible text-white" data-autoplay="18000" data-loop="true" data-dots="true" data-arrows="false" data-cell-align="center" data-parallax="false">
+                <div class="nk-carousel-inner">
+                    <div><div>
+                        <blockquote class="nk-blockquote-style-1 text-white">
+                            <p>Outstanding job and exceeded all expectations. It was a pleasure
+                                to work with them on a sizable first project and am looking
+                                forward to start the next one asap.</p>
+                            <cite>Michael Hopkins</cite>
+                        </blockquote>
+                        <div class="nk-gap-3 mt-10"></div>
+                    </div></div>
+                    <div><div>
+                        <blockquote class="nk-blockquote-style-1 text-white">
+                            <p>Outstanding job and exceeded all expectations. It was a pleasure
+                                to work with them on a sizable first project and am looking
+                                forward to start the next one asap.</p>
+                            <cite>Michael Hopkins</cite>
+                        </blockquote>
+                        <div class="nk-gap-3 mt-10"></div>
+                    </div></div>
+                    <div><div>
+                        <blockquote class="nk-blockquote-style-1 text-white">
+                            <p>Outstanding job and exceeded all expectations. It was a pleasure
+                                to work with them on a sizable first project and am looking
+                                forward to start the next one asap.</p>
+                            <cite>Michael Hopkins</cite>
+                        </blockquote>
+                        <div class="nk-gap-3 mt-10"></div>
+                    </div></div>
+                </div>
+            </div>
+            <!-- END: Carousel -->
+        </div>
+        <div class="nk-gap-4 mt-3"></div>
+    </div>
+    <!-- END: Reviews -->
+
+    <!-- START: Creative Team -->
+    <div class="nk-box bg-gray-2" id="projects">
+        <div class="nk-gap-4 mt-5"></div>
+
+        <h2 class="text-center display-4">Creative Team</h2>
+
+        <div class="nk-gap mnt-6"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="text-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nk-gap-2 mt-12"></div>
+        <div class="container">
+            <div class="nk-carousel-2 nk-carousel-x2 nk-carousel-all-visible nk-portfolio-list" data-autoplay="0" data-loop="true" data-dots="true" data-arrows="false" data-cell-align="center" data-parallax="false">
+                <div class="nk-carousel-inner">
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-1.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Richard Cennedy</h2>
+                                    <div>Creative Director</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-2.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Donna Flowers</h2>
+                                    <div>Designer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-3.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Edwin Charles</h2>
+                                    <div>Developer</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="nk-portfolio-item nk-portfolio-item-square nk-portfolio-item-info-style-6">
+                            <a href="#" class="nk-portfolio-item-link"></a>
+                            <div class="nk-portfolio-item-image-wrap">
+                                <img class="nk-portfolio-item-image" src="assets/images/demo-minimal-architecture-member-4.jpg" alt="">
+                            </div>
+                            <div class="nk-portfolio-item-info nk-portfolio-item-info-center text-center">
+                                <div>
+                                    <h2 class="nk-portfolio-item-title mb-5 h5">Richard Cennedy</h2>
+                                    <div>Creative Director</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nk-gap-6"></div>
+    </div>
+    <!-- END: Creative Team -->
+
+    <!-- START: Partners -->
+    <div class="bg-white">
+        <div class="container">
+            <div class="nk-carousel-2 nk-carousel-x4 nk-carousel-no-margin nk-carousel-all-visible" data-autoplay="0" data-loop="true" data-dots="false" data-arrows="false" data-cell-align="center" data-parallax="false">
+                <div class="nk-carousel-inner">
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-1-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-2-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-3-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-4-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-5-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-6-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-7-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                    <div><div>
+                        <div class="nk-box-1">
+                            <img src="assets/images/partner-logo-8-dark.png" alt="" class="nk-img-fit">
+                        </div>
+                    </div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END: Partners -->
+
+    <!-- START: Blog -->
+    <div class="nk-box bg-gray-2" id="blog">
+        <div class="nk-gap-4 mt-5"></div>
+
+        <h2 class="text-center display-4">Latest Blog</h2>
+
+        <div class="nk-gap mnt-6"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="text-center">Donec orci sem, pretium ac dolor et, faucibus faucibus mauris. Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non ultrices.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nk-gap-2 mt-12"></div>
+        <div class="container">
+            <!-- START: Carousel -->
+            <div class="nk-carousel-2 nk-carousel-x2 nk-carousel-no-margin nk-carousel-all-visible nk-blog-isotope" data-autoplay="0" data-loop="true" data-dots="true" data-arrows="false" data-cell-align="center" data-parallax="false">
+                <div class="nk-carousel-inner">
+                    {% for i in [0, 2, 3, 4, 5] %}
+                    {% set post = posts[i] %}
+                    <div><div>
+                        <div class="pl-15 pr-15">
+                            <div class="nk-blog-post">
+                                <div class="nk-post-thumb">
+                                    <a href="{{ post.url }}">
+                                        <img src="{{ post.thumb_lg }}" alt="" class="nk-img-stretch">
+                                    </a>
+                                    <div class="nk-post-category">{{ post.cat | safe}}</div>
+                                </div>
+                                <h2 class="nk-post-title h4"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+                                <div class="nk-post-date">
+                                    {{ post.date }}
+                                </div>
+
+                                <div class="nk-post-text">
+                                    {{ post.excerpt_sm | safe }}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="nk-gap-1"></div>
+                    </div></div>
+                    {% endfor %}
+                </div>
+            </div>
+            <!-- END: Carousel -->
+        </div>
+        <div class="nk-gap-5 mt-20"></div>
+    </div>
+    <!-- END: Blog -->
+
+    <div class="nk-divider nk-divider-color-gray-6"></div>
+
+    <!-- START: Contact Info -->
+    <div class="bg-gray-2">
+        <div class="container" id="contact">
+            <div class="nk-gap-5"></div>
+            <div class="row vertical-gap">
+                <div class="col-lg-5">
+                    <!-- START: Info -->
+                    <h2 class="display-4">Contact Info:</h2>
+                    <div class="nk-gap mnt-3"></div>
+
+                    <p>Praesent interdum congue mauris, et fringilla lacus pel vitae. Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien at imperdiet risus. Quisque cursus risus id. fermentum, in auctor quam consectetur.</p>
+
+                    <ul class="nk-contact-info">
+                        <li><strong>Address:</strong> 10111 Santa Monica Boulevard, LA</li>
+                        <li><strong>Phone:</strong> +44 987 065 908</li>
+                        <li><strong>Email:</strong> info@Example.com</li>
+                        <li><strong>Fax:</strong> +44 987 065 909</li>
+                    </ul>
+                    <!-- END: Info -->
+                </div>
+                <div class="col-lg-7">
+                    <!-- START: Form -->
+                    <form action="php/ajax-contact-form.php" class="nk-form nk-form-ajax">
+                        <div class="row vertical-gap">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control required" name="name" placeholder="Your Name">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control required" name="email" placeholder="Your Email">
+                            </div>
+                        </div>
+
+                        <div class="nk-gap-1"></div>
+                        <input type="text" class="form-control required" name="title" placeholder="Your Title">
+
+                        <div class="nk-gap-1"></div>
+                        <textarea class="form-control required" name="message" rows="8" placeholder="Your Message" aria-required="true"></textarea>
+                        <div class="nk-gap-1"></div>
+                        <div class="nk-form-response-success"></div>
+                        <div class="nk-form-response-error"></div>
+                        <button class="nk-btn nk-btn-color-dark-1">Send Message</button>
+                    </form>
+                    <!-- END: Form -->
+                </div>
+            </div>
+            <div class="nk-gap-5"></div>
+        </div>
+    </div>
+    <!-- END: Contact Info -->
+
+{% endblock %}
