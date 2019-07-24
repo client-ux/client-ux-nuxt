@@ -1,10 +1,8 @@
 import pkg from './package'
 import sanityClient from './sanityClient'
 import webpack from 'webpack'
-import $ from 'jquery'
-import jQuery from 'jquery'
 import { TweenMax } from 'gsap'
-import objectFitImages from 'object-fit-images'
+// import objectFitImages from 'object-fit-images'
 // import imagesLoaded from 'vue-images-loaded'
 
 const routesQuery = `
@@ -12,7 +10,7 @@ const routesQuery = `
     "sessions": *[_type == "session"],
     "speakers": *[_type == "person" && defined(slug.current)]
   }
-`;
+`
 
 export default {
   mode: 'spa',
@@ -32,17 +30,14 @@ export default {
     //link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
     script: [
       {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js'
+        src: '@/assets/js/jquery.min.js'
       },
       {
-        src:
-          'https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/plugins/ScrollToPlugin.min.js'
+        src: '@/assets/js/plugins.js'
       },
       {
-        src: 'https://unpkg.com/jarallax@1.10/dist/jarallax.js'
-      },
-      { src: 'https://unpkg.com/jarallax@1.10/dist/jarallax-video.min.js' },
-      { src: 'https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js' }
+        src: '@/assets/js/scripts.js'
+      }
     ]
   },
 
@@ -64,12 +59,12 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [
-    { src: '~/plugins/eventInformation' },
-    { src: '~/plugins/fontawesome' },
+    { src: '~/plugins/eventInformation' }
+    /* { src: '~/plugins/fontawesome' },
     { src: '~/plugins/VueFlickity', ssr: false },
     { src: '~/plugins/vue-isotope', ssr: false },
     { src: '~/plugins/vue-photoswipe', ssr: false },
-    { src: '~/plugins/vue-recognizer', ssr: false }
+    { src: '~/plugins/vue-recognizer', ssr: false } */
   ],
 
   /*
@@ -122,8 +117,8 @@ export default {
             // reduce to svg and webp, as other images are handled above
             value.test = /\.(svg|webp)$/
           }
-        });
-      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map';
+        })
+      config.devtool = ctx.isClient ? 'eval-source-map' : 'inline-source-map'
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({

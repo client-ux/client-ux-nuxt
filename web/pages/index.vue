@@ -111,7 +111,6 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/scss/main';
 @import '../styles/custom-media.css';
 @import '../styles/custom-properties.css';
 .container {

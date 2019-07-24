@@ -1,1 +1,4 @@
-@import 'client-ux/theme/skylith';
+@import "./client-ux/solonick/_reset.scss";
+@import "./client-ux/solonick/_plugins.scss";
+@import "./client-ux/solonick/_style.scss";
+@import "./client-ux/solonick/_color.scss";
